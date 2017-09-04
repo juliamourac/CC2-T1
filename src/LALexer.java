@@ -1,4 +1,4 @@
-// Generated from C:/Users/etoal/Documents/Ufscar/CC2/T1/src\LA.g4 by ANTLR 4.7
+// Generated from C:/Users/etoal/Documents/Ufscar/CC2/CC2-T1/src\LA.g4 by ANTLR 4.7
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;
