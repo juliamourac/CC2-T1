@@ -1,10 +1,10 @@
+import java.io.StringWriter;
 import java.util.BitSet;
-import org.antlr.v4.runtime.ANTLRErrorListener;
-import org.antlr.v4.runtime.Parser;
-import org.antlr.v4.runtime.RecognitionException;
-import org.antlr.v4.runtime.Recognizer;
+
+import org.antlr.v4.runtime.*;
 import org.antlr.v4.runtime.atn.ATNConfigSet;
 import org.antlr.v4.runtime.dfa.DFA;
+import org.omg.CORBA.portable.InputStream;
 
 public class ErrorListener implements ANTLRErrorListener {
 
@@ -16,16 +16,32 @@ public class ErrorListener implements ANTLRErrorListener {
 
     @Override
     public void syntaxError(Recognizer<?, ?> rcgnzr, Object o, int i, int i1, String string, RecognitionException re) {
+       CommonToken tk = (CommonToken) o;
+       String valorTk = tk.getText();
+       char ultTk = valorTk.charAt(valorTk.length()-1);
+       char c = 34;
+       //System.out.println(tk.getText());
+
+
         if (!sp.isModificado()) {
-            sp.println("Linha " + i + ": errro sintatico proximo a " +string);
+            if (valorTk.equals("<EOF>"))
+                sp.println("Linha " + i + ": erro sintatico proximo a EOF");
+            else if ((valorTk.startsWith(String.valueOf(c)) && (ultTk != c)))
+                sp.println("Linha " + i + ": " +valorTk.substring(0,1) + " - simbolo nao identificado");
+            else if (valorTk.indexOf('@') >= 0 || valorTk.indexOf('!') >= 0 || valorTk.indexOf('|') >= 0 )
+                sp.println("Linha " + i + ": " +valorTk + " - simbolo nao identificado");
+            else if (valorTk.startsWith("{"))
+                sp.println("Linha " + (i+1) + ": comentario nao fechado");
+            else
+                sp.println("Linha " + i + ": erro sintatico proximo a " + valorTk);
+            sp.println("Fim da compilacao");
         }
     }
 
+
     @Override
     public void reportAmbiguity(Parser parser, DFA dfa, int i, int i1, boolean bln, BitSet bitset, ATNConfigSet atncs) {
-        if (!sp.isModificado()) {
-            sp.println("Ambiguidade: linha " + i + ":" + i1);
-        }
+
     }
 
     @Override

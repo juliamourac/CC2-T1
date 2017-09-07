@@ -48,7 +48,7 @@ parametros_opcional: parametro | ;
 
 parametro: var_opcional identificador mais_ident ':' tipo_estendido mais_parametros;
 
-var_opcional: 'var';
+var_opcional: 'var' | ;
 
 mais_parametros: ',' parametro | ;
 
@@ -87,7 +87,7 @@ mais_constantes: ',' constantes | ;
 
 numero_intervalo: op_unario NUM_INT intervalo_opcional;
 
-intervalo_opcional: op_unario NUM_INT | ;
+intervalo_opcional: '..' op_unario NUM_INT | ;
 
 op_unario: '-' | ;
 
@@ -147,7 +147,13 @@ NUM_REAL : ('0'..'9')+ '.' ('0'..'9')+;
 
 CADEIA	:	'"' ~('\n' | '\r' | '"')* '"';
 
+CADEIA_SEM_FIM : '"' ~('\r' | '\n' | '"')*;
+
 COMENTARIO : '{' .*? '}' -> skip;
 
+COMENTARIO_N_FECHADO : '{' ~('\r' | '\n' | '}')*;
+
 WS	:	(' ' | '\t' | '\r' | '\n') {skip();};
+
+ErroChar : '@' | '!' | '|';
 

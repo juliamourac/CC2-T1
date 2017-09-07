@@ -12,3 +12,4 @@ algoritmo
 
 	{ saida da mensagem na tela }
 	escreva(nome, " tem ", idade, " anos.")
+	
