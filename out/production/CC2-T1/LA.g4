@@ -155,5 +155,5 @@ COMENTARIO_N_FECHADO : '{' ~('\r' | '\n' | '}')*;
 
 WS	:	(' ' | '\t' | '\r' | '\n') {skip();};
 
-ErroChar : '@' | '!' | '|';
+ERROR_CHAR : '@' | '!' | '|';
 

@@ -29,7 +29,7 @@ public class ErrorListener implements ANTLRErrorListener {
             else if ((valorTk.startsWith(String.valueOf(c)) && (ultTk != c)))
                 sp.println("Linha " + i + ": " +valorTk.substring(0,1) + " - simbolo nao identificado");
             else if (valorTk.indexOf('@') >= 0 || valorTk.indexOf('!') >= 0 || valorTk.indexOf('|') >= 0 )
-                sp.println("Linha " + i + ": " +valorTk + " - simbolo nao identificado");
+               sp.println("Linha " + i + ": " +valorTk + " - simbolo nao identificado");
             else if (valorTk.startsWith("{"))
                 sp.println("Linha " + (i+1) + ": comentario nao fechado");
             else

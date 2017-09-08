@@ -6,7 +6,150 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="628c16ee-dd88-4736-9140-695de509525e" name="Default" comment="" />
+    <list default="true" id="628c16ee-dd88-4736-9140-695de509525e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CC2-T1/EntradaTabelaDeSimbolos.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CC2-T1/TabelaDeSimbolos.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CC2-T1/Tipo.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CC2_T1_jar/CC2-T1.jar" afterPath="$PROJECT_DIR$/out/artifacts/CC2_T1_jar/CC2-T1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LALexer.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LALexer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Argumentos_opcionalContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Argumentos_opcionalContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Chamada_atribuicaoContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Chamada_atribuicaoContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Chamada_partesContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Chamada_partesContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$CmdContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$CmdContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$ComandosContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$ComandosContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$ConstantesContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$ConstantesContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$CorpoContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$CorpoContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Decl_local_globalContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Decl_local_globalContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Declaracao_globalContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Declaracao_globalContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Declaracao_localContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Declaracao_localContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$DeclaracoesContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$DeclaracoesContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Declaracoes_locaisContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Declaracoes_locaisContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$DimensaoContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$DimensaoContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Exp_aritmeticaContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Exp_aritmeticaContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Exp_relacionalContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Exp_relacionalContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$ExpressaoContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$ExpressaoContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$FatorContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$FatorContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Fator_logicoContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Fator_logicoContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$IdentificadorContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$IdentificadorContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Intervalo_opcionalContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Intervalo_opcionalContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Mais_constantesContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Mais_constantesContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Mais_expressaoContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Mais_expressaoContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Mais_identContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Mais_identContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Mais_parametrosContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Mais_parametrosContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Mais_selecaoContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Mais_selecaoContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Mais_varContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Mais_varContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Mais_variaveisContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Mais_variaveisContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Numero_intervaloContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Numero_intervaloContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Op_adicaoContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Op_adicaoContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Op_multiplicacaoContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Op_multiplicacaoContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Op_naoContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Op_naoContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Op_opcionalContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Op_opcionalContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Op_relacionalContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Op_relacionalContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Op_unarioContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Op_unarioContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Outras_parcelasContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Outras_parcelasContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Outros_fatoresContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Outros_fatoresContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Outros_fatores_logicosContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Outros_fatores_logicosContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Outros_identContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Outros_identContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Outros_termosContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Outros_termosContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Outros_termos_logicosContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Outros_termos_logicosContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$ParametroContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$ParametroContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Parametros_opcionalContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Parametros_opcionalContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$ParcelaContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$ParcelaContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Parcela_logicaContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Parcela_logicaContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Parcela_nao_unarioContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Parcela_nao_unarioContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Parcela_unarioContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Parcela_unarioContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Ponteiros_opcionaisContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Ponteiros_opcionaisContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$ProgramaContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$ProgramaContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$RegistroContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$RegistroContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$SelecaoContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$SelecaoContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Senao_opcionalContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Senao_opcionalContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$TermoContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$TermoContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Termo_logicoContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Termo_logicoContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$TipoContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$TipoContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Tipo_basicoContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Tipo_basicoContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Tipo_basico_identContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Tipo_basico_identContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Tipo_estendidoContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Tipo_estendidoContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Valor_constanteContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Valor_constanteContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Var_opcionalContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$Var_opcionalContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$VariavelContext.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser$VariavelContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LAParser.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LAParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Correcao.bat" afterPath="$PROJECT_DIR$/Correcao.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LA.g4" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LA.g4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LA.tokens" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LA.tokens" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LALexer.tokens" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LALexer.tokens" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EntradaTabelaDeSimbolos.java" afterPath="$PROJECT_DIR$/src/EntradaTabelaDeSimbolos.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ErrorListener.java" afterPath="$PROJECT_DIR$/src/ErrorListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LA.g4" afterPath="$PROJECT_DIR$/src/LA.g4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LA.tokens" afterPath="$PROJECT_DIR$/src/LA.tokens" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LALexer.java" afterPath="$PROJECT_DIR$/src/LALexer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LALexer.tokens" afterPath="$PROJECT_DIR$/src/LALexer.tokens" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LAParser.java" afterPath="$PROJECT_DIR$/src/LAParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TabelaDeSimbolos.java" afterPath="$PROJECT_DIR$/src/TabelaDeSimbolos.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tipo.java" afterPath="$PROJECT_DIR$/src/Tipo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_1-algoritmo_2-2_apostila_LA_1_erro_linha_3_acusado_linha_10.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_1-algoritmo_2-2_apostila_LA_1_erro_linha_3_acusado_linha_10.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_10-algoritmo_2-4_apostila_LA_1_erro_linha_16.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_10-algoritmo_2-4_apostila_LA_1_erro_linha_16.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_11-algoritmo_3-1_apostila_LA_1_erro_linha_6_acusado_linha_9.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_11-algoritmo_3-1_apostila_LA_1_erro_linha_6_acusado_linha_9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_12-algoritmo_3-1_apostila_LA_1_erro_linha_13.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_12-algoritmo_3-1_apostila_LA_1_erro_linha_13.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_13-algoritmo_3-1_apostila_LA_1_erro_linha_5.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_13-algoritmo_3-1_apostila_LA_1_erro_linha_5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_14-algoritmo_3-2_apostila_LA_1_erro_linha_15.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_14-algoritmo_3-2_apostila_LA_1_erro_linha_15.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_15-algoritmo_3-3_apostila_LA_1_erro_linha_21.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_15-algoritmo_3-3_apostila_LA_1_erro_linha_21.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_16-algoritmo_3-3_apostila_LA_1_erro_linha_11.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_16-algoritmo_3-3_apostila_LA_1_erro_linha_11.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_17-algoritmo_3-3_apostila_LA_1_erro_linha_15.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_17-algoritmo_3-3_apostila_LA_1_erro_linha_15.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_18-algoritmo_3-3_apostila_LA_1_erro_linha_21.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_18-algoritmo_3-3_apostila_LA_1_erro_linha_21.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_19-algoritmo_4-5_apostila_LA_1_erro_linha_29.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_19-algoritmo_4-5_apostila_LA_1_erro_linha_29.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_2-algoritmo_2-2_apostila_LA_1_erro_linha_15.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_2-algoritmo_2-2_apostila_LA_1_erro_linha_15.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_20-algoritmo_5-1_apostila_LA_1_erro_linha_15_acusado_linha_16.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_20-algoritmo_5-1_apostila_LA_1_erro_linha_15_acusado_linha_16.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_21-algoritmo_5-1_apostila_LA_1_erro_linha_19_acusado_linha_20.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_21-algoritmo_5-1_apostila_LA_1_erro_linha_19_acusado_linha_20.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_22-algoritmo_5-3_apostila_LA_1_erro_linha_26_acusado_linha_27.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_22-algoritmo_5-3_apostila_LA_1_erro_linha_26_acusado_linha_27.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_23-algoritmo_5-4_apostila_LA_1_erro_linha_10_acusado_linha_11.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_23-algoritmo_5-4_apostila_LA_1_erro_linha_10_acusado_linha_11.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_24-algoritmo_5-4_apostila_LA_1_erro_linha_11.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_24-algoritmo_5-4_apostila_LA_1_erro_linha_11.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_25-algoritmo_5-4_apostila_LA_1_erro_linha_15.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_25-algoritmo_5-4_apostila_LA_1_erro_linha_15.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_26-algoritmo_5-4_apostila_LA_1_erro_linha_13.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_26-algoritmo_5-4_apostila_LA_1_erro_linha_13.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_27-algoritmo_5-4_apostila_LA_1_erro_linha_18_acusado_linha_19.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_27-algoritmo_5-4_apostila_LA_1_erro_linha_18_acusado_linha_19.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_28-algoritmo_6-1_apostila_LA_1_erro_linha_8.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_28-algoritmo_6-1_apostila_LA_1_erro_linha_8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_29-algoritmo_6-1_apostila_LA_1_erro_linha_8.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_29-algoritmo_6-1_apostila_LA_1_erro_linha_8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_3-algoritmo_2-2_apostila_LA_1_erro_linha_5.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_3-algoritmo_2-2_apostila_LA_1_erro_linha_5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_30-algoritmo_6-1_apostila_LA_1_erro_linha_8.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_30-algoritmo_6-1_apostila_LA_1_erro_linha_8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_31-algoritmo_6-1_apostila_LA_1_erro_linha_8_acusado_linha_9.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_31-algoritmo_6-1_apostila_LA_1_erro_linha_8_acusado_linha_9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_32-algoritmo_6-1_apostila_LA_1_erro_linha_11_acusado_linha_12.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_32-algoritmo_6-1_apostila_LA_1_erro_linha_11_acusado_linha_12.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_33-algoritmo_6-2_apostila_LA_1_erro_linha_10_acusado_linha_12.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_33-algoritmo_6-2_apostila_LA_1_erro_linha_10_acusado_linha_12.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_34-algoritmo_6-2_apostila_LA_1_erro_linha_16_acusado_linha_21.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_34-algoritmo_6-2_apostila_LA_1_erro_linha_16_acusado_linha_21.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_35-algoritmo_6-4_apostila_LA_1_erro_linha_16_acusado_linha_17.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_35-algoritmo_6-4_apostila_LA_1_erro_linha_16_acusado_linha_17.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_36-algoritmo_6-4_apostila_LA_1_erro_linha_16.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_36-algoritmo_6-4_apostila_LA_1_erro_linha_16.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_37-algoritmo_6-5_apostila_LA_1_erro_linha_18.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_37-algoritmo_6-5_apostila_LA_1_erro_linha_18.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_38-algoritmo_6-6_apostila_LA_1_erro_linha_23.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_38-algoritmo_6-6_apostila_LA_1_erro_linha_23.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_39-algoritmo_6-9_apostila_LA_1_erro_linha_30.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_39-algoritmo_6-9_apostila_LA_1_erro_linha_30.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_4-algoritmo_2-2_apostila_LA_1_erro_linha_10.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_4-algoritmo_2-2_apostila_LA_1_erro_linha_10.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_40-algoritmo_6-10_apostila_LA_1_erro_linha_26_acusado_linha_27.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_40-algoritmo_6-10_apostila_LA_1_erro_linha_26_acusado_linha_27.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_41-algoritmo_7-1_apostila_LA_1_erro_linha_6_acusado_linha_7.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_41-algoritmo_7-1_apostila_LA_1_erro_linha_6_acusado_linha_7.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_42-algoritmo_7-1_apostila_LA_1_erro_linha_10.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_42-algoritmo_7-1_apostila_LA_1_erro_linha_10.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_43-algoritmo_7-2_apostila_LA_1_erro_linha_14.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_43-algoritmo_7-2_apostila_LA_1_erro_linha_14.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_44-algoritmo_7-3_apostila_LA_1_erro_linha_27.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_44-algoritmo_7-3_apostila_LA_1_erro_linha_27.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_45-algoritmo_8-1_apostila_LA_1_erro_linha_6.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_45-algoritmo_8-1_apostila_LA_1_erro_linha_6.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_46-algoritmo_8-1_apostila_LA_1_erro_linha_7_acusado_linha_8.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_46-algoritmo_8-1_apostila_LA_1_erro_linha_7_acusado_linha_8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_47-algoritmo_8-1_apostila_LA_1_erro_linha_18.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_47-algoritmo_8-1_apostila_LA_1_erro_linha_18.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_48-algoritmo_8-2_apostila_LA_1_erro_linha_34.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_48-algoritmo_8-2_apostila_LA_1_erro_linha_34.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_49-algoritmo_9-2_apostila_LA_1_erro_linha_8.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_49-algoritmo_9-2_apostila_LA_1_erro_linha_8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_5-algoritmo_2-2_apostila_LA_1_erro_linha_11_acusado_linha_14.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_5-algoritmo_2-2_apostila_LA_1_erro_linha_11_acusado_linha_14.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_50-algoritmo_9-2_apostila_LA_1_erro_linha_8.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_50-algoritmo_9-2_apostila_LA_1_erro_linha_8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_51-algoritmo_9-2_apostila_LA_1_erro_linha_8.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_51-algoritmo_9-2_apostila_LA_1_erro_linha_8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_52-algoritmo_9-2_apostila_LA_1_erro_linha_8.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_52-algoritmo_9-2_apostila_LA_1_erro_linha_8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_53-algoritmo_9-2_apostila_LA_1_erro_linha_26_acusado_linha_28.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_53-algoritmo_9-2_apostila_LA_1_erro_linha_26_acusado_linha_28.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_54-algoritmo_9-4_apostila_LA_1_erro_linha_3.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_54-algoritmo_9-4_apostila_LA_1_erro_linha_3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_55-algoritmo_9-4_apostila_LA_1_erro_linha_21_acusado_linha_23.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_55-algoritmo_9-4_apostila_LA_1_erro_linha_21_acusado_linha_23.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_56-algoritmo_10-2_apostila_LA_1_erro_linha_5.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_56-algoritmo_10-2_apostila_LA_1_erro_linha_5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_57-algoritmo_10-2_apostila_LA_1_erro_linha_5.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_57-algoritmo_10-2_apostila_LA_1_erro_linha_5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_58-algoritmo_10-2_apostila_LA_1_erro_linha_5.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_58-algoritmo_10-2_apostila_LA_1_erro_linha_5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_59-algoritmo_10-2_apostila_LA_1_erro_linha_5.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_59-algoritmo_10-2_apostila_LA_1_erro_linha_5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_6-algoritmo_2-2_apostila_LA_1_erro_linha_14.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_6-algoritmo_2-2_apostila_LA_1_erro_linha_14.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_60-algoritmo_10-4_apostila_LA_1_erro_linha_3.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_60-algoritmo_10-4_apostila_LA_1_erro_linha_3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_61-algoritmo_10-4_apostila_LA_1_erro_linha_5.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_61-algoritmo_10-4_apostila_LA_1_erro_linha_5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_62-algoritmo_10-4_apostila_LA_1_erro_linha_5.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_62-algoritmo_10-4_apostila_LA_1_erro_linha_5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_7-algoritmo_2-3_apostila_LA_1_erro_linha_9.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_7-algoritmo_2-3_apostila_LA_1_erro_linha_9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_8-algoritmo_2-3_apostila_LA_1_erro_linha_12.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_8-algoritmo_2-3_apostila_LA_1_erro_linha_12.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_9-algoritmo_2-4_apostila_LA_1_erro_linha_13_acusado_linha_16.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_9-algoritmo_2-4_apostila_LA_1_erro_linha_13_acusado_linha_16.txt" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,25 +161,65 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ErrorListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ErrorListener.java">
+      <file leaf-file-name="Mensagens.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Mensagens.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Principal.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Principal.java">
+      <file leaf-file-name="Tipo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tipo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+            <state relative-caret-position="0">
+              <caret line="0" column="18" lean-forward="true" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnalisadorSemantico.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AnalisadorSemantico.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8755">
+              <caret line="515" column="29" lean-forward="false" selection-start-line="515" selection-start-column="29" selection-end-line="515" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#19574#19575#0" expanded="true" />
+                <element signature="e#19618#19619#0" expanded="true" />
+                <element signature="e#19707#19708#0" expanded="true" />
+                <element signature="e#19759#19760#0" expanded="true" />
+                <element signature="e#19832#19833#0" expanded="true" />
+                <element signature="e#19876#19877#0" expanded="true" />
+                <element signature="e#19967#19968#0" expanded="true" />
+                <element signature="e#20020#20021#0" expanded="true" />
+                <element signature="e#20097#20098#0" expanded="true" />
+                <element signature="e#20143#20144#0" expanded="true" />
+                <element signature="e#20234#20235#0" expanded="true" />
+                <element signature="e#20287#20288#0" expanded="true" />
+                <element signature="e#20536#20537#0" expanded="true" />
+                <element signature="e#20590#20591#0" expanded="true" />
+                <element signature="e#20681#20682#0" expanded="true" />
+                <element signature="e#20734#20735#0" expanded="true" />
+                <element signature="e#20825#20826#0" expanded="true" />
+                <element signature="e#20878#20879#0" expanded="true" />
+                <element signature="e#20963#20964#0" expanded="true" />
+                <element signature="e#21013#21014#0" expanded="true" />
+                <element signature="e#21102#21103#0" expanded="true" />
+                <element signature="e#21154#21155#0" expanded="true" />
+                <element signature="e#21235#21236#0" expanded="true" />
+                <element signature="e#21283#21284#0" expanded="true" />
+                <element signature="e#21358#21359#0" expanded="true" />
+                <element signature="e#21403#21404#0" expanded="true" />
+                <element signature="e#21490#21491#0" expanded="true" />
+                <element signature="e#21541#21542#0" expanded="true" />
+                <element signature="e#21961#21962#0" expanded="true" />
+                <element signature="e#22012#22013#0" expanded="true" />
+                <element signature="e#22103#22104#0" expanded="true" />
+                <element signature="e#22156#22157#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,8 +228,8 @@
       <file leaf-file-name="LA.g4" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LA.g4">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+            <state relative-caret-position="167">
+              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -63,7 +246,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>E</find>
       <find>Err</find>
       <find>Errorli</find>
       <find>Error</find>
@@ -91,6 +273,9 @@
       <find>funcao</find>
       <find>local</find>
       <find>funca</find>
+      <find>tipoDe</find>
+      <find>escopoAtual</find>
+      <find>declaracao_global:</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -112,8 +297,15 @@
         <option value="$PROJECT_DIR$/src/TestaAnalisadorSintatico.java" />
         <option value="$PROJECT_DIR$/src/SaidaParser.java" />
         <option value="$PROJECT_DIR$/src/Principal.java" />
-        <option value="$PROJECT_DIR$/src/LA.g4" />
+        <option value="$PROJECT_DIR$/src/LALexer.java" />
         <option value="$PROJECT_DIR$/src/ErrorListener.java" />
+        <option value="$PROJECT_DIR$/src/Tipo.java" />
+        <option value="$PROJECT_DIR$/src/TabelaDeSimbolos.java" />
+        <option value="$PROJECT_DIR$/src/EntradaTabelaDeSimbolos.java" />
+        <option value="$PROJECT_DIR$/src/PilhaDeTabelas.java" />
+        <option value="$PROJECT_DIR$/src/LA.g4" />
+        <option value="$PROJECT_DIR$/src/Mensagens.java" />
+        <option value="$PROJECT_DIR$/src/AnalisadorSemantico.java" />
       </list>
     </option>
   </component>
@@ -138,6 +330,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -166,7 +359,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
@@ -176,7 +368,7 @@
     <property name="$PROJECT_DIR$/src/LA.g4::/auto-gen" value="false" />
     <property name="$PROJECT_DIR$/src/LA.g4::/output-dir" value="C:\Users\etoal\Documents\Ufscar\CC2\CC2-T1\src" />
     <property name="$PROJECT_DIR$/src/LA.g4::/gen-listener" value="true" />
-    <property name="$PROJECT_DIR$/src/LA.g4::/gen-visitor" value="false" />
+    <property name="$PROJECT_DIR$/src/LA.g4::/gen-visitor" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -446,37 +638,38 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10474632" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2111293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22844176" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2111293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22314675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.032733224" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.032733224" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -497,16 +690,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10474632" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2111293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2111293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22314675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22844176" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.032733224" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
@@ -523,25 +716,25 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LAParser.java</url>
-          <line>236</line>
+          <line>246</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LAParser.java</url>
-          <line>167</line>
+          <line>172</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LAParser.java</url>
-          <line>1784</line>
+          <line>1923</line>
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LAParser.java</url>
-          <line>1956</line>
+          <line>2100</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
@@ -555,62 +748,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/DefaultErrorStrategy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="67" column="42" lean-forward="false" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
-          <folding>
-            <element signature="e#1172#1173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LALexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LAListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/Recognizer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2465">
-          <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
-          <folding>
-            <element signature="e#3616#3617#0" expanded="true" />
-            <element signature="e#5717#5718#0" expanded="true" />
-            <element signature="e#5761#5762#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SaidaParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LAParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3978">
-          <caret line="234" column="32" lean-forward="false" selection-start-line="234" selection-start-column="32" selection-end-line="234" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Principal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -635,7 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -643,12 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3655">
           <caret line="269" column="0" lean-forward="false" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
-          <folding>
-            <element signature="e#7995#7996#0" expanded="true" />
-            <element signature="e#8039#8040#0" expanded="true" />
-            <element signature="e#8194#8195#0" expanded="true" />
-            <element signature="e#8228#8229#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -656,9 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="67" column="42" lean-forward="false" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
-          <folding>
-            <element signature="e#1172#1173#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -682,11 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2465">
           <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
-          <folding>
-            <element signature="e#3616#3617#0" expanded="true" />
-            <element signature="e#5717#5718#0" expanded="true" />
-            <element signature="e#5761#5762#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -813,31 +935,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EntradaTabelaDeSimbolos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tipo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/ANTLRErrorListener.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TabelaDeSimbolos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -858,13 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/ParserRuleContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/RuleContext.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -880,29 +974,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SaidaParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LALexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/DefaultErrorStrategy.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="e#1172#1173#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -910,7 +985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -918,12 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <element signature="e#15724#15725#0" expanded="true" />
-            <element signature="e#15756#15757#0" expanded="true" />
-            <element signature="e#15867#15868#0" expanded="true" />
-            <element signature="e#15913#15914#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -931,12 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-          <folding>
-            <element signature="e#3469#3470#0" expanded="true" />
-            <element signature="e#3498#3499#0" expanded="true" />
-            <element signature="e#3577#3578#0" expanded="true" />
-            <element signature="e#3602#3603#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -954,11 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding>
-            <element signature="e#3616#3617#0" expanded="true" />
-            <element signature="e#5717#5718#0" expanded="true" />
-            <element signature="e#5761#5762#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -966,7 +1023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -974,12 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding>
-            <element signature="e#7995#7996#0" expanded="true" />
-            <element signature="e#8039#8040#0" expanded="true" />
-            <element signature="e#8194#8195#0" expanded="true" />
-            <element signature="e#8228#8229#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -987,34 +1037,172 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LA.g4">
+    <entry file="file://$PROJECT_DIR$/src/LALexer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        <state relative-caret-position="17">
+          <caret line="148" column="29" lean-forward="false" selection-start-line="148" selection-start-column="29" selection-end-line="148" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ErrorListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="527">
+          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LABaseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TabelaDeSimbolos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="true" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EntradaTabelaDeSimbolos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Principal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
+        <state relative-caret-position="305">
           <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SaidaParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LABaseVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LAVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PilhaDeTabelas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mensagens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tipo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="true" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/ParserRuleContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-748">
+          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LA.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnalisadorSemantico.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8755">
+          <caret line="515" column="29" lean-forward="false" selection-start-line="515" selection-start-column="29" selection-end-line="515" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#19574#19575#0" expanded="true" />
+            <element signature="e#19618#19619#0" expanded="true" />
+            <element signature="e#19707#19708#0" expanded="true" />
+            <element signature="e#19759#19760#0" expanded="true" />
+            <element signature="e#19832#19833#0" expanded="true" />
+            <element signature="e#19876#19877#0" expanded="true" />
+            <element signature="e#19967#19968#0" expanded="true" />
+            <element signature="e#20020#20021#0" expanded="true" />
+            <element signature="e#20097#20098#0" expanded="true" />
+            <element signature="e#20143#20144#0" expanded="true" />
+            <element signature="e#20234#20235#0" expanded="true" />
+            <element signature="e#20287#20288#0" expanded="true" />
+            <element signature="e#20536#20537#0" expanded="true" />
+            <element signature="e#20590#20591#0" expanded="true" />
+            <element signature="e#20681#20682#0" expanded="true" />
+            <element signature="e#20734#20735#0" expanded="true" />
+            <element signature="e#20825#20826#0" expanded="true" />
+            <element signature="e#20878#20879#0" expanded="true" />
+            <element signature="e#20963#20964#0" expanded="true" />
+            <element signature="e#21013#21014#0" expanded="true" />
+            <element signature="e#21102#21103#0" expanded="true" />
+            <element signature="e#21154#21155#0" expanded="true" />
+            <element signature="e#21235#21236#0" expanded="true" />
+            <element signature="e#21283#21284#0" expanded="true" />
+            <element signature="e#21358#21359#0" expanded="true" />
+            <element signature="e#21403#21404#0" expanded="true" />
+            <element signature="e#21490#21491#0" expanded="true" />
+            <element signature="e#21541#21542#0" expanded="true" />
+            <element signature="e#21961#21962#0" expanded="true" />
+            <element signature="e#22012#22013#0" expanded="true" />
+            <element signature="e#22103#22104#0" expanded="true" />
+            <element signature="e#22156#22157#0" expanded="true" />
           </folding>
         </state>
       </provider>

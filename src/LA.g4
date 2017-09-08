@@ -9,9 +9,9 @@ declaracoes : decl_local_global declaracoes | ;
 
 decl_local_global : declaracao_local | declaracao_global;
 
-declaracao_local : 'declare' variavel
-		         |'constante' IDENT ':' tipo_basico '=' valor_constante
-		         |'tipo' IDENT ':' tipo;
+declaracao_local  : 'declare' variavel
+		          |'constante' IDENT ':' tipo_basico '=' valor_constante
+		          |'tipo' IDENT ':' tipo;
 		
 variavel : IDENT dimensao mais_var ':' tipo;
 
@@ -19,7 +19,7 @@ mais_var : ',' IDENT dimensao mais_var | ;
 
 identificador : ponteiros_opcionais IDENT dimensao outros_ident;
 
-ponteiros_opcionais : '^' ponteiros_opcionais |;
+ponteiros_opcionais : '^' ponteiros_opcionais | ;
 
 outros_ident: '.' identificador | ;
 
@@ -155,5 +155,5 @@ COMENTARIO_N_FECHADO : '{' ~('\r' | '\n' | '}')*;
 
 WS	:	(' ' | '\t' | '\r' | '\n') {skip();};
 
-ErroChar : '@' | '!' | '|';
+ERROR_CHAR : '@' | '!' | '|';
 
