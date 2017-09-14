@@ -1,2 +1,2 @@
-java -jar .\CorretorTrabalho1\CorretorTrabalho1.jar "java -jar c:\Users\etoal\Documents\Ufscar\CC2\CC2-T1\out\artifacts\CC2_T1_jar\CC2-T1.jar" gcc .\temp .\casosDeTesteT1  "619868, 155551, 187123" semantico
+java -jar .\CorretorTrabalho1\CorretorTrabalho1.jar "java -jar c:\Users\etoal\Documents\Ufscar\CC2\CC2-T1\out\artifacts\CC2_T1_jar\CC2-T1.jar" gcc .\temp .\casosDeTesteT1  "619868, 155551, 187123" tudo
 pause

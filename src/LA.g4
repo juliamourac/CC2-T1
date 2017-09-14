@@ -31,18 +31,18 @@ mais_ident: ',' identificador mais_ident | ;
 
 mais_variaveis: variavel mais_variaveis | ;
 
-tipo_basico: 'literal'|'inteiro'|'real'|'logico';
+tipo_basico: 'literal' | 'inteiro' | 'real' | 'logico';
 
-tipo_basico_ident: tipo_basico| IDENT;
+tipo_basico_ident: tipo_basico | IDENT;
 
 tipo_estendido: ponteiros_opcionais tipo_basico_ident;
 
-valor_constante: CADEIA|NUM_INT|NUM_REAL|'verdadeiro'|'falso';
+valor_constante: CADEIA | NUM_INT | NUM_REAL| 'verdadeiro' | 'falso';
 
 registro: 'registro' variavel mais_variaveis 'fim_registro';
 
 declaracao_global: 'procedimento' IDENT '(' parametros_opcional ')' declaracoes_locais comandos 'fim_procedimento'
-			|'funcao' IDENT '(' parametros_opcional ')' ':' tipo_estendido declaracoes_locais comandos 'fim_funcao';
+			      |'funcao' IDENT '(' parametros_opcional ')' ':' tipo_estendido declaracoes_locais comandos 'fim_funcao';
 			
 parametros_opcional: parametro | ;
 
