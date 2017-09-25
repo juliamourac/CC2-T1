@@ -5,12 +5,30 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
 	
 	private PilhaDeTabelas pilhaTabela;
     private SaidaParser sp;
-    private Mensagens mensagem = new Mensagens(sp);
+    private Mensagens mensagem;
 
     //Variaveis Auxiliares
     private String tipoMaisVar;
+    private boolean atr;
+    private String nomeAtr;
+    private String tipoAtr;
+    private String posicaoVetorAtr;
+    ArrayList<String> termos = new ArrayList<String>();
 
-    public AnalisadorSemantico(SaidaParser sp){this.sp = sp;}
+    public AnalisadorSemantico(SaidaParser sp){
+        this.sp = sp;
+        mensagem = new Mensagens(sp);
+        atr = false;
+    }
+
+    public String retTipo(String tipo){
+        if(tipo.matches("[+|-]?[0-9]"))
+            return "inteiro";
+        else if(tipo.matches("[+|-]?[0-9]+[.]?[0-9]*"))
+            return "real";
+        else
+            return "literal";
+    }
 
     @Override
     public String visitPrograma(LAParser.ProgramaContext ctx){
@@ -62,13 +80,13 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
                 escopoAtual.adicionarSimbolo(ctx.IDENT().toString(), ctx.tipo_basico().getText());
                 visitValor_constante(ctx.valor_constante());
             }else
-                mensagem.erro_Ja_Declarado(ctx.getStart().getLine(), ctx.IDENT().toString());
+                mensagem.erro_Ident_Ja_Declarado(ctx.getStart().getLine(), ctx.IDENT().toString());
         }else if (ctx.getText().startsWith("tipo"))
             if(!escopoAtual.existeSimbolo(ctx.IDENT().toString())){
                 escopoAtual.adicionarSimbolo(ctx.IDENT().getText(), "tipo");
                 visitTipo(ctx.tipo());
             }else
-                mensagem.erro_Ja_Declarado(ctx.getStart().getLine(),  ctx.IDENT().toString());
+                mensagem.erro_Ident_Ja_Declarado(ctx.getStart().getLine(),  ctx.IDENT().toString());
 
         return null;
     }
@@ -83,7 +101,7 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
             if(!pilhaTabela.existeSimbolo(ctx.IDENT().toString())){
                 escopoAtual.adicionarSimbolo(ctx.IDENT().toString(), ctx.tipo().getText());
             }else
-                mensagem.erro_Ja_Declarado(ctx.getStart().getLine(), ctx.IDENT().toString());
+                mensagem.erro_Ident_Ja_Declarado(ctx.getStart().getLine(), ctx.IDENT().toString());
             visitDimensao(ctx.dimensao());
             visitMais_var(ctx.mais_var());
         }
@@ -98,7 +116,7 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
             if(!pilhaTabela.existeSimbolo(ctx.IDENT().toString())){
                 escopoAtual.adicionarSimbolo(ctx.IDENT().toString(), tipoMaisVar);
             }else
-                mensagem.erro_Ja_Declarado(ctx.getStart().getLine(), ctx.IDENT().toString());
+                mensagem.erro_Ident_Ja_Declarado(ctx.getStart().getLine(), ctx.IDENT().toString());
             visitDimensao(ctx.dimensao());
             visitMais_var(ctx.mais_var());
         }
@@ -108,15 +126,23 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
     @Override
     public String visitIdentificador(LAParser.IdentificadorContext ctx) {
         //identificador : ponteiros_opcionais IDENT dimensao outros_ident;
+
         if(ctx.children != null){
             TabelaDeSimbolos escopoAtual = pilhaTabela.topo();
-            visitPonteiros_opcionais(ctx.ponteiros_opcionais()); //Adicionar Erros
+            visitPonteiros_opcionais(ctx.ponteiros_opcionais());
             visitDimensao(ctx.dimensao());
-            if(ctx.outros_ident().children == null || !escopoAtual.existeSimbolo(ctx.IDENT().toString())){
-                //emensagem.erro_Ja_Declarado(ctx.getStart().getLine(), ctx.IDENT().toString());
-                //Erro Bizarro aqui
-            }
             visitOutros_ident(ctx.outros_ident());
+
+            /*if(ctx.outros_ident().getText().startsWith(".")) {
+                if (ctx.getText().contains(".")) {
+                    String[] aux = ctx.getText().split("\\.");
+                    if (!escopoAtual.existeSimbolo(aux[1]))
+                        mensagem.erro_Ident_Nao_Declarado(ctx.getStart().getLine(), ctx.getText());
+                }
+            }else*/ if(!escopoAtual.existeSimbolo(ctx.IDENT().toString())){
+               mensagem.erro_Ident_Nao_Declarado(ctx.getStart().getLine(), ctx.IDENT().toString());
+           }
+
         }
         return null;
     }
@@ -132,8 +158,8 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
     @Override
     public String visitOutros_ident(LAParser.Outros_identContext ctx) {
         //outros_ident: '.' identificador | ;
-        if(ctx.children != null)
-            visitIdentificador(ctx.identificador());
+        //if(ctx.children != null)
+          //  visitIdentificador(ctx.identificador());
         return null;
     }
 
@@ -142,7 +168,6 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
         //dimensao: '[' exp_aritmetica ']' dimensao | ;
         if(ctx.children != null) {
             visitExp_aritmetica(ctx.exp_aritmetica());
-            visitDimensao(ctx.dimensao());
         }
         return null;
     }
@@ -195,9 +220,8 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
         if(ctx.tipo_basico() != null){
            return visitTipo_basico(ctx.tipo_basico());
         }else{
-            TabelaDeSimbolos escopoAtual = pilhaTabela.topo();
-            if(!escopoAtual.existeSimbolo(ctx.IDENT().toString()))
-                return ctx.IDENT().toString(); //Adicionar Erro
+            if(pilhaTabela.existeSimbolo(ctx.IDENT().toString()))
+                return ctx.IDENT().toString();
             else{
                 mensagem.erro_Tipo_Nao_Declarado(ctx.getStart().getLine(), ctx.IDENT().toString());
                 return "erro";
@@ -208,11 +232,10 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
     @Override
     public String visitTipo_estendido(LAParser.Tipo_estendidoContext ctx) {
         //tipo_estendido: ponteiros_opcionais tipo_basico_ident;
-        if(ctx.children != null){
+        if(ctx.ponteiros_opcionais() != null){
             visitPonteiros_opcionais(ctx.ponteiros_opcionais());
-            visitTipo_basico_ident(ctx.tipo_basico_ident());
         }
-        return null;
+        return visitTipo_basico_ident(ctx.tipo_basico_ident());
     }
 
     @Override
@@ -235,13 +258,12 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
     public String visitDeclaracao_global(LAParser.Declaracao_globalContext ctx) {
        // declaracao_global: 'procedimento' IDENT '(' parametros_opcional ')' declaracoes_locais comandos 'fim_procedimento'
          //                |'funcao' IDENT '(' parametros_opcional ')' ':' tipo_estendido declaracoes_locais comandos 'fim_funcao';
-        TabelaDeSimbolos escopoAtual = pilhaTabela.topo();
         if(ctx.getText().startsWith("procedimento")){
             if (!pilhaTabela.existeSimbolo(ctx.IDENT().toString())) {
                 pilhaTabela.topo().adicionarSimbolo(ctx.IDENT().getText(), "procedimento");
             }
             pilhaTabela.empilhar(new TabelaDeSimbolos("procedimento "+ctx.IDENT().getText()));
-            visitParametros_opcional(ctx.parametros_opcional()); //Adicionar Erro
+            visitParametros_opcional(ctx.parametros_opcional());
             visitDeclaracoes_locais(ctx.declaracoes_locais());
             visitComandos(ctx.comandos());
             pilhaTabela.desempilhar();
@@ -250,7 +272,7 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
                 pilhaTabela.topo().adicionarSimbolo(ctx.IDENT().getText(), "funcao");
             }
             pilhaTabela.empilhar(new TabelaDeSimbolos("funcao "+ctx.IDENT().getText()));
-            visitParametros_opcional(ctx.parametros_opcional()); //Adicionar Erro
+            visitParametros_opcional(ctx.parametros_opcional());
             visitTipo_estendido(ctx.tipo_estendido());
             visitDeclaracoes_locais(ctx.declaracoes_locais());
             visitComandos(ctx.comandos());
@@ -271,7 +293,12 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
     public String visitParametro(LAParser.ParametroContext ctx) {
         //parametro: var_opcional identificador mais_ident ':' tipo_estendido mais_parametros;
         if(ctx.children != null) {
+            TabelaDeSimbolos escopoAtual = pilhaTabela.topo();
             visitVar_opcional(ctx.var_opcional());
+            if(!escopoAtual.existeSimbolo(ctx.identificador().IDENT().getText())){
+                escopoAtual.adicionarSimbolo(ctx.identificador().IDENT().getText(), visitTipo_estendido(ctx.tipo_estendido()));
+            }else
+                mensagem.erro_Ident_Ja_Declarado(ctx.getStart().getLine(), ctx.identificador().IDENT().getText());
             visitIdentificador(ctx.identificador());
             visitMais_ident(ctx.mais_ident());
             visitTipo_estendido(ctx.tipo_estendido());
@@ -336,34 +363,101 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
                 | '^' IDENT outros_ident dimensao '<-' expressao
                 | IDENT chamada_atribuicao
                 | 'retorne' expressao;*/
-        if(ctx.getText().startsWith("leia")){
-            visitIdentificador(ctx.identificador());
-            visitMais_ident(ctx.mais_ident());
-        }else if (ctx.getText().startsWith("escreva")){
-            visitExpressao(ctx.expressao());
-            visitMais_expressao(ctx.mais_expressao());
-        }else if (ctx.getText().startsWith("se")){
-            visitExpressao(ctx.expressao());
-            visitComandos(ctx.comandos());
-            visitSenao_opcional(ctx.senao_opcional());
-        }else if(ctx.getText().startsWith("para")){
-            visitExp_aritmetica(ctx.exp_aritmetica().get(0));
-            visitExp_aritmetica(ctx.exp_aritmetica().get(1));
-            visitComandos(ctx.comandos());
-        }else if(ctx.getText().startsWith("enquanto")){
-            visitExpressao(ctx.expressao());
-            visitComandos(ctx.comandos());
-        }else if(ctx.getText().startsWith("faca")){
-            visitComandos(ctx.comandos());
-            visitExpressao(ctx.expressao());
-        }else if(ctx.getText().startsWith("^")){
-            visitOutros_ident(ctx.outros_ident());
-            visitDimensao(ctx.dimensao());
-            visitExpressao(ctx.expressao());
-        }else if(ctx.getText().startsWith("IDENT")){
-            visitChamada_atribuicao(ctx.chamada_atribuicao());
-        }else if(ctx.getText().startsWith("retorne")){
-            visitExpressao(ctx.expressao());
+        if(ctx.children!= null) {
+            if (ctx.getText().startsWith("leia")) {
+                visitIdentificador(ctx.identificador());
+                visitMais_ident(ctx.mais_ident());
+            } else if (ctx.getText().startsWith("escreva")) {
+                visitExpressao(ctx.expressao());
+                visitMais_expressao(ctx.mais_expressao());
+            } else if (ctx.getText().startsWith("se")) {
+                visitExpressao(ctx.expressao());
+                visitComandos(ctx.comandos());
+                visitSenao_opcional(ctx.senao_opcional());
+            } else if (ctx.getText().startsWith("caso")) {
+                visitExp_aritmetica(ctx.exp_aritmetica().get(0));
+                visitSelecao(ctx.selecao());
+                visitSenao_opcional(ctx.senao_opcional());
+            } else if (ctx.getText().startsWith("para")) {
+                if (!pilhaTabela.topo().existeSimbolo(ctx.IDENT().toString())) {
+                    mensagem.erro_Tipo_Nao_Declarado(ctx.getStart().getLine(), ctx.IDENT().toString());
+                }
+                visitExp_aritmetica(ctx.exp_aritmetica().get(0));
+                visitExp_aritmetica(ctx.exp_aritmetica().get(1));
+                visitComandos(ctx.comandos());
+            } else if (ctx.getText().startsWith("enquanto")) {
+                visitExpressao(ctx.expressao());
+                visitComandos(ctx.comandos());
+            } else if (ctx.getText().startsWith("faca")) {
+                visitComandos(ctx.comandos());
+                visitExpressao(ctx.expressao());
+            } else if (ctx.getText().startsWith("^")) {
+                if (!pilhaTabela.topo().existeSimbolo(ctx.IDENT().toString())) {
+                    mensagem.erro_Ident_Nao_Declarado(ctx.getStart().getLine(), ctx.IDENT().toString());
+                }
+                nomeAtr = "^" + ctx.IDENT().toString();
+                tipoAtr = pilhaTabela.topo().getValorTipoSimbolo(ctx.IDENT().toString());
+                atr = true;
+
+                visitOutros_ident(ctx.outros_ident());
+                visitDimensao(ctx.dimensao());
+                visitExpressao(ctx.expressao());
+
+                for (String termo : termos) {
+                    String valorTipoSimbolo = pilhaTabela.topo().getValorTipoSimbolo(termo);
+                    if (valorTipoSimbolo == null) {
+                        valorTipoSimbolo = retTipo(termo);
+                    }
+
+                    if (!tipoAtr.equals(valorTipoSimbolo)) {
+                        mensagem.erro_Atribuicao_Nao_Compativel(ctx.getStart().getLine(), nomeAtr);
+                    }
+                }
+                atr = false;
+                termos.clear();
+            } else if (ctx.chamada_atribuicao() != null) {
+                //IDENT chamada_atribuicao
+                nomeAtr = ctx.IDENT().toString();
+                tipoAtr = pilhaTabela.topo().getValorTipoSimbolo(ctx.IDENT().toString());
+                atr = true;
+
+                String[] parts = ctx.chamada_atribuicao().getText().split("<-");
+                if (parts[0].startsWith("[") || parts[0].startsWith("."))
+                    posicaoVetorAtr = parts[0];
+                else
+                    posicaoVetorAtr = "";
+
+                if (tipoAtr != null)
+                    visitChamada_atribuicao(ctx.chamada_atribuicao());
+                else if (!pilhaTabela.topo().existeSimbolo(nomeAtr))
+                    mensagem.erro_Ident_Nao_Declarado(ctx.getStart().getLine(), nomeAtr);
+
+                for (String termo : termos) {
+                    String valorTipoSimbolo = pilhaTabela.topo().getValorTipoSimbolo(termo);
+                    if (valorTipoSimbolo == null) {
+                        valorTipoSimbolo = retTipo(termo);
+                    }
+
+                    if (tipoAtr.contains("registro")) {
+                        String[] regPartes = ctx.chamada_atribuicao().getText().split("<-");
+                        regPartes[0] = regPartes[0].substring(1);
+                        if (!regPartes[0].equals(valorTipoSimbolo)) {
+                            mensagem.erro_Atribuicao_Nao_Compativel(ctx.getStart().getLine(), nomeAtr + "." + regPartes[0]);
+                        }
+                    }
+
+                    if (!tipoAtr.equals(valorTipoSimbolo) && tipoAtr.equals("literal")) {
+                        mensagem.erro_Atribuicao_Nao_Compativel(ctx.getStart().getLine(), nomeAtr);
+                    }
+                }
+
+                atr = false;
+                termos.clear();
+            } else if (ctx.getText().startsWith("retorne")) {
+                if (pilhaTabela.topo().toString().startsWith("Escopo: global") || pilhaTabela.topo().toString().startsWith("Escopo: procedimento"))
+                    mensagem.erro_Retorno_Nao_Permitido(ctx.getStart().getLine());
+                visitExpressao(ctx.expressao());
+            }
         }
         return null;
     }
@@ -496,6 +590,13 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
     public String visitTermo(LAParser.TermoContext ctx) {
         //termo : fator outros_fatores;
         if(ctx.children != null){
+            if(atr){
+                //!inteiro
+                if((tipoAtr.equals("real") || tipoAtr.equals("inteiro") || tipoAtr.equals("logico"))&& ctx.getText().charAt(0) == '"'){
+                    mensagem.erro_Atribuicao_Nao_Compativel(ctx.getStart().getLine(), nomeAtr+posicaoVetorAtr);
+                }else if(!(tipoAtr.equals("literal") && ctx.getText().charAt(0) == '"'))
+                    termos.add(ctx.getText());
+            }
             visitFator(ctx.fator());
             visitOutros_fatores(ctx.outros_fatores());
         }
@@ -552,12 +653,22 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
                 | NUM_INT
                 | NUM_REAL
                 | '(' expressao ')';*/
-        if (ctx.getText().startsWith("^")) {
-                visitOutros_ident(ctx.outros_ident());
-                visitDimensao(ctx.dimensao());
-        } else if (ctx.getText().startsWith("IDENT")) {
-                visitChamada_partes(ctx.chamada_partes());
-        } else if (ctx.getText().startsWith("(")) {
+        TabelaDeSimbolos escopoAtual = pilhaTabela.topo();
+        if (ctx.outros_ident() != null) {
+            if (!escopoAtual.existeSimbolo(ctx.IDENT().toString())) {
+                mensagem.erro_Ident_Nao_Declarado(ctx.getStart().getLine(),ctx.IDENT().toString());
+            }
+            visitOutros_ident(ctx.outros_ident());
+            visitDimensao(ctx.dimensao());
+        } else if (ctx.chamada_partes() != null) {
+            if (!escopoAtual.existeSimbolo(ctx.IDENT().toString())) {
+                String aux = ctx.IDENT().toString();
+                if (ctx.chamada_partes().getText().startsWith("."))
+                    aux += ctx.chamada_partes().getText();
+                mensagem.erro_Ident_Nao_Declarado(ctx.getStart().getLine(),aux);
+            }
+            visitChamada_partes(ctx.chamada_partes());
+        } else if (ctx.expressao() != null) {
                 visitExpressao(ctx.expressao());
         }
         return null;
@@ -567,6 +678,10 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
     public String visitParcela_nao_unario(LAParser.Parcela_nao_unarioContext ctx) {
         //parcela_nao_unario : '&' IDENT outros_ident dimensao | CADEIA;
         if (ctx.outros_ident() != null) {
+            TabelaDeSimbolos escopoAtual = pilhaTabela.topo();
+            if (!escopoAtual.existeSimbolo(ctx.IDENT().toString())) {
+                mensagem.erro_Ident_Nao_Declarado(ctx.getStart().getLine(),ctx.IDENT().toString());
+            }
             visitOutros_ident(ctx.outros_ident());
             visitDimensao(ctx.dimensao());
         }
@@ -685,6 +800,8 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
         if(ctx.exp_relacional() != null){
             visitExp_relacional(ctx.exp_relacional());
         }else{
+            if(atr == true && !tipoAtr.equals("logico"))
+                mensagem.erro_Atribuicao_Nao_Compativel(ctx.getStart().getLine(), nomeAtr);
             return ctx.getText();
         }
         return null;

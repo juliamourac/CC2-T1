@@ -25,17 +25,17 @@ outros_ident: '.' identificador | ;
 
 dimensao: '[' exp_aritmetica ']' dimensao | ;
 
-tipo: registro | tipo_estendido;
+tipo : registro | tipo_estendido;
 
 mais_ident: ',' identificador mais_ident | ;
 
 mais_variaveis: variavel mais_variaveis | ;
 
-tipo_basico: 'literal' | 'inteiro' | 'real' | 'logico';
+tipo_basico : 'literal' | 'inteiro' | 'real' | 'logico';
 
-tipo_basico_ident: tipo_basico | IDENT;
+tipo_basico_ident : tipo_basico | IDENT;
 
-tipo_estendido: ponteiros_opcionais tipo_basico_ident;
+tipo_estendido : ponteiros_opcionais tipo_basico_ident;
 
 valor_constante: CADEIA | NUM_INT | NUM_REAL| 'verdadeiro' | 'falso';
 

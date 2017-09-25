@@ -5,12 +5,16 @@ public class Mensagens {
    public Mensagens(SaidaParser sp){this.sp = sp;}
 
 
-   public void erro_Ja_Declarado(int linha, String idem) {
+   public void erro_Ident_Ja_Declarado(int linha, String idem) {
         sp.println("Linha " + linha + ": identificador " + idem + " ja declarado anteriormente");
    }
 
     public void erro_Tipo_Nao_Declarado(int linha, String tipo) {
         sp.println("Linha " + linha + ": tipo " + tipo + " nao declarado");
+    }
+
+    public void erro_Ident_Nao_Declarado(int linha, String idem) {
+        sp.println("Linha " + linha + ": identificador " + idem + " nao declarado");
     }
 
     public void erro_Retorno_Nao_Permitido(int linha) {
@@ -20,7 +24,4 @@ public class Mensagens {
     public void erro_Atribuicao_Nao_Compativel(int linha, String nome) {
         sp.println("Linha " + linha + ": atribuicao nao compativel para " + nome);
     }
-
-
-
 }

@@ -18,3 +18,618 @@ Fim da compilacao
 Fim da compilacao
 Fim da compilacao
 Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Linha 3: tipo inteir nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 10: identificador nome ja declarado anteriormente
+Linha 11: identificador idades ja declarado anteriormente
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 10: tipo nome nao declarado
+Linha 11: tipo idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 10: tipo nome nao declarado
+Linha 11: tipo idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 10: tipo nome nao declarado
+Linha 11: tipo idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 10: tipo nome nao declarado
+Linha 11: tipo idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: tipo idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: tipo idades nao declarado
+Fim da compilacao
+Linha 4: tipo idades nao declarado
+Fim da compilacao
+Linha 4: tipo idades nao declarado
+Fim da compilacao
+Linha 4: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 4: tipo idades nao declarado
+Fim da compilacao
+Linha 6: identificador troco ja declarado anteriormente
+Fim da compilacao
+Linha 6: identificador troco ja declarado anteriormente
+Linha 17: tipo totalAlimento nao declarado
+Fim da compilacao
+Linha 12: atribuicao nao compativel para formato2
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Linha 14: atribuicao nao compativel para ^ponteiro
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Linha 9: atribuicao nao compativel para ponto1
+Fim da compilacao
+Linha 10: identificador abastecimento nao declarado
+Linha 13: atribuicao nao compativel para consumo
+Fim da compilacao
+Linha 10: identificador abastecimento nao declarado
+Linha 13: atribuicao nao compativel para consumo
+Fim da compilacao
+Linha 10: identificador abastecimento nao declarado
+Fim da compilacao
+Linha 10: identificador abastecimento nao declarado
+Linha 13: atribuicao nao compativel para consumo
+Fim da compilacao
+Linha 10: identificador abastecimento nao declarado
+Linha 13: atribuicao nao compativel para consumo
+Fim da compilacao
+Linha 10: identificador abastecimento nao declarado
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Linha 10: identificador abastecimento nao declarado
+Linha 13: atribuicao nao compativel para consumo
+Fim da compilacao
+Linha 10: identificador abastecimento nao declarado
+Linha 13: atribuicao nao compativel para consumo
+Fim da compilacao
+Linha 10: identificador abastecimento nao declarado
+Linha 13: atribuicao nao compativel para consumo
+Fim da compilacao
+Linha 10: identificador abastecimento nao declarado
+Linha 13: atribuicao nao compativel para consumo
+Fim da compilacao
+Linha 10: identificador abastecimento nao declarado
+Fim da compilacao
+Linha 6: identificador troco ja declarado anteriormente
+Linha 17: identificador totalAlimento nao declarado
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Linha 12: atribuicao nao compativel para formato2
+Fim da compilacao
+Linha 12: atribuicao nao compativel para formato2
+Fim da compilacao
+Linha 12: atribuicao nao compativel para formato2
+Fim da compilacao
+Linha 10: identificador abastecimento nao declarado
+Linha 13: atribuicao nao compativel para consumo
+Fim da compilacao
+Linha 10: identificador abastecimento nao declarado
+Linha 13: atribuicao nao compativel para consumo
+Fim da compilacao
+Linha 10: identificador abastecimento nao declarado
+Linha 13: atribuicao nao compativel para consumo
+Fim da compilacao
+Linha 10: identificador abastecimento nao declarado
+Linha 13: atribuicao nao compativel para consumo
+Fim da compilacao
+Linha 10: identificador abastecimento nao declarado
+Fim da compilacao
+Linha 14: atribuicao nao compativel para ^ponteiro
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador  nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 11: identificador Preco nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 16: identificador vinho.Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador vinho.Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 16: identificador vinho.Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador vinho.Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 16: identificador vinho.Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador vinho.Preco nao declarado
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador vinho.Preco nao declarado
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador vinho.Preco nao declarado
+Linha 16: identificador Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador vinho.Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 16: identificador vinho.Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador Preco nao declarado
+Linha 16: identificador vinho.Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador vinho.Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Linha 9: atribuicao nao compativel para ponto1.x
+Fim da compilacao
+Linha 11: atribuicao nao compativel para valor
+Linha 11: atribuicao nao compativel para valor[0]
+Linha 17: atribuicao nao compativel para soma
+Linha 17: atribuicao nao compativel para soma
+Linha 17: atribuicao nao compativel para soma
+Linha 19: identificador media_final nao declarado
+Fim da compilacao
+Linha 11: atribuicao nao compativel para valor
+Linha 11: atribuicao nao compativel para valor[0]
+Linha 17: atribuicao nao compativel para soma
+Linha 17: atribuicao nao compativel para soma
+Linha 17: atribuicao nao compativel para soma
+Fim da compilacao
+Linha 11: atribuicao nao compativel para valor
+Linha 11: atribuicao nao compativel para valor[0]
+Linha 17: atribuicao nao compativel para soma
+Linha 17: atribuicao nao compativel para soma
+Linha 17: atribuicao nao compativel para soma
+Linha 19: identificador soma nao declarado
+Fim da compilacao
+Linha 11: atribuicao nao compativel para valor
+Linha 11: atribuicao nao compativel para valor[0]
+Linha 17: atribuicao nao compativel para soma
+Linha 17: atribuicao nao compativel para soma
+Linha 17: atribuicao nao compativel para soma
+Linha 19: identificador media_final nao declarado
+Fim da compilacao
+Linha 11: atribuicao nao compativel para valor
+Linha 19: identificador media_final nao declarado
+Fim da compilacao
+Linha 11: atribuicao nao compativel para valor
+Linha 19: identificador media_final nao declarado
+Fim da compilacao
+Linha 11: atribuicao nao compativel para valor
+Linha 19: identificador media_final nao declarado
+Fim da compilacao
+Linha 11: atribuicao nao compativel para valor
+Linha 19: identificador media_final nao declarado
+Fim da compilacao
+Linha 11: atribuicao nao compativel para valor
+Linha 19: identificador media_final nao declarado
+Fim da compilacao
+Linha 11: atribuicao nao compativel para valor
+Linha 19: identificador media_final nao declarado
+Fim da compilacao
+Linha 11: atribuicao nao compativel para valor
+Linha 19: identificador media_final nao declarado
+Fim da compilacao
+Linha 11: atribuicao nao compativel para valor
+Linha 19: identificador media_final nao declarado
+Fim da compilacao
+Linha 11: atribuicao nao compativel para valor
+Linha 19: identificador media_final nao declarado
+Fim da compilacao
+Linha 11: atribuicao nao compativel para valor
+Linha 19: identificador media_final nao declarado
+Fim da compilacao
+Linha 11: atribuicao nao compativel para valor
+Linha 19: identificador media_final nao declarado
+Fim da compilacao
+Linha 11: atribuicao nao compativel para valor
+Linha 19: identificador media_final nao declarado
+Fim da compilacao
+Linha 11: atribuicao nao compativel para valor
+Linha 19: identificador media_final nao declarado
+Fim da compilacao
+Linha 11: atribuicao nao compativel para valor
+Linha 19: identificador media_final nao declarado
+Fim da compilacao
+Linha 11: atribuicao nao compativel para valor
+Linha 19: identificador media_final nao declarado
+Fim da compilacao
+Linha 11: atribuicao nao compativel para valor[0]
+Linha 19: identificador media_final nao declarado
+Fim da compilacao
+Linha 11: atribuicao nao compativel para valor[0]
+Linha 19: identificador media_final nao declarado
+Fim da compilacao

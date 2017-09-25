@@ -31,7 +31,7 @@ public class PilhaDeTabelas {
 
     public void desempilhar() {
         TabelaDeSimbolos ret = pilha.pop();
-        sp.println(ret.toString());
+        //sp.println(ret.toString());
     }
 
     public List getTodasTabelas() {

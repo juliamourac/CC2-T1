@@ -7,25 +7,123 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="628c16ee-dd88-4736-9140-695de509525e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/LA.tokens" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/LABaseListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/LABaseVisitor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/LALexer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/LALexer.tokens" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/LAListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/LAParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/LAVisitor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/CC2_T1_jar/teste.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CC2-T1/AnalisadorSemantico.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/1.declaracao_leitura_impressao_inteiro.alg.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/10.caso_impressao.alg.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/11.constante_caso_impressao.alg.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/12.para_declaracao_impressao.alg.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/13.enquanto_declaracao_impressao.alg.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/14.faca-ate_declaracao_impressao.alg.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/15.ponteiro_impressao.alg.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/16.registro_impressao.alg.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/17.registro_tipo_impressao.alg.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/18.procedimento_impressao.alg.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/19.funcao_dobro_impressao.alg.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/2.declaracao_leitura_impressao_real.alg.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/20.vetor_repeticao_impressao.alg.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/3.declaracao_leitura_impressao_literal.alg.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/4.declaracao_leitura_impressao_inteiro_literal.alg.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/5.declaracao_leitura_impressao_expressao_real.alg.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/6.declaracao_leitura_atribuicao_impressao_real.alg.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/7.se_entao_impressao.alg.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/8.se_entao_senao_impressao.alg.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/9.se_entao_expressao_impressao.alg.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_erro_1.algoritmo_2-2_apostila_LA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_erro_10.algoritmo_7-2_apostila_LA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_erro_11.algoritmo_8-1_apostila_LA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_erro_12.algoritmo_8-3_apostila_LA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_erro_14.algoritmo_10-1_apostila_LA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_erro_15.algoritmo_11-1_apostila_LA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_erro_16.algoritmo_3-3_apostila_LA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_erro_17.algoritmo_9-2_apostila_LA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_erro_18.algoritmo_2-2_apostila_LA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_erro_2.algoritmo_2-4_apostila_LA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_erro_3.algoritmo_3-1_apostila_LA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_erro_4.algoritmo_3-2_apostila_LA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_erro_5.algoritmo_3-3_apostila_LA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_erro_6.algoritmo_4-5_apostila_LA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_erro_7.algoritmo_5-3_apostila_LA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_erro_8.algoritmo_6-2_apostila_LA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_erro_9.algoritmo_6-9_apostila_LA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_1-algoritmo_2-2_apostila_LA_1_erro_linha_3_acusado_linha_10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_10-algoritmo_2-4_apostila_LA_1_erro_linha_16.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_11-algoritmo_3-1_apostila_LA_1_erro_linha_6_acusado_linha_9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_12-algoritmo_3-1_apostila_LA_1_erro_linha_13.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_13-algoritmo_3-1_apostila_LA_1_erro_linha_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_14-algoritmo_3-2_apostila_LA_1_erro_linha_15.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_15-algoritmo_3-3_apostila_LA_1_erro_linha_21.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_16-algoritmo_3-3_apostila_LA_1_erro_linha_11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_17-algoritmo_3-3_apostila_LA_1_erro_linha_15.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_18-algoritmo_3-3_apostila_LA_1_erro_linha_21.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_19-algoritmo_4-5_apostila_LA_1_erro_linha_29.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_2-algoritmo_2-2_apostila_LA_1_erro_linha_15.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_20-algoritmo_5-1_apostila_LA_1_erro_linha_15_acusado_linha_16.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_21-algoritmo_5-1_apostila_LA_1_erro_linha_19_acusado_linha_20.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_22-algoritmo_5-3_apostila_LA_1_erro_linha_26_acusado_linha_27.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_23-algoritmo_5-4_apostila_LA_1_erro_linha_10_acusado_linha_11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_24-algoritmo_5-4_apostila_LA_1_erro_linha_11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_25-algoritmo_5-4_apostila_LA_1_erro_linha_15.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_26-algoritmo_5-4_apostila_LA_1_erro_linha_13.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_27-algoritmo_5-4_apostila_LA_1_erro_linha_18_acusado_linha_19.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_28-algoritmo_6-1_apostila_LA_1_erro_linha_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_29-algoritmo_6-1_apostila_LA_1_erro_linha_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_3-algoritmo_2-2_apostila_LA_1_erro_linha_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_30-algoritmo_6-1_apostila_LA_1_erro_linha_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_31-algoritmo_6-1_apostila_LA_1_erro_linha_8_acusado_linha_9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_32-algoritmo_6-1_apostila_LA_1_erro_linha_11_acusado_linha_12.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_33-algoritmo_6-2_apostila_LA_1_erro_linha_10_acusado_linha_12.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_34-algoritmo_6-2_apostila_LA_1_erro_linha_16_acusado_linha_21.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_35-algoritmo_6-4_apostila_LA_1_erro_linha_16_acusado_linha_17.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_36-algoritmo_6-4_apostila_LA_1_erro_linha_16.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_37-algoritmo_6-5_apostila_LA_1_erro_linha_18.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_38-algoritmo_6-6_apostila_LA_1_erro_linha_23.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_39-algoritmo_6-9_apostila_LA_1_erro_linha_30.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_4-algoritmo_2-2_apostila_LA_1_erro_linha_10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_40-algoritmo_6-10_apostila_LA_1_erro_linha_26_acusado_linha_27.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_41-algoritmo_7-1_apostila_LA_1_erro_linha_6_acusado_linha_7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_42-algoritmo_7-1_apostila_LA_1_erro_linha_10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_43-algoritmo_7-2_apostila_LA_1_erro_linha_14.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_44-algoritmo_7-3_apostila_LA_1_erro_linha_27.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_45-algoritmo_8-1_apostila_LA_1_erro_linha_6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_46-algoritmo_8-1_apostila_LA_1_erro_linha_7_acusado_linha_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_47-algoritmo_8-1_apostila_LA_1_erro_linha_18.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_48-algoritmo_8-2_apostila_LA_1_erro_linha_34.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_49-algoritmo_9-2_apostila_LA_1_erro_linha_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_5-algoritmo_2-2_apostila_LA_1_erro_linha_11_acusado_linha_14.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_50-algoritmo_9-2_apostila_LA_1_erro_linha_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_51-algoritmo_9-2_apostila_LA_1_erro_linha_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_52-algoritmo_9-2_apostila_LA_1_erro_linha_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_53-algoritmo_9-2_apostila_LA_1_erro_linha_26_acusado_linha_28.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_54-algoritmo_9-4_apostila_LA_1_erro_linha_3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_55-algoritmo_9-4_apostila_LA_1_erro_linha_21_acusado_linha_23.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_56-algoritmo_10-2_apostila_LA_1_erro_linha_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_57-algoritmo_10-2_apostila_LA_1_erro_linha_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_58-algoritmo_10-2_apostila_LA_1_erro_linha_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_59-algoritmo_10-2_apostila_LA_1_erro_linha_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_6-algoritmo_2-2_apostila_LA_1_erro_linha_14.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_60-algoritmo_10-4_apostila_LA_1_erro_linha_3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_61-algoritmo_10-4_apostila_LA_1_erro_linha_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_62-algoritmo_10-4_apostila_LA_1_erro_linha_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_7-algoritmo_2-3_apostila_LA_1_erro_linha_9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_8-algoritmo_2-3_apostila_LA_1_erro_linha_12.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_9-algoritmo_2-4_apostila_LA_1_erro_linha_13_acusado_linha_16.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CC2_T1_jar/CC2-T1.jar" afterPath="$PROJECT_DIR$/out/artifacts/CC2_T1_jar/CC2-T1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/Mensagens.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/Mensagens.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/PilhaDeTabelas.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/PilhaDeTabelas.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/Principal.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/Principal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/SaidaParser.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/SaidaParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/TabelaDeSimbolos.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/TabelaDeSimbolos.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Correcao.bat" afterPath="$PROJECT_DIR$/Correcao.bat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/LA.g4" afterPath="$PROJECT_DIR$/out/production/CC2-T1/LA.g4" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AnalisadorSemantico.java" afterPath="$PROJECT_DIR$/src/AnalisadorSemantico.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LA.g4" afterPath="$PROJECT_DIR$/src/LA.g4" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mensagens.java" afterPath="$PROJECT_DIR$/src/Mensagens.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PilhaDeTabelas.java" afterPath="$PROJECT_DIR$/src/PilhaDeTabelas.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Principal.java" afterPath="$PROJECT_DIR$/src/Principal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SaidaParser.java" afterPath="$PROJECT_DIR$/src/SaidaParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TabelaDeSimbolos.java" afterPath="$PROJECT_DIR$/src/TabelaDeSimbolos.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_erro_13.algoritmo_9-4_apostila_LA.txt" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_erro_13.algoritmo_9-4_apostila_LA.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teste.txt" afterPath="$PROJECT_DIR$/teste.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,61 +133,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/CC2_T1$Principal.coverage" NAME="Principal Coverage Results" MODIFIED="1506269318120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="CC2-T1" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Mensagens.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Mensagens.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LA.g4" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LA.g4">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="e#12#66#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Principal.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Principal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Principal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ErrorListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ErrorListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnalisadorSemantico.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AnalisadorSemantico.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="392" column="14" lean-forward="true" selection-start-line="392" selection-start-column="14" selection-end-line="392" selection-end-column="14" />
+            <state relative-caret-position="323">
+              <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,9 +157,83 @@
       <file leaf-file-name="PilhaDeTabelas.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PilhaDeTabelas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="212">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="e#401#402#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnalisadorSemantico.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AnalisadorSemantico.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="338" column="22" lean-forward="false" selection-start-line="338" selection-start-column="22" selection-end-line="338" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#447#455#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RuleContext.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/RuleContext.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TerminalNodeImpl.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/tree/TerminalNodeImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding>
+                <element signature="e#1353#1354#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonToken.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/CommonToken.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+              <folding>
+                <element signature="e#2778#2779#0" expanded="true" />
+                <element signature="e#2810#2811#0" expanded="true" />
+                <element signature="e#3802#3803#0" expanded="true" />
+                <element signature="e#3850#3851#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Interval.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/misc/Interval.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ANTLRInputStream.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/ANTLRInputStream.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+              <folding>
+                <element signature="e#3552#3553#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,12 +241,14 @@
       <file leaf-file-name="LAParser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LAParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2159">
-              <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+            <state relative-caret-position="107">
+              <caret line="1626" column="0" lean-forward="false" selection-start-line="1626" selection-start-column="0" selection-end-line="1626" selection-end-column="0" />
               <folding>
-                <element signature="e#6540#6541#0" expanded="true" />
-                <element signature="e#6598#6599#0" expanded="true" />
+                <element signature="e#6630#6631#0" expanded="true" />
                 <element signature="e#6682#6683#0" expanded="true" />
+                <element signature="e#49000#49001#0" expanded="true" />
+                <element signature="e#51009#51010#0" expanded="true" />
+                <element signature="e#51074#51075#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,9 +257,12 @@
       <file leaf-file-name="ParserRuleContext.class" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/ParserRuleContext.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2907">
-              <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="98">
+              <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+              <folding>
+                <element signature="e#6442#6443#0" expanded="true" />
+                <element signature="e#6509#6510#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,39 +278,40 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pr</find>
-      <find>pri</find>
-      <find>prin</find>
-      <find>system.</find>
-      <find>system</find>
+      <find>termo</find>
+      <find>logica</find>
+      <find>parcela_nao_unario</find>
+      <find>name</find>
+      <find>atr</find>
+      <find>tipoAtr</find>
+      <find>escopo</find>
+      <find>adici</find>
+      <find>tipo_es</find>
+      <find>tipo_estendido</find>
+      <find>tipo_basico</find>
+      <find>Sys</find>
+      <find>tipo</find>
+      <find>adiciona</find>
+      <find>mensagem.erro_tipo</find>
       <find>syste</find>
-      <find>syst</find>
+      <find>parcela_una</find>
+      <find>visitOutro</find>
+      <find>unario</find>
+      <find>identifica</find>
+      <find>declare</find>
+      <find>outros_ident</find>
+      <find>registro</find>
+      <find>visitRegistro</find>
+      <find>identi</find>
+      <find>&lt;-</find>
+      <find>partes</find>
       <find>sys</find>
-      <find>sy</find>
-      <find>s</find>
-      <find>p</find>
-      <find>print</find>
-      <find>syntaxErrorListener</find>
-      <find>syntaxErrorListene</find>
-      <find>syntaxErrorL</find>
-      <find>syntaxError</find>
-      <find>no viable alternative at input</find>
-      <find>funcao</find>
-      <find>local</find>
-      <find>funca</find>
-      <find>tipoDe</find>
-      <find>escopoAtual</find>
-      <find>declaracao_global:</find>
-      <find>LinguagemLAParser</find>
-      <find>Aqui</find>
-      <find>aqui</find>
-      <find>corpo</find>
-      <find>decl_local_global : declaracao_local | declaracao_global;</find>
-      <find>mensa</find>
-      <find>mensage</find>
+      <find>visitTermo</find>
+      <find>cmd</find>
     </findStrings>
     <replaceStrings>
       <replace>LAParser</replace>
+      <replace>nome</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -197,21 +334,24 @@
         <option value="$PROJECT_DIR$/src/LALexer.java" />
         <option value="$PROJECT_DIR$/src/Tipo.java" />
         <option value="$PROJECT_DIR$/src/EntradaTabelaDeSimbolos.java" />
-        <option value="$PROJECT_DIR$/src/PilhaDeTabelas.java" />
         <option value="$PROJECT_DIR$/src/SaidaParser.java" />
-        <option value="$PROJECT_DIR$/src/TabelaDeSimbolos.java" />
-        <option value="$PROJECT_DIR$/src/LA.g4" />
         <option value="$PROJECT_DIR$/src/ErrorListener.java" />
         <option value="$PROJECT_DIR$/src/Mensagens.java" />
+        <option value="$PROJECT_DIR$/src/TabelaDeSimbolos.java" />
+        <option value="$PROJECT_DIR$/src/PilhaDeTabelas.java" />
+        <option value="$PROJECT_DIR$/src/LA.g4" />
         <option value="$PROJECT_DIR$/src/Principal.java" />
         <option value="$PROJECT_DIR$/src/AnalisadorSemantico.java" />
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1370" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectView">
@@ -230,8 +370,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,10 +398,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/casosDeTesteT1/2.arquivos_com_erros_semanticos/entrada/1.algoritmo_2-2_apostila_LA.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/LA.g4" />
     <property name="$PROJECT_DIR$/src/LA.g4::/auto-gen" value="false" />
     <property name="$PROJECT_DIR$/src/LA.g4::/output-dir" value="C:\Users\etoal\Documents\Ufscar\CC2\CC2-T1\src" />
     <property name="$PROJECT_DIR$/src/LA.g4::/gen-listener" value="true" />
@@ -546,38 +686,39 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3927987" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3764321" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3465649" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3927987" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24886535" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5613748" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42880523" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3927987" sideWeight="0.5030257" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.47427294" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26841244" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17480916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26022914" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.49217004" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39116204" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18003273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5257271" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.032733224" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -593,24 +734,24 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3927987" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24886535" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4599018" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2526475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5613748" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2569558" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18003273" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18003273" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3764321" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3414264" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26841244" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3540091" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.032733224" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -622,7 +763,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="69" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AnalisadorSemantico.java</url>
+          <line>457</line>
+          <properties />
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="162" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -631,43 +780,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/ProxyErrorListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/Parser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3655">
-          <caret line="269" column="0" lean-forward="false" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/DefaultErrorStrategy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="67" column="42" lean-forward="false" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LALexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LAListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/Recognizer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2465">
@@ -686,11 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3978">
           <caret line="234" column="32" lean-forward="false" selection-start-line="234" selection-start-column="32" selection-end-line="234" selection-end-column="32" />
-          <folding>
-            <element signature="e#6540#6541#0" expanded="true" />
-            <element signature="e#6598#6599#0" expanded="true" />
-            <element signature="e#6682#6683#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -708,7 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -733,7 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -758,7 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -817,18 +921,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/RuleContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LAListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -850,13 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/ANTLRInputStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -906,26 +995,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tipo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TabelaDeSimbolos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#374#375#0" expanded="false" />
-            <element signature="e#442#443#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -933,7 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
           <caret line="139" column="47" lean-forward="false" selection-start-line="139" selection-start-column="47" selection-end-line="139" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -941,7 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -949,7 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -960,77 +1026,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/ParserRuleContext.class">
+    <entry file="file://$PROJECT_DIR$/src/Teste.java" />
+    <entry file="file://$PROJECT_DIR$/src/ErrorListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2907">
-          <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tipo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="1966" column="0" lean-forward="false" selection-start-line="1966" selection-start-column="0" selection-end-line="1966" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Teste.java" />
-    <entry file="file://$PROJECT_DIR$/src/LAParser.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/FileInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2159">
-          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
-          <folding>
-            <element signature="e#6540#6541#0" expanded="true" />
-            <element signature="e#6598#6599#0" expanded="true" />
-            <element signature="e#6682#6683#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="143">
+          <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TabelaDeSimbolos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LA.g4">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="94">
+          <caret line="61" column="23" lean-forward="false" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
           <folding>
             <element signature="e#12#66#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ErrorListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PilhaDeTabelas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Mensagens.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="424">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnalisadorSemantico.java">
+    <entry file="file://$PROJECT_DIR$/src/Principal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="392" column="14" lean-forward="true" selection-start-line="392" selection-start-column="14" selection-end-line="392" selection-end-column="14" />
+        <state relative-caret-position="323">
+          <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Principal.java">
+    <entry file="file://$PROJECT_DIR$/src/LAParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="107">
+          <caret line="1626" column="0" lean-forward="false" selection-start-line="1626" selection-start-column="0" selection-end-line="1626" selection-end-column="0" />
+          <folding>
+            <element signature="e#6630#6631#0" expanded="true" />
+            <element signature="e#6682#6683#0" expanded="true" />
+            <element signature="e#49000#49001#0" expanded="true" />
+            <element signature="e#51009#51010#0" expanded="true" />
+            <element signature="e#51074#51075#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PilhaDeTabelas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#401#402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/ParserRuleContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding>
+            <element signature="e#6442#6443#0" expanded="true" />
+            <element signature="e#6509#6510#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/ANTLRInputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding>
+            <element signature="e#3552#3553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/misc/Interval.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/CommonToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding>
+            <element signature="e#2778#2779#0" expanded="true" />
+            <element signature="e#2810#2811#0" expanded="true" />
+            <element signature="e#3802#3803#0" expanded="true" />
+            <element signature="e#3850#3851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/tree/TerminalNodeImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="e#1353#1354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/RuleContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnalisadorSemantico.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="338" column="22" lean-forward="false" selection-start-line="338" selection-start-column="22" selection-end-line="338" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#447#455#0" expanded="true" />
           </folding>
         </state>
       </provider>

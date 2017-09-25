@@ -1,2 +1,0 @@
-Linha 7: erro sintatico proximo a declare
-Fim da compilacao
