@@ -7,30 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="628c16ee-dd88-4736-9140-695de509525e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_erro_13.algoritmo_9-4_apostila_LA.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_ok_1.algoritmo_2-2_apostila_LA.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_ok_10.algoritmo_7-2_apostila_LA.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_ok_11.algoritmo_8-1_apostila_LA.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_ok_12.algoritmo_8-3_apostila_LA.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_ok_14.algoritmo_10-1_apostila_LA.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_ok_15.algoritmo_11-1_apostila_LA.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_ok_16.algoritmo_3-3_apostila_LA.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_ok_17.algoritmo_9-2_apostila_LA.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_ok_18.algoritmo_2-2_apostila_LA.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_ok_2.algoritmo_2-4_apostila_LA.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_ok_3.algoritmo_3-1_apostila_LA.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_ok_4.algoritmo_3-2_apostila_LA.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_ok_5.algoritmo_3-3_apostila_LA.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_ok_6.algoritmo_4-5_apostila_LA.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_ok_7.algoritmo_5-3_apostila_LA.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_ok_8.algoritmo_6-2_apostila_LA.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaSemanticoComErros/_ok_9.algoritmo_6-9_apostila_LA.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CC2_T1_jar/CC2-T1.jar" afterPath="$PROJECT_DIR$/out/artifacts/CC2_T1_jar/CC2-T1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/AnalisadorSemantico.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/AnalisadorSemantico.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CC2-T1/AnalisadorSemantico.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Correcao.bat" afterPath="$PROJECT_DIR$/Correcao.bat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AnalisadorSemantico.java" afterPath="$PROJECT_DIR$/src/AnalisadorSemantico.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mensagens.java" afterPath="$PROJECT_DIR$/src/Mensagens.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Principal.java" afterPath="$PROJECT_DIR$/src/Principal.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teste.txt" afterPath="$PROJECT_DIR$/teste.txt" />
     </list>
@@ -64,13 +43,27 @@
       <file leaf-file-name="AnalisadorSemantico.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AnalisadorSemantico.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="685" column="33" lean-forward="false" selection-start-line="685" selection-start-column="19" selection-end-line="685" selection-end-column="33" />
+            <state relative-caret-position="247">
+              <caret line="711" column="75" lean-forward="true" selection-start-line="711" selection-start-column="75" selection-end-line="711" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#490#498#0" expanded="true" />
                 <element signature="e#547#555#0" expanded="true" />
-                <marker date="1506437238152" expanded="true" signature="31461:31532" ph="{...}" />
+                <marker date="1506440354983" expanded="true" signature="32366:32437" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TerminalNodeImpl.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/tree/TerminalNodeImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <folding>
+                <element signature="e#1309#1310#0" expanded="true" />
+                <element signature="e#1353#1354#0" expanded="true" />
+                <element signature="e#1552#1553#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/src/LAParser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="107">
-              <caret line="1839" column="0" lean-forward="false" selection-start-line="1839" selection-start-column="0" selection-end-line="1839" selection-end-column="0" />
+              <caret line="3230" column="37" lean-forward="false" selection-start-line="3230" selection-start-column="37" selection-end-line="3230" selection-end-column="37" />
               <folding>
                 <element signature="e#52448#52449#0" expanded="true" />
                 <element signature="e#52498#52499#0" expanded="true" />
@@ -91,11 +84,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="PilhaDeTabelas.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PilhaDeTabelas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-13">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="e#401#402#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Principal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Principal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" column="10" lean-forward="false" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+            <state relative-caret-position="823">
+              <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,7 +141,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;-</find>
       <find>partes</find>
       <find>visitTermo</find>
       <find>declara</find>
@@ -154,7 +158,6 @@
       <find>\</find>
       <find>chamada</find>
       <find>escreva</find>
-      <find>chamada_parte</find>
       <find>visitChamada_par</find>
       <find>sys</find>
       <find>func</find>
@@ -162,10 +165,12 @@
       <find>funca</find>
       <find>fun</find>
       <find>retTipo</find>
-      <find>funcao</find>
-      <find>cmd</find>
       <find>Sys</find>
       <find>chamada_partes</find>
+      <find>cmd</find>
+      <find>chamada_parte</find>
+      <find>funcao</find>
+      <find>chamada_par</find>
     </findStrings>
     <replaceStrings>
       <replace>LAParser</replace>
@@ -197,8 +202,8 @@
         <option value="$PROJECT_DIR$/src/TabelaDeSimbolos.java" />
         <option value="$PROJECT_DIR$/src/PilhaDeTabelas.java" />
         <option value="$PROJECT_DIR$/src/LA.g4" />
-        <option value="$PROJECT_DIR$/src/Principal.java" />
         <option value="$PROJECT_DIR$/src/Mensagens.java" />
+        <option value="$PROJECT_DIR$/src/Principal.java" />
         <option value="$PROJECT_DIR$/src/AnalisadorSemantico.java" />
       </list>
     </option>
@@ -558,7 +563,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3927987" sideWeight="0.5030257" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.47427294" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15057284" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24222586" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -622,7 +627,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="175" />
+      <option name="time" value="182" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -901,31 +906,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PilhaDeTabelas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#401#402#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/RuleContext.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/tree/TerminalNodeImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding>
-            <element signature="e#1353#1354#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -996,12 +981,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Principal.java">
+    <entry file="file://$PROJECT_DIR$/src/Mensagens.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="10" lean-forward="false" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+        <state relative-caret-position="360">
+          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PilhaDeTabelas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1009,7 +1002,7 @@
     <entry file="file://$PROJECT_DIR$/src/LAParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
-          <caret line="1839" column="0" lean-forward="false" selection-start-line="1839" selection-start-column="0" selection-end-line="1839" selection-end-column="0" />
+          <caret line="3230" column="37" lean-forward="false" selection-start-line="3230" selection-start-column="37" selection-end-line="3230" selection-end-column="37" />
           <folding>
             <element signature="e#52448#52449#0" expanded="true" />
             <element signature="e#52498#52499#0" expanded="true" />
@@ -1019,23 +1012,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mensagens.java">
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/tree/TerminalNodeImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="276">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="e#1309#1310#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1552#1553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="823">
+          <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AnalisadorSemantico.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="685" column="33" lean-forward="false" selection-start-line="685" selection-start-column="19" selection-end-line="685" selection-end-column="33" />
+        <state relative-caret-position="247">
+          <caret line="711" column="75" lean-forward="true" selection-start-line="711" selection-start-column="75" selection-end-line="711" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#490#498#0" expanded="true" />
             <element signature="e#547#555#0" expanded="true" />
-            <marker date="1506437238152" expanded="true" signature="31461:31532" ph="{...}" />
+            <marker date="1506440354983" expanded="true" signature="32366:32437" ph="{...}" />
           </folding>
         </state>
       </provider>

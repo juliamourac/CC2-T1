@@ -730,3 +730,121 @@ Linha 44: incompatibilidade de parametros na chamada de menorInteiro
 Fim da compilacao
 Linha 44: incompatibilidade de parametros na chamada de menorInteiro
 Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Linha 46: incompatibilidade de parametros na chamada de menorReal
+Linha 46: incompatibilidade de parametros na chamada de menorReal
+Linha 50: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de menorReal
+Linha 58: incompatibilidade de parametros na chamada de menorReal
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Linha 46: incompatibilidade de parametros na chamada de menorReal
+Linha 46: incompatibilidade de parametros na chamada de menorReal
+Linha 50: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de menorReal
+Linha 58: incompatibilidade de parametros na chamada de menorReal
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Linha 46: incompatibilidade de parametros na chamada de menorReal
+Linha 46: incompatibilidade de parametros na chamada de menorReal
+Linha 50: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de menorReal
+Linha 58: incompatibilidade de parametros na chamada de menorReal
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Linha 46: incompatibilidade de parametros na chamada de menorReal
+Linha 50: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Linha 46: incompatibilidade de parametros na chamada de menorReal
+Linha 50: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Linha 46: incompatibilidade de parametros na chamada de menorReal
+Linha 50: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Linha 46: incompatibilidade de parametros na chamada de menorReal
+Linha 50: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Linha 46: incompatibilidade de parametros na chamada de menorReal
+Linha 50: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Linha 46: incompatibilidade de parametros na chamada de menorReal
+Linha 50: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Linha 46: incompatibilidade de parametros na chamada de menorReal
+Linha 50: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Linha 46: incompatibilidade de parametros na chamada de menorReal
+Linha 50: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Linha 46: incompatibilidade de parametros na chamada de menorReal
+Linha 50: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Linha 46: incompatibilidade de parametros na chamada de menorReal
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Linha 46: incompatibilidade de parametros na chamada de menorReal
+Fim da compilacao

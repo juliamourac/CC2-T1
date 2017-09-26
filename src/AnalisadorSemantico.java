@@ -33,17 +33,27 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
             return "literal";
     }
 
-    public int getNumeroParam(String Param){
+    public int getNumeroParam(String param){
         String[] partes;
         for(String funcao : funcoes){
             partes = funcao.split(",");
-            if(partes[0].equals(Param))
+            if(partes[0].equals(param))
                 return Integer.parseInt(partes[1]);
         }
         return -1;
     }
 
-    @Override
+    public String getRetFuncao(String param) {
+        String[] partes;
+        for (String funcao : funcoes) {
+            partes = funcao.split(",");
+            if (partes[0].equals(param))
+                return partes[2];
+        }
+        return null;
+    }
+
+        @Override
     public String visitPrograma(LAParser.ProgramaContext ctx){
         //programa : declaracoes 'algoritmo' corpo 'fim_algoritmo';
         if(ctx.children != null){
@@ -285,7 +295,7 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
             pilhaTabela.empilhar(new TabelaDeSimbolos("funcao "+ctx.IDENT().getText()));
             countPar = 0;
             visitParametros_opcional(ctx.parametros_opcional());
-            funcoes.add(ctx.IDENT().getText() +","+ countPar);
+            funcoes.add(ctx.IDENT().getText() +","+ countPar +","+ctx.tipo_estendido().getText());
             visitTipo_estendido(ctx.tipo_estendido());
             visitDeclaracoes_locais(ctx.declaracoes_locais());
             visitComandos(ctx.comandos());
@@ -685,11 +695,23 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
 
             if(ctx.chamada_partes().getText().startsWith("(")){
                 String[] partes;
+                String aux, chamada, funcaoTipo;
                 int nParam;
-                partes = ctx.chamada_partes().getText().split(",");
+
+                chamada = ctx.chamada_partes().getText();
+                aux = chamada.substring(1, chamada.length()-1);
+                partes = aux.split(",");
                 nParam = getNumeroParam(ctx.IDENT().toString());
+
+
                 if(nParam != partes.length && nParam > 0){
                     mensagem.erro_Incopatibilidade_de_Parametros(ctx.getStart().getLine(),ctx.IDENT().toString());
+                }else{
+                    funcaoTipo = getRetFuncao(ctx.IDENT().toString());
+                    for(int i = 0; i < partes.length; i++){
+                       if(!funcaoTipo.equals(pilhaTabela.topo().getValorTipoSimbolo(partes[i])) && !partes[i].contains("(") && !partes[i].contains("[") )
+                            mensagem.erro_Incopatibilidade_de_Parametros(ctx.getStart().getLine(),ctx.IDENT().toString());
+                    }
                 }
             }
             visitChamada_partes(ctx.chamada_partes());
