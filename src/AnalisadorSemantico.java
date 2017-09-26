@@ -39,7 +39,7 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
 			pilhaTabela.empilhar(new TabelaDeSimbolos("global"));
             visitDeclaracoes(ctx.declaracoes());
             visitCorpo(ctx.corpo());
-            //pilhaTabela.desempilhar();
+            pilhaTabela.desempilhar();
         }
 		sp.println("Fim da compilacao");
         return null;
@@ -126,19 +126,18 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
     @Override
     public String visitIdentificador(LAParser.IdentificadorContext ctx) {
         //identificador : ponteiros_opcionais IDENT dimensao outros_ident;
-
         if(ctx.children != null){
             TabelaDeSimbolos escopoAtual = pilhaTabela.topo();
             visitPonteiros_opcionais(ctx.ponteiros_opcionais());
             visitDimensao(ctx.dimensao());
             visitOutros_ident(ctx.outros_ident());
 
-            /*if(ctx.outros_ident().getText().startsWith(".")) {
-                if (ctx.getText().contains(".")) {
-                    String[] aux = ctx.getText().split("\\.");
-                    if (!escopoAtual.existeSimbolo(aux[1]))
-                        mensagem.erro_Ident_Nao_Declarado(ctx.getStart().getLine(), ctx.getText());
-                }
+           /* if(ctx.outros_ident().getText().startsWith(".")) {
+             //   if (ctx.getText().contains(".")) {
+              //      String[] aux = ctx.getText().split("\\.");
+               //     if (!escopoAtual.existeSimbolo(aux[1]))
+               //         mensagem.erro_Ident_Nao_Declarado(ctx.getStart().getLine(), ctx.getText());
+              //  }
             }else*/ if(!escopoAtual.existeSimbolo(ctx.IDENT().toString())){
                mensagem.erro_Ident_Nao_Declarado(ctx.getStart().getLine(), ctx.IDENT().toString());
            }
@@ -364,34 +363,34 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
                 | IDENT chamada_atribuicao
                 | 'retorne' expressao;*/
         if(ctx.children!= null) {
-            if (ctx.getText().startsWith("leia")) {
+            if (ctx.nomeCmd.equals("leia")) {
                 visitIdentificador(ctx.identificador());
                 visitMais_ident(ctx.mais_ident());
-            } else if (ctx.getText().startsWith("escreva")) {
+            } else if (ctx.nomeCmd.equals("escreva")) {
                 visitExpressao(ctx.expressao());
                 visitMais_expressao(ctx.mais_expressao());
-            } else if (ctx.getText().startsWith("se")) {
+            } else if (ctx.nomeCmd.equals("se")) {
                 visitExpressao(ctx.expressao());
                 visitComandos(ctx.comandos());
                 visitSenao_opcional(ctx.senao_opcional());
-            } else if (ctx.getText().startsWith("caso")) {
+            } else if (ctx.nomeCmd.equals("caso")) {
                 visitExp_aritmetica(ctx.exp_aritmetica().get(0));
                 visitSelecao(ctx.selecao());
                 visitSenao_opcional(ctx.senao_opcional());
-            } else if (ctx.getText().startsWith("para")) {
+            } else if (ctx.nomeCmd.equals("para")) {
                 if (!pilhaTabela.topo().existeSimbolo(ctx.IDENT().toString())) {
                     mensagem.erro_Tipo_Nao_Declarado(ctx.getStart().getLine(), ctx.IDENT().toString());
                 }
                 visitExp_aritmetica(ctx.exp_aritmetica().get(0));
                 visitExp_aritmetica(ctx.exp_aritmetica().get(1));
                 visitComandos(ctx.comandos());
-            } else if (ctx.getText().startsWith("enquanto")) {
+            } else if (ctx.nomeCmd.equals("enquanto")) {
                 visitExpressao(ctx.expressao());
                 visitComandos(ctx.comandos());
-            } else if (ctx.getText().startsWith("faca")) {
+            } else if (ctx.nomeCmd.equals("faca")) {
                 visitComandos(ctx.comandos());
                 visitExpressao(ctx.expressao());
-            } else if (ctx.getText().startsWith("^")) {
+            } else if (ctx.nomeCmd.equals("^")) {
                 if (!pilhaTabela.topo().existeSimbolo(ctx.IDENT().toString())) {
                     mensagem.erro_Ident_Nao_Declarado(ctx.getStart().getLine(), ctx.IDENT().toString());
                 }
@@ -415,15 +414,15 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
                 }
                 atr = false;
                 termos.clear();
-            } else if (ctx.chamada_atribuicao() != null) {
+            } else if (ctx.nomeCmd.equals("IDENT")){
                 //IDENT chamada_atribuicao
                 nomeAtr = ctx.IDENT().toString();
                 tipoAtr = pilhaTabela.topo().getValorTipoSimbolo(ctx.IDENT().toString());
                 atr = true;
 
-                String[] parts = ctx.chamada_atribuicao().getText().split("<-");
-                if (parts[0].startsWith("[") || parts[0].startsWith("."))
-                    posicaoVetorAtr = parts[0];
+                String[] partes = ctx.chamada_atribuicao().getText().split("<-");
+                if (partes[0].startsWith("[") || partes[0].startsWith("."))
+                    posicaoVetorAtr = partes[0];
                 else
                     posicaoVetorAtr = "";
 
@@ -453,7 +452,7 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
 
                 atr = false;
                 termos.clear();
-            } else if (ctx.getText().startsWith("retorne")) {
+            } else if (ctx.nomeCmd.equals("retorne")) {
                 if (pilhaTabela.topo().toString().startsWith("Escopo: global") || pilhaTabela.topo().toString().startsWith("Escopo: procedimento"))
                     mensagem.erro_Retorno_Nao_Permitido(ctx.getStart().getLine());
                 visitExpressao(ctx.expressao());

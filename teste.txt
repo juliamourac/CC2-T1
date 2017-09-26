@@ -633,3 +633,35 @@ Fim da compilacao
 Linha 11: atribuicao nao compativel para valor[0]
 Linha 19: identificador media_final nao declarado
 Fim da compilacao
+Linha 20: identificador vinho.nome nao declarado
+Linha 22: identificador vinho.nomeFabricante nao declarado
+Linha 24: identificador vinho.nomeDistribuidor nao declarado
+Linha 26: identificador vinho.tipoVinho nao declarado
+Linha 28: identificador vinho.anoSafra nao declarado
+Linha 30: identificador vinho.anoEnvasamento nao declarado
+Linha 32: identificador vinho.preco nao declarado
+Linha 34: identificador vinho.unidades nao declarado
+Linha 49: comando retorne nao permitido nesse escopo
+Fim da compilacao
+Linha 20: identificador vinho.nome nao declarado
+Linha 22: identificador vinho.nomeFabricante nao declarado
+Linha 24: identificador vinho.nomeDistribuidor nao declarado
+Linha 26: identificador vinho.tipoVinho nao declarado
+Linha 28: identificador vinho.anoSafra nao declarado
+Linha 30: identificador vinho.anoEnvasamento nao declarado
+Linha 32: identificador vinho.preco nao declarado
+Linha 34: identificador vinho.unidades nao declarado
+Linha 49: comando retorne nao permitido nesse escopo
+Fim da compilacao
+Linha 20: identificador vinho.nome nao declarado
+Linha 22: identificador vinho.nomeFabricante nao declarado
+Linha 24: identificador vinho.nomeDistribuidor nao declarado
+Linha 26: identificador vinho.tipoVinho nao declarado
+Linha 28: identificador vinho.anoSafra nao declarado
+Linha 30: identificador vinho.anoEnvasamento nao declarado
+Linha 32: identificador vinho.preco nao declarado
+Linha 34: identificador vinho.unidades nao declarado
+Linha 49: comando retorne nao permitido nesse escopo
+Fim da compilacao
+Linha 49: comando retorne nao permitido nesse escopo
+Fim da compilacao

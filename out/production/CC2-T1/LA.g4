@@ -58,16 +58,16 @@ corpo : declaracoes_locais comandos;
 
 comandos : cmd comandos | ;
 
-cmd : 'leia' '(' identificador mais_ident ')'
-    | 'escreva' '(' expressao mais_expressao ')'
-    | 'se' expressao 'entao' comandos senao_opcional 'fim_se'
-    | 'caso' exp_aritmetica 'seja' selecao senao_opcional 'fim_caso'
-	| 'para' IDENT '<-' exp_aritmetica 'ate' exp_aritmetica 'faca' comandos 'fim_para'
-    | 'enquanto' expressao 'faca' comandos 'fim_enquanto'
-    | 'faca' comandos 'ate' expressao
-    | '^' IDENT outros_ident dimensao '<-' expressao
-    | IDENT chamada_atribuicao
-    | 'retorne' expressao;
+cmd returns [String nomeCmd] : 'leia' '(' identificador mais_ident ')' {$nomeCmd = "leia";}
+                             | 'escreva' '(' expressao mais_expressao ')' {$nomeCmd = "escreva";}
+                             | 'se' expressao 'entao' comandos senao_opcional 'fim_se' {$nomeCmd = "se";}
+                             | 'caso' exp_aritmetica 'seja' selecao senao_opcional 'fim_caso' {$nomeCmd = "caso";}
+                             | 'para' IDENT '<-' exp_aritmetica 'ate' exp_aritmetica 'faca' comandos 'fim_para' {$nomeCmd = "para";}
+                             | 'enquanto' expressao 'faca' comandos 'fim_enquanto' {$nomeCmd = "enquanto";}
+                             | 'faca' comandos 'ate' expressao {$nomeCmd = "faca";}
+                             | '^' IDENT outros_ident dimensao '<-' expressao {$nomeCmd = "^";}
+                             | IDENT chamada_atribuicao {$nomeCmd = "IDENT";}
+                             | 'retorne' expressao {$nomeCmd = "retorne";};
 	   
 mais_expressao : ',' expressao mais_expressao | ;
 
@@ -93,7 +93,7 @@ op_unario: '-' | ;
 
 exp_aritmetica: termo outros_termos;
 
-op_multiplicacao: '*'| '/';
+op_multiplicacao: '*' | '/';
 
 op_adicao : '+' | '-';
  

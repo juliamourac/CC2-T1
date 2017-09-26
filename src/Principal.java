@@ -21,8 +21,8 @@ public class Principal {
         //C:\Users\etoal\Documents\Ufscar\CC2\CC2-T1\casosDeTesteT1\1.arquivos_com_erros_sintaticos\entrada\1-algoritmo_2-2_apostila_LA_1_erro_linha_3_acusado_linha_10
 
         try {
-           //ANTLRInputStream input = new ANTLRInputStream(new FileInputStream(args[0]));
-           ANTLRInputStream input = new ANTLRInputStream(new FileInputStream(caminho + teste));
+           ANTLRInputStream input = new ANTLRInputStream(new FileInputStream(args[0]));
+           //ANTLRInputStream input = new ANTLRInputStream(new FileInputStream(caminho + teste));
 
             LALexer lexer = new LALexer(input);
             CommonTokenStream tokens = new CommonTokenStream(lexer);
@@ -49,8 +49,8 @@ public class Principal {
         System.out.println("Saida: ");
         System.out.println(out);
 
-        //File arq1 = new File(args[1]);
-        File arq1 = new File("teste.txt");
+        File arq1 = new File(args[1]);
+        //File arq1 = new File("teste.txt");
         arq1.createNewFile();
         FileWriter arq1W = new FileWriter(arq1, true);
         BufferedWriter arq1B = new BufferedWriter( arq1W );
