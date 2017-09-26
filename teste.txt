@@ -665,3 +665,26 @@ Linha 49: comando retorne nao permitido nesse escopo
 Fim da compilacao
 Linha 49: comando retorne nao permitido nesse escopo
 Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador vinho.Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador vinho.Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador vinho.Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador vinho.Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao
+Linha 10: identificador tVinho ja declarado anteriormente
+Linha 16: identificador vinho.Preco nao declarado
+Linha 28: identificador vinhocaro.tipoVinho nao declarado
+Fim da compilacao

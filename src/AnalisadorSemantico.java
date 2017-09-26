@@ -12,7 +12,7 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
     private boolean atr;
     private String nomeAtr;
     private String tipoAtr;
-    private String posicaoVetorAtr;
+    private String VetorAtr;
     ArrayList<String> termos = new ArrayList<String>();
 
     public AnalisadorSemantico(SaidaParser sp){
@@ -132,13 +132,12 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
             visitDimensao(ctx.dimensao());
             visitOutros_ident(ctx.outros_ident());
 
-           /* if(ctx.outros_ident().getText().startsWith(".")) {
-             //   if (ctx.getText().contains(".")) {
-              //      String[] aux = ctx.getText().split("\\.");
-               //     if (!escopoAtual.existeSimbolo(aux[1]))
-               //         mensagem.erro_Ident_Nao_Declarado(ctx.getStart().getLine(), ctx.getText());
-              //  }
-            }else*/ if(!escopoAtual.existeSimbolo(ctx.IDENT().toString())){
+
+            if(ctx.outros_ident().getText().startsWith(".")) {
+                 String[] aux = ctx.getText().split("\\.");
+                 if (!pilhaTabela.existeSimbolo(aux[1]))
+                     mensagem.erro_Ident_Nao_Declarado(ctx.getStart().getLine(), ctx.getText());
+            }else if(!escopoAtual.existeSimbolo(ctx.IDENT().toString())){
                mensagem.erro_Ident_Nao_Declarado(ctx.getStart().getLine(), ctx.IDENT().toString());
            }
 
@@ -421,10 +420,10 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
                 atr = true;
 
                 String[] partes = ctx.chamada_atribuicao().getText().split("<-");
-                if (partes[0].startsWith("[") || partes[0].startsWith("."))
-                    posicaoVetorAtr = partes[0];
+                if (partes[0].startsWith("["))
+                    VetorAtr = partes[0];
                 else
-                    posicaoVetorAtr = "";
+                    VetorAtr = "";
 
                 if (tipoAtr != null)
                     visitChamada_atribuicao(ctx.chamada_atribuicao());
@@ -592,7 +591,7 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
             if(atr){
                 //!inteiro
                 if((tipoAtr.equals("real") || tipoAtr.equals("inteiro") || tipoAtr.equals("logico"))&& ctx.getText().charAt(0) == '"'){
-                    mensagem.erro_Atribuicao_Nao_Compativel(ctx.getStart().getLine(), nomeAtr+posicaoVetorAtr);
+                    mensagem.erro_Atribuicao_Nao_Compativel(ctx.getStart().getLine(), nomeAtr + VetorAtr);
                 }else if(!(tipoAtr.equals("literal") && ctx.getText().charAt(0) == '"'))
                     termos.add(ctx.getText());
             }

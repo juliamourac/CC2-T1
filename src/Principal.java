@@ -16,7 +16,7 @@ public class Principal {
 
         SaidaParser sp = new SaidaParser();
 
-        String teste = "15.algoritmo_11-1_apostila_LA.txt";
+        String teste = "12.algoritmo_8-3_apostila_LA.txt";
         String caminho = "C:\\Users\\etoal\\Documents\\Ufscar\\CC2\\CC2-T1\\casosDeTesteT1\\2.arquivos_com_erros_semanticos\\entrada\\";
         //C:\Users\etoal\Documents\Ufscar\CC2\CC2-T1\casosDeTesteT1\1.arquivos_com_erros_sintaticos\entrada\1-algoritmo_2-2_apostila_LA_1_erro_linha_3_acusado_linha_10
 
