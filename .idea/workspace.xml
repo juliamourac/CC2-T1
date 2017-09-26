@@ -6,92 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="628c16ee-dd88-4736-9140-695de509525e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/1.declaracao_leitura_impressao_inteiro.alg.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/10.caso_impressao.alg.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/11.constante_caso_impressao.alg.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/12.para_declaracao_impressao.alg.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/13.enquanto_declaracao_impressao.alg.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/14.faca-ate_declaracao_impressao.alg.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/15.ponteiro_impressao.alg.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/16.registro_impressao.alg.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/17.registro_tipo_impressao.alg.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/18.procedimento_impressao.alg.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/19.funcao_dobro_impressao.alg.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/2.declaracao_leitura_impressao_real.alg.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/20.vetor_repeticao_impressao.alg.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/3.declaracao_leitura_impressao_literal.alg.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/4.declaracao_leitura_impressao_inteiro_literal.alg.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/5.declaracao_leitura_impressao_expressao_real.alg.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/6.declaracao_leitura_atribuicao_impressao_real.alg.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/7.se_entao_impressao.alg.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/8.se_entao_senao_impressao.alg.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/9.se_entao_expressao_impressao.alg.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_1-algoritmo_2-2_apostila_LA_1_erro_linha_3_acusado_linha_10.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_10-algoritmo_2-4_apostila_LA_1_erro_linha_16.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_11-algoritmo_3-1_apostila_LA_1_erro_linha_6_acusado_linha_9.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_12-algoritmo_3-1_apostila_LA_1_erro_linha_13.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_13-algoritmo_3-1_apostila_LA_1_erro_linha_5.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_14-algoritmo_3-2_apostila_LA_1_erro_linha_15.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_15-algoritmo_3-3_apostila_LA_1_erro_linha_21.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_16-algoritmo_3-3_apostila_LA_1_erro_linha_11.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_17-algoritmo_3-3_apostila_LA_1_erro_linha_15.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_18-algoritmo_3-3_apostila_LA_1_erro_linha_21.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_19-algoritmo_4-5_apostila_LA_1_erro_linha_29.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_2-algoritmo_2-2_apostila_LA_1_erro_linha_15.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_20-algoritmo_5-1_apostila_LA_1_erro_linha_15_acusado_linha_16.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_21-algoritmo_5-1_apostila_LA_1_erro_linha_19_acusado_linha_20.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_22-algoritmo_5-3_apostila_LA_1_erro_linha_26_acusado_linha_27.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_23-algoritmo_5-4_apostila_LA_1_erro_linha_10_acusado_linha_11.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_24-algoritmo_5-4_apostila_LA_1_erro_linha_11.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_25-algoritmo_5-4_apostila_LA_1_erro_linha_15.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_26-algoritmo_5-4_apostila_LA_1_erro_linha_13.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_27-algoritmo_5-4_apostila_LA_1_erro_linha_18_acusado_linha_19.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_28-algoritmo_6-1_apostila_LA_1_erro_linha_8.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_29-algoritmo_6-1_apostila_LA_1_erro_linha_8.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_3-algoritmo_2-2_apostila_LA_1_erro_linha_5.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_30-algoritmo_6-1_apostila_LA_1_erro_linha_8.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_31-algoritmo_6-1_apostila_LA_1_erro_linha_8_acusado_linha_9.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_32-algoritmo_6-1_apostila_LA_1_erro_linha_11_acusado_linha_12.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_33-algoritmo_6-2_apostila_LA_1_erro_linha_10_acusado_linha_12.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_34-algoritmo_6-2_apostila_LA_1_erro_linha_16_acusado_linha_21.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_35-algoritmo_6-4_apostila_LA_1_erro_linha_16_acusado_linha_17.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_36-algoritmo_6-4_apostila_LA_1_erro_linha_16.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_37-algoritmo_6-5_apostila_LA_1_erro_linha_18.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_38-algoritmo_6-6_apostila_LA_1_erro_linha_23.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_39-algoritmo_6-9_apostila_LA_1_erro_linha_30.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_4-algoritmo_2-2_apostila_LA_1_erro_linha_10.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_40-algoritmo_6-10_apostila_LA_1_erro_linha_26_acusado_linha_27.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_41-algoritmo_7-1_apostila_LA_1_erro_linha_6_acusado_linha_7.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_42-algoritmo_7-1_apostila_LA_1_erro_linha_10.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_43-algoritmo_7-2_apostila_LA_1_erro_linha_14.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_44-algoritmo_7-3_apostila_LA_1_erro_linha_27.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_45-algoritmo_8-1_apostila_LA_1_erro_linha_6.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_46-algoritmo_8-1_apostila_LA_1_erro_linha_7_acusado_linha_8.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_47-algoritmo_8-1_apostila_LA_1_erro_linha_18.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_48-algoritmo_8-2_apostila_LA_1_erro_linha_34.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_49-algoritmo_9-2_apostila_LA_1_erro_linha_8.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_5-algoritmo_2-2_apostila_LA_1_erro_linha_11_acusado_linha_14.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_50-algoritmo_9-2_apostila_LA_1_erro_linha_8.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_51-algoritmo_9-2_apostila_LA_1_erro_linha_8.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_52-algoritmo_9-2_apostila_LA_1_erro_linha_8.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_53-algoritmo_9-2_apostila_LA_1_erro_linha_26_acusado_linha_28.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_54-algoritmo_9-4_apostila_LA_1_erro_linha_3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_55-algoritmo_9-4_apostila_LA_1_erro_linha_21_acusado_linha_23.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_56-algoritmo_10-2_apostila_LA_1_erro_linha_5.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_57-algoritmo_10-2_apostila_LA_1_erro_linha_5.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_58-algoritmo_10-2_apostila_LA_1_erro_linha_5.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_59-algoritmo_10-2_apostila_LA_1_erro_linha_5.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_6-algoritmo_2-2_apostila_LA_1_erro_linha_14.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_60-algoritmo_10-4_apostila_LA_1_erro_linha_3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_61-algoritmo_10-4_apostila_LA_1_erro_linha_5.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_62-algoritmo_10-4_apostila_LA_1_erro_linha_5.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_7-algoritmo_2-3_apostila_LA_1_erro_linha_9.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_8-algoritmo_2-3_apostila_LA_1_erro_linha_12.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaSintatico/_ok_9-algoritmo_2-4_apostila_LA_1_erro_linha_13_acusado_linha_16.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Correcao.bat" afterPath="$PROJECT_DIR$/Correcao.bat" />
-    </list>
+    <list default="true" id="628c16ee-dd88-4736-9140-695de509525e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -123,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/src/AnalisadorSemantico.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#490#498#0" expanded="true" />
@@ -1116,7 +1031,7 @@
     <entry file="file://$PROJECT_DIR$/src/AnalisadorSemantico.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#490#498#0" expanded="true" />
