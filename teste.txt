@@ -688,3 +688,45 @@ Linha 10: identificador tVinho ja declarado anteriormente
 Linha 16: identificador vinho.Preco nao declarado
 Linha 28: identificador vinhocaro.tipoVinho nao declarado
 Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Linha 46: incompatibilidade de parametros na chamada de menorReal
+Linha 50: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de menorReal
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Linha 58: incompatibilidade de parametros na chamada de modulo
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Fim da compilacao

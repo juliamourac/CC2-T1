@@ -1,4 +1,5 @@
 import java.lang.reflect.Array;
+import java.sql.Struct;
 import java.util.ArrayList;
 
 public class AnalisadorSemantico extends LABaseVisitor<String>  {
@@ -13,7 +14,9 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
     private String nomeAtr;
     private String tipoAtr;
     private String VetorAtr;
+    private int countPar;
     ArrayList<String> termos = new ArrayList<String>();
+    ArrayList<String> funcoes = new ArrayList<String>();
 
     public AnalisadorSemantico(SaidaParser sp){
         this.sp = sp;
@@ -21,13 +24,23 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
         atr = false;
     }
 
-    public String retTipo(String tipo){
+    public String getTipo(String tipo){
         if(tipo.matches("[+|-]?[0-9]"))
             return "inteiro";
         else if(tipo.matches("[+|-]?[0-9]+[.]?[0-9]*"))
             return "real";
         else
             return "literal";
+    }
+
+    public int getNumeroParam(String Param){
+        String[] partes;
+        for(String funcao : funcoes){
+            partes = funcao.split(",");
+            if(partes[0].equals(Param))
+                return Integer.parseInt(partes[1]);
+        }
+        return -1;
     }
 
     @Override
@@ -270,7 +283,9 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
                 pilhaTabela.topo().adicionarSimbolo(ctx.IDENT().getText(), "funcao");
             }
             pilhaTabela.empilhar(new TabelaDeSimbolos("funcao "+ctx.IDENT().getText()));
+            countPar = 0;
             visitParametros_opcional(ctx.parametros_opcional());
+            funcoes.add(ctx.IDENT().getText() +","+ countPar);
             visitTipo_estendido(ctx.tipo_estendido());
             visitDeclaracoes_locais(ctx.declaracoes_locais());
             visitComandos(ctx.comandos());
@@ -291,6 +306,7 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
     public String visitParametro(LAParser.ParametroContext ctx) {
         //parametro: var_opcional identificador mais_ident ':' tipo_estendido mais_parametros;
         if(ctx.children != null) {
+            countPar++;
             TabelaDeSimbolos escopoAtual = pilhaTabela.topo();
             visitVar_opcional(ctx.var_opcional());
             if(!escopoAtual.existeSimbolo(ctx.identificador().IDENT().getText())){
@@ -404,7 +420,7 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
                 for (String termo : termos) {
                     String valorTipoSimbolo = pilhaTabela.topo().getValorTipoSimbolo(termo);
                     if (valorTipoSimbolo == null) {
-                        valorTipoSimbolo = retTipo(termo);
+                        valorTipoSimbolo = getTipo(termo);
                     }
 
                     if (!tipoAtr.equals(valorTipoSimbolo)) {
@@ -433,7 +449,7 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
                 for (String termo : termos) {
                     String valorTipoSimbolo = pilhaTabela.topo().getValorTipoSimbolo(termo);
                     if (valorTipoSimbolo == null) {
-                        valorTipoSimbolo = retTipo(termo);
+                        valorTipoSimbolo = getTipo(termo);
                     }
 
                     if (tipoAtr.contains("registro")) {
@@ -481,8 +497,9 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
     @Override
     public String visitChamada_atribuicao(LAParser.Chamada_atribuicaoContext ctx) {
         //chamada_atribuicao: '(' argumentos_opcional ')' | outros_ident dimensao '<-' expressao;
-        if(ctx.getText().startsWith("("))
+        if(ctx.getText().startsWith("(")) {
             visitArgumentos_opcional(ctx.argumentos_opcional());
+        }
         else{
             visitOutros_ident(ctx.outros_ident());
             visitDimensao(ctx.dimensao());
@@ -665,7 +682,18 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
                     aux += ctx.chamada_partes().getText();
                 mensagem.erro_Ident_Nao_Declarado(ctx.getStart().getLine(),aux);
             }
+
+            if(ctx.chamada_partes().getText().startsWith("(")){
+                String[] partes;
+                int nParam;
+                partes = ctx.chamada_partes().getText().split(",");
+                nParam = getNumeroParam(ctx.IDENT().toString());
+                if(nParam != partes.length && nParam > 0){
+                    mensagem.erro_Incopatibilidade_de_Parametros(ctx.getStart().getLine(),ctx.IDENT().toString());
+                }
+            }
             visitChamada_partes(ctx.chamada_partes());
+
         } else if (ctx.expressao() != null) {
                 visitExpressao(ctx.expressao());
         }

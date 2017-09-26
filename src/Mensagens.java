@@ -24,4 +24,7 @@ public class Mensagens {
     public void erro_Atribuicao_Nao_Compativel(int linha, String nome) {
         sp.println("Linha " + linha + ": atribuicao nao compativel para " + nome);
     }
+    public void erro_Incopatibilidade_de_Parametros(int linha, String param) {
+        sp.println("Linha " + linha + ": incompatibilidade de parametros na chamada de " + param);
+    }
 }
