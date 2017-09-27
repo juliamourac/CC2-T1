@@ -1,3 +1,0 @@
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Linha 46: incompatibilidade de parametros na chamada de menorReal
-Fim da compilacao

@@ -848,3 +848,361 @@ Fim da compilacao
 Linha 44: incompatibilidade de parametros na chamada de menorInteiro
 Linha 46: incompatibilidade de parametros na chamada de menorReal
 Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Fim da compilacao
+Linha 44: incompatibilidade de parametros na chamada de menorInteiro
+Linha 46: incompatibilidade de parametros na chamada de menorReal
+Fim da compilacao
+#include <stdio.h> 
+ #include <stdlib.h>
+
+ int main(){
+
+ 	 return 0; 
+ }
+#include <stdio.h> 
+ #include <stdlib.h>
+
+ int main(){
+
+ 	 return 0; 
+ }
+#include <stdio.h> 
+#include <stdlib.h>
+
+ int main(){
+
+ 	 return 0; 
+ }
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+
+ 	return 0; 
+ }
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+null
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+null
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+null
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	null nullxnullinteiro;
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	null nullxinteiro;
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	null xinteiro;
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	null xinteiro;
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	null x
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	null x;
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf (x)
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf(x)
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf(&x)
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%"&x)
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%"&x)
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%"&x)
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%%d"&x)
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%%d",&x)
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%%d"&x)
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x)
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x)
+	printf(,&nullnull)
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x)
+	printf(,&nullnull)
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x)
+	printf(,&nullnull)
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x)
+	printf(,&nullnull)
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x)
+	printf(,&nullnull)
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x)
+	printf("%d",&nullnull)
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x)
+	printf("%d",&nullnullnull)
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x)
+	printf("%d",&nullnull)
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x)
+	printf("%d",&null)
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x)
+	printf("%d",&null)
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x)
+	printf("%d",&)
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&xx)
+	printf("%d",&)
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x)
+	printf("%d",x)
+
+ 	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x);
+	printf("%d",x);
+	return 0; 
+}
