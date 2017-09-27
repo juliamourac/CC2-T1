@@ -1206,3 +1206,48 @@ int main(){
 	printf("%d",x);
 	return 0; 
 }
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	char x;
+	gets("%s",&x);
+	printf("%s",x);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	char x;
+	gets("%s",&x);
+	printf("%s",x);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	char x[80];
+	gets("%s",&x);
+	printf("%s",x);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	char x[80];
+	gets(x);
+	printf("%s",x);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x);
+	printf("%d",x);
+	return 0; 
+}
