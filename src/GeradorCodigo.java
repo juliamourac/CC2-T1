@@ -363,49 +363,56 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
                 | '^' IDENT outros_ident dimensao '<-' expressao
                 | IDENT chamada_atribuicao
                 | 'retorne' expressao;*/
-        String cmd = "";
-        if(ctx.getText().startsWith("leia")){
-            //'leia' '(' identificador mais_ident ')'
-            if((pilhaTabela.topo().getValorTipoSimbolo(ctx.identificador().getText()).equals("literal")))
-                cmd += "\tgets(";
-            else {
-                cmd += "\tscanf(";
-                cmd += "\"" + getConversao(pilhaTabela.topo().getValorTipoSimbolo(ctx.identificador().getText())) + "\"";
-                cmd += ",&";
+        if (ctx.children != null) {
+            String cmd = "";
+            if (ctx.nomeCmd.equals("leia")) {
+                //'leia' '(' identificador mais_ident ')'
+                if ((pilhaTabela.topo().getValorTipoSimbolo(ctx.identificador().getText()).equals("literal")))
+                    cmd += "\tgets(";
+                else {
+                    cmd += "\tscanf(";
+                    cmd += "\"" + getConversao(pilhaTabela.topo().getValorTipoSimbolo(ctx.identificador().getText())) + "\"";
+                    cmd += ",&";
+                }
+                cmd += visitIdentificador(ctx.identificador());
+                cmd += visitMais_ident(ctx.mais_ident()) + ");";
+                sp.println(cmd);
+            } else if (ctx.nomeCmd.equals("escreva")) {
+                //'escreva' '(' expressao mais_expressao ')'
+                cmd += "\tprintf(";
+                if(pilhaTabela.topo().existeSimbolo(ctx.expressao().getText()))
+                    cmd += "\"" + getConversao(pilhaTabela.topo().getValorTipoSimbolo(ctx.expressao().getText())) + "\",";
+                cmd += visitExpressao(ctx.expressao()).replaceAll("\"","");
+                cmd += visitMais_expressao(ctx.mais_expressao()) + ");";
+                sp.println(cmd);
+            } else if (ctx.nomeCmd.equals("se")){
+                visitExpressao(ctx.expressao());
+                visitComandos(ctx.comandos());
+                visitSenao_opcional(ctx.senao_opcional());
+            } else if (ctx.nomeCmd.equals("caso")){
+                //'caso' exp_aritmetica 'seja' selecao senao_opcional 'fim_caso'
+                visitExp_aritmetica(ctx.exp_aritmetica().get(0));
+                visitSelecao(ctx.selecao());
+                visitSenao_opcional(ctx.senao_opcional());
+            } else if (ctx.nomeCmd.equals("para")){
+                visitExp_aritmetica(ctx.exp_aritmetica().get(0));
+                visitExp_aritmetica(ctx.exp_aritmetica().get(1));
+                visitComandos(ctx.comandos());
+            } else if (ctx.nomeCmd.equals("enquanto")){
+                visitExpressao(ctx.expressao());
+                visitComandos(ctx.comandos());
+            } else if (ctx.nomeCmd.equals("faca")){
+                visitComandos(ctx.comandos());
+                visitExpressao(ctx.expressao());
+            } else if (ctx.nomeCmd.equals("^")){
+                visitOutros_ident(ctx.outros_ident());
+                visitDimensao(ctx.dimensao());
+                visitExpressao(ctx.expressao());
+            } else if (ctx.nomeCmd.equals("IDENT")){
+                visitChamada_atribuicao(ctx.chamada_atribuicao());
+            } else if (ctx.nomeCmd.equals("retorne")){
+                visitExpressao(ctx.expressao());
             }
-            cmd += visitIdentificador(ctx.identificador());
-            cmd += visitMais_ident(ctx.mais_ident()) + ");";
-            sp.println(cmd);
-        }else if (ctx.getText().startsWith("escreva")){
-            //'escreva' '(' expressao mais_expressao ')'
-            cmd += "\tprintf(";
-            cmd += "\"" + getConversao(pilhaTabela.topo().getValorTipoSimbolo(ctx.expressao().getText())) +"\"";
-            cmd += "," + ctx.expressao().getText();
-            cmd += visitExpressao(ctx.expressao());
-            cmd += visitMais_expressao(ctx.mais_expressao()) + ");";
-            sp.println(cmd);
-        }else if (ctx.getText().startsWith("se")){
-            visitExpressao(ctx.expressao());
-            visitComandos(ctx.comandos());
-            visitSenao_opcional(ctx.senao_opcional());
-        }else if(ctx.getText().startsWith("para")){
-            visitExp_aritmetica(ctx.exp_aritmetica().get(0));
-            visitExp_aritmetica(ctx.exp_aritmetica().get(1));
-            visitComandos(ctx.comandos());
-        }else if(ctx.getText().startsWith("enquanto")){
-            visitExpressao(ctx.expressao());
-            visitComandos(ctx.comandos());
-        }else if(ctx.getText().startsWith("faca")){
-            visitComandos(ctx.comandos());
-            visitExpressao(ctx.expressao());
-        }else if(ctx.getText().startsWith("^")){
-            visitOutros_ident(ctx.outros_ident());
-            visitDimensao(ctx.dimensao());
-            visitExpressao(ctx.expressao());
-        }else if(ctx.getText().startsWith("IDENT")){
-            visitChamada_atribuicao(ctx.chamada_atribuicao());
-        }else if(ctx.getText().startsWith("retorne")){
-            visitExpressao(ctx.expressao());
         }
         return "";
     }
@@ -415,6 +422,7 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
         //mais_expressao : ',' expressao mais_expressao | ;
         if(ctx.children != null){
             String mais_expressao = "";
+            mais_expressao += ",";
             mais_expressao += visitExpressao(ctx.expressao());
             mais_expressao += visitMais_expressao(ctx.mais_expressao());
             return mais_expressao;
@@ -462,9 +470,12 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
     public String visitSelecao(LAParser.SelecaoContext ctx) {
         //selecao: constantes ':' comandos mais_selecao;
         if(ctx.children != null){
-            visitConstantes(ctx.constantes());
-            visitComandos(ctx.comandos());
-            visitMais_selecao(ctx.mais_selecao());
+            String selecao = "";
+            selecao += visitConstantes(ctx.constantes());
+            selecao += ":";
+            selecao += visitComandos(ctx.comandos());
+            selecao += visitMais_selecao(ctx.mais_selecao());
+            return selecao;
         }
         return "";
     }
@@ -473,7 +484,7 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
     public String visitMais_selecao(LAParser.Mais_selecaoContext ctx) {
         //mais_selecao: selecao | ;
         if (ctx.children != null)
-            visitSelecao(ctx.selecao());
+            return visitSelecao(ctx.selecao());
         return "";
     }
 
@@ -481,8 +492,10 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
     public String visitConstantes(LAParser.ConstantesContext ctx) {
         //constantes: numero_intervalo mais_constantes;
         if (ctx.children != null) {
-            visitNumero_intervalo(ctx.numero_intervalo());
-            visitMais_constantes(ctx.mais_constantes());
+            String constantes = "";
+            constantes += visitNumero_intervalo(ctx.numero_intervalo());
+            constantes += visitMais_constantes(ctx.mais_constantes());
+            return constantes;
         }
         return "";
     }
@@ -491,7 +504,7 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
     public String visitMais_constantes(LAParser.Mais_constantesContext ctx) {
         // mais_constantes: ',' constantes | ;
         if (ctx.children != null)
-            visitConstantes(ctx.constantes());
+            return ',' + visitConstantes(ctx.constantes());
         return "";
     }
 
@@ -499,8 +512,11 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
     public String visitNumero_intervalo(LAParser.Numero_intervaloContext ctx) {
         // numero_intervalo: op_unario NUM_INT intervalo_opcional;
         if (ctx.children != null) {
-            visitOp_unario(ctx.op_unario());
-            visitIntervalo_opcional(ctx.intervalo_opcional());
+            String numero_intervalo = "";
+            numero_intervalo += visitOp_unario(ctx.op_unario());
+            numero_intervalo += ctx.NUM_INT().toString();
+            numero_intervalo += visitIntervalo_opcional(ctx.intervalo_opcional());
+            return numero_intervalo;
         }
         return "";
     }
@@ -509,7 +525,7 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
     public String visitIntervalo_opcional(LAParser.Intervalo_opcionalContext ctx) {
         // intervalo_opcional: '..' op_unario NUM_INT | ;
         if (ctx.children != null)
-            visitOp_unario(ctx.op_unario());
+            return ".." + visitOp_unario(ctx.op_unario()) + ctx.NUM_INT().toString();
         return "";
     }
 
@@ -523,8 +539,10 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
     public String visitExp_aritmetica(LAParser.Exp_aritmeticaContext ctx) {
         //exp_aritmetica: termo outros_termos;
         if(ctx.children != null){
-            visitTermo(ctx.termo());
-            visitOutros_termos(ctx.outros_termos());
+            String exp_aritmetica = "";
+            exp_aritmetica += visitTermo(ctx.termo());
+            exp_aritmetica += visitOutros_termos(ctx.outros_termos());
+            return exp_aritmetica;
         }
         return "";
     }
@@ -545,8 +563,10 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
     public String visitTermo(LAParser.TermoContext ctx) {
         //termo : fator outros_fatores;
         if(ctx.children != null){
-            visitFator(ctx.fator());
-            visitOutros_fatores(ctx.outros_fatores());
+            String Fator = "";
+            Fator += visitFator(ctx.fator());
+            Fator += visitOutros_fatores(ctx.outros_fatores());
+            return Fator;
         }
         return "";
     }
@@ -555,9 +575,11 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
     public String visitOutros_termos(LAParser.Outros_termosContext ctx) {
         //outros_termos : op_adicao termo outros_termos | ;
         if (ctx.children != null) {
-            visitOp_adicao(ctx.op_adicao());
-            visitTermo(ctx.termo());
-            visitOutros_termos(ctx.outros_termos());
+            String outros_termos = "";
+            outros_termos += visitOp_adicao(ctx.op_adicao());
+            outros_termos += visitTermo(ctx.termo());
+            outros_termos += visitOutros_termos(ctx.outros_termos());
+            return outros_termos;
         }
         return "";
     }
@@ -566,8 +588,10 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
     public String visitFator(LAParser.FatorContext ctx) {
         //fator : parcela outras_parcelas;
         if(ctx.children != null){
-            visitParcela(ctx.parcela());
-            visitOutras_parcelas(ctx.outras_parcelas());
+            String Fator = "";
+            Fator += visitParcela(ctx.parcela());
+            Fator += visitOutras_parcelas(ctx.outras_parcelas());
+            return Fator;
         }
         return "";
     }
@@ -576,9 +600,11 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
     public String visitOutros_fatores(LAParser.Outros_fatoresContext ctx){
         //outros_fatores : op_multiplicacao fator outros_fatores | ;
         if (ctx.children != null) {
-            visitOp_multiplicacao(ctx.op_multiplicacao());
-            visitFator(ctx.fator());
-            visitOutros_fatores(ctx.outros_fatores());
+            String outros_fatores = "";
+            outros_fatores += visitOp_multiplicacao(ctx.op_multiplicacao());
+            outros_fatores += visitFator(ctx.fator());
+            outros_fatores += visitOutros_fatores(ctx.outros_fatores());
+            return outros_fatores;
         }
         return "";
     }
@@ -587,11 +613,12 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
     public String visitParcela(LAParser.ParcelaContext ctx) {
         //parcela : op_unario parcela_unario | parcela_nao_unario;
         if (ctx.op_unario() != null) {
-            visitOp_unario(ctx.op_unario());
-            visitParcela_unario(ctx.parcela_unario());
+            String parcela = "";
+            parcela += visitOp_unario(ctx.op_unario());
+            parcela += visitParcela_unario(ctx.parcela_unario());
+            return parcela;
         } else
-            visitParcela_nao_unario(ctx.parcela_nao_unario());
-        return "";
+            return visitParcela_nao_unario(ctx.parcela_nao_unario());
     }
 
     @Override
@@ -601,14 +628,24 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
                 | NUM_INT
                 | NUM_REAL
                 | '(' expressao ')';*/
+        String parcela_unario = "";
         if (ctx.getText().startsWith("^")) {
-                visitOutros_ident(ctx.outros_ident());
-                visitDimensao(ctx.dimensao());
-        } else if (ctx.getText().startsWith("IDENT")) {
-                visitChamada_partes(ctx.chamada_partes());
+            parcela_unario += "^";
+            parcela_unario += ctx.IDENT().toString();
+            parcela_unario += visitOutros_ident(ctx.outros_ident());
+            parcela_unario += visitDimensao(ctx.dimensao());
+            return parcela_unario;
+        } else if (ctx.chamada_partes() != null) {
+                return ctx.IDENT().toString() + visitChamada_partes(ctx.chamada_partes());
         } else if (ctx.getText().startsWith("(")) {
-                visitExpressao(ctx.expressao());
-        }
+            parcela_unario += "(";
+            parcela_unario += visitExpressao(ctx.expressao());
+            parcela_unario += ")";
+            return parcela_unario;
+        } else if (ctx.NUM_INT() != null)
+            return ctx.NUM_INT().toString();
+        else if (ctx.NUM_REAL() != null)
+            return ctx.NUM_INT().toString();
         return "";
     }
 
@@ -616,18 +653,23 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
     public String visitParcela_nao_unario(LAParser.Parcela_nao_unarioContext ctx) {
         //parcela_nao_unario : '&' IDENT outros_ident dimensao | CADEIA;
         if (ctx.outros_ident() != null) {
-            visitOutros_ident(ctx.outros_ident());
-            visitDimensao(ctx.dimensao());
-        }
-        return "";
+            String parcela_nao_unario = "";
+            parcela_nao_unario += "&" + ctx.IDENT().toString();
+            parcela_nao_unario += visitOutros_ident(ctx.outros_ident());
+            parcela_nao_unario += visitDimensao(ctx.dimensao());
+            return parcela_nao_unario;
+        }else
+            return ctx.CADEIA().toString();
     }
 
     @Override
     public String visitOutras_parcelas(LAParser.Outras_parcelasContext ctx) {
         //outras_parcelas : '%' parcela outras_parcelas | ;
         if (ctx.children != null) {
-            visitParcela(ctx.parcela());
-            visitOutras_parcelas(ctx.outras_parcelas());
+            String outras_parcelas = "";
+            outras_parcelas += "&" + visitParcela(ctx.parcela());
+            outras_parcelas += visitOutras_parcelas(ctx.outras_parcelas());
+            return outras_parcelas;
         }
         return "";
     }
@@ -635,13 +677,18 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
     @Override
     public String visitChamada_partes(LAParser.Chamada_partesContext ctx) {
         // chamada_partes :  '(' expressao mais_expressao ')'  | outros_ident dimensao | ;
+        String chamada_partes = "";
         if (ctx.expressao() != null) {
-            visitExpressao(ctx.expressao());
-            visitMais_expressao(ctx.mais_expressao());
+            chamada_partes += "(";
+            chamada_partes += visitExpressao(ctx.expressao());
+            chamada_partes +=visitMais_expressao(ctx.mais_expressao());
+            chamada_partes += ")";
+            return chamada_partes;
         } else
         if (ctx.outros_ident() != null) {
-            visitOutros_ident(ctx.outros_ident());
-            visitDimensao(ctx.dimensao());
+            chamada_partes += visitOutros_ident(ctx.outros_ident());
+            chamada_partes += visitDimensao(ctx.dimensao());
+            return chamada_partes;
         }
         return "";
     }
@@ -650,8 +697,10 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
     public String visitExp_relacional(LAParser.Exp_relacionalContext ctx) {
         //exp_relacional : exp_aritmetica op_opcional;
         if(ctx.children != null){
-            visitExp_aritmetica(ctx.exp_aritmetica());
-            visitOp_opcional(ctx.op_opcional());
+            String exp_relacional = "";
+            exp_relacional += visitExp_aritmetica(ctx.exp_aritmetica());
+            exp_relacional += visitOp_opcional(ctx.op_opcional());
+            return exp_relacional;
         }
         return "";
     }
@@ -660,8 +709,10 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
     public String visitOp_opcional(LAParser.Op_opcionalContext ctx) {
         //op_opcional : op_relacional exp_aritmetica | ;
         if (ctx.children != null) {
-            visitOp_relacional(ctx.op_relacional());
-            visitExp_aritmetica(ctx.exp_aritmetica());
+            String op_opcional = "";
+            op_opcional += visitOp_relacional(ctx.op_relacional());
+            op_opcional += visitExp_aritmetica(ctx.exp_aritmetica());
+            return op_opcional;
         }
         return "";
     }

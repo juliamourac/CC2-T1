@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 int main(){
-	float x, y;
-	scanf("%f",&x);
-	printf("%f",y);
+	int x;
+	scanf("%d",&x);
+	printf("O valor fornecido foi: ",x);
 	return 0; 
 }

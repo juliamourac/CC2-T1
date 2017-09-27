@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 int main(){
-	int x;
-	^int endx;
-	printf("%d",x," e ");
-	printf("%d",x);
+	float x, y;
+	scanf("%f",&x);
+	scanf("%f",&y);
+	printf(x+y);
 	return 0; 
 }

@@ -2,9 +2,8 @@
 #include <stdlib.h>
 
 int main(){
-	int x;
-	^int endx;
-	printf("%d",x," e ");
-	printf("%d",x);
+	int  [5] vetor;
+	int i;
+	printf(vetor [0] );
 	return 0; 
 }

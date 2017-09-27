@@ -1,10 +1,8 @@
 #include <stdio.h> 
 #include <stdlib.h>
+int dobro(){}
 
 int main(){
-	int x;
-	^int endx;
-	printf("%d",x," e ");
-	printf("%d",x);
+	printf(dobro(4));
 	return 0; 
 }

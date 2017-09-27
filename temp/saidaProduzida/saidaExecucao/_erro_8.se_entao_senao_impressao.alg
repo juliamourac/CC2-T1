@@ -1,0 +1,1 @@
+4 eh igual a 34 eh diferente de 3

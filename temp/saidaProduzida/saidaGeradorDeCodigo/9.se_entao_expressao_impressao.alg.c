@@ -2,9 +2,6 @@
 #include <stdlib.h>
 
 int main(){
-	int x;
-	^int endx;
-	printf("%d",x," e ");
-	printf("%d",x);
+	printf("4 eh maior do que 3 e menor do que 5");
 	return 0; 
 }

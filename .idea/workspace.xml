@@ -7,9 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="628c16ee-dd88-4736-9140-695de509525e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_6.declaracao_leitura_atribuicao_impressao_real.alg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/6.declaracao_leitura_atribuicao_impressao_real.alg.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/6.declaracao_leitura_atribuicao_impressao_real.alg.out" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CC2_T1_jar/CC2-T1.jar" afterPath="$PROJECT_DIR$/out/artifacts/CC2_T1_jar/CC2-T1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/GeradorCodigo.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/GeradorCodigo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/1.declaracao_leitura_impressao_inteiro.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/1.declaracao_leitura_impressao_inteiro.alg.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/10.caso_impressao.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/10.caso_impressao.alg.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/11.constante_caso_impressao.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/11.constante_caso_impressao.alg.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/12.para_declaracao_impressao.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/12.para_declaracao_impressao.alg.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/13.enquanto_declaracao_impressao.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/13.enquanto_declaracao_impressao.alg.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/14.faca-ate_declaracao_impressao.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/14.faca-ate_declaracao_impressao.alg.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/2.declaracao_leitura_impressao_real.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/2.declaracao_leitura_impressao_real.alg.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/3.declaracao_leitura_impressao_literal.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/3.declaracao_leitura_impressao_literal.alg.out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Principal.java" afterPath="$PROJECT_DIR$/src/Principal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GeradorCodigo.java" afterPath="$PROJECT_DIR$/src/GeradorCodigo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_10.caso_impressao.alg" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_10.caso_impressao.alg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_11.constante_caso_impressao.alg" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_11.constante_caso_impressao.alg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/10.caso_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/10.caso_impressao.alg.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/11.constante_caso_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/11.constante_caso_impressao.alg.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/12.para_declaracao_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/12.para_declaracao_impressao.alg.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/13.enquanto_declaracao_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/13.enquanto_declaracao_impressao.alg.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/14.faca-ate_declaracao_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/14.faca-ate_declaracao_impressao.alg.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/15.ponteiro_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/15.ponteiro_impressao.alg.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teste.txt" afterPath="$PROJECT_DIR$/teste.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,7 +41,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/CC2_T1$Principal.coverage" NAME="Principal Coverage Results" MODIFIED="1506269318120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/CC2_T1$Principal.coverage" NAME="Principal Coverage Results" MODIFIED="1506524736106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -29,44 +49,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Mensagens.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Mensagens.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GeradorCodigo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GeradorCodigo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="384" column="68" lean-forward="true" selection-start-line="384" selection-start-column="68" selection-end-line="384" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnalisadorSemantico.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AnalisadorSemantico.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="422" column="50" lean-forward="false" selection-start-line="422" selection-start-column="45" selection-end-line="422" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1506466142395" expanded="true" signature="32366:32437" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SaidaParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SaidaParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="108">
+              <caret line="356" column="24" lean-forward="false" selection-start-line="356" selection-start-column="19" selection-end-line="356" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -75,8 +62,8 @@
       <file leaf-file-name="LA.g4" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LA.g4">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="67" column="88" lean-forward="false" selection-start-line="67" selection-start-column="88" selection-end-line="67" selection-end-column="88" />
+            <state relative-caret-position="72">
+              <caret line="62" column="58" lean-forward="false" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
               <folding>
                 <element signature="e#12#66#1" expanded="true" />
               </folding>
@@ -87,8 +74,8 @@
       <file leaf-file-name="TabelaDeSimbolos.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TabelaDeSimbolos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="201">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -97,8 +84,8 @@
       <file leaf-file-name="Principal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Principal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="61" column="8" lean-forward="false" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+            <state relative-caret-position="495">
+              <caret line="60" column="10" lean-forward="false" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,13 +104,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Vetor</find>
-      <find>\</find>
-      <find>chamada</find>
-      <find>escreva</find>
-      <find>visitChamada_par</find>
-      <find>sys</find>
-      <find>func</find>
       <find>termos</find>
       <find>funca</find>
       <find>fun</find>
@@ -138,15 +118,22 @@
       <find>decla</find>
       <find>get</find>
       <find>getVa</find>
-      <find>cmd</find>
-      <find>visitExpressao</find>
       <find>visitTermo_logico</find>
       <find>null</find>
       <find>return null</find>
-      <find>&quot;</find>
       <find>visitVaria</find>
       <find>leia</find>
       <find>gets</find>
+      <find>cmd += visitMais_expressao(ctx.mais_expressao()) + &quot;);&quot;;</find>
+      <find>visitExpressao</find>
+      <find>cmd</find>
+      <find>escreva</find>
+      <find>,</find>
+      <find>escre</find>
+      <find>&quot;</find>
+      <find>\&quot;</find>
+      <find>Mais_expressao</find>
+      <find>expressao</find>
     </findStrings>
     <replaceStrings>
       <replace>LAParser</replace>
@@ -180,8 +167,8 @@
         <option value="$PROJECT_DIR$/src/LA.g4" />
         <option value="$PROJECT_DIR$/src/Mensagens.java" />
         <option value="$PROJECT_DIR$/src/AnalisadorSemantico.java" />
-        <option value="$PROJECT_DIR$/src/GeradorCodigo.java" />
         <option value="$PROJECT_DIR$/src/Principal.java" />
+        <option value="$PROJECT_DIR$/src/GeradorCodigo.java" />
       </list>
     </option>
   </component>
@@ -604,15 +591,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/GeradorCodigo.java</url>
-          <line>92</line>
-          <properties />
-          <option name="timeStamp" value="189" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="190" />
+      <option name="time" value="204" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -869,13 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/RuleContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/CommonToken.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -908,6 +880,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="277" column="0" lean-forward="false" selection-start-line="277" selection-start-column="0" selection-end-line="277" selection-end-column="0" />
+          <folding>
+            <element signature="e#10216#10217#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -915,29 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
           <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LAParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="3230" column="37" lean-forward="false" selection-start-line="3230" selection-start-column="37" selection-end-line="3230" selection-end-column="37" />
-          <folding>
-            <element signature="e#52448#52449#0" expanded="true" />
-            <element signature="e#52498#52499#0" expanded="true" />
-            <element signature="e#52536#52537#0" expanded="true" />
-            <element signature="e#52591#52592#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PilhaDeTabelas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#401#402#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -949,29 +901,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/RuleContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LA.g4">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="67" column="88" lean-forward="false" selection-start-line="67" selection-start-column="88" selection-end-line="67" selection-end-column="88" />
+        <state relative-caret-position="72">
+          <caret line="62" column="58" lean-forward="false" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
           <folding>
             <element signature="e#12#66#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mensagens.java">
+    <entry file="file://$PROJECT_DIR$/src/LAParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TabelaDeSimbolos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="107">
+          <caret line="1839" column="0" lean-forward="false" selection-start-line="1839" selection-start-column="0" selection-end-line="1839" selection-end-column="0" />
+          <folding>
+            <element signature="e#52448#52449#0" expanded="true" />
+            <element signature="e#52498#52499#0" expanded="true" />
+            <element signature="e#52536#52537#0" expanded="true" />
+            <element signature="e#52591#52592#0" expanded="true" />
+            <element signature="e#54702#54703#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -994,10 +952,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/PilhaDeTabelas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#401#402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TabelaDeSimbolos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mensagens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Principal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="61" column="8" lean-forward="false" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+        <state relative-caret-position="495">
+          <caret line="60" column="10" lean-forward="false" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1006,8 +990,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GeradorCodigo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="384" column="68" lean-forward="true" selection-start-line="384" selection-start-column="68" selection-end-line="384" selection-end-column="68" />
+        <state relative-caret-position="108">
+          <caret line="356" column="24" lean-forward="false" selection-start-line="356" selection-start-column="19" selection-end-line="356" selection-end-column="24" />
           <folding />
         </state>
       </provider>

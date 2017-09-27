@@ -1251,3 +1251,138 @@ int main(){
 	printf("%d",x);
 	return 0; 
 }
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x);
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x);
+	printf();
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x);
+	printf("O valor fornecido foi: "x);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x);
+	printf("O valor fornecido foi: ",x);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x);
+	printf("%d",xx);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x);
+	printf("%d",xx);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x);
+	printf("%d"x);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x);
+	printf("%d",x);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x);
+	printf("O valor fornecido foi: ",x);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x);
+	printf("O valor fornecido foi: ",x);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x);
+	printf(O valor fornecido foi: ,x);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x);
+	printf(O valor fornecido foi: ,x);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x);
+	printf("O valor fornecido foi: ",x);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x);
+	printf(O valor fornecido foi: ,x);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	int x;
+	scanf("%d",&x);
+	printf(O valor fornecido foi: ,x);
+	return 0; 
+}

@@ -2,9 +2,7 @@
 #include <stdlib.h>
 
 int main(){
-	int x;
-	^int endx;
-	printf("%d",x," e ");
-	printf("%d",x);
+	treg reg;
+	printf(reg.nome," tem ",reg.idade," anos");
 	return 0; 
 }
