@@ -16,13 +16,15 @@ public class Principal {
 
         SaidaParser sp = new SaidaParser();
 
-        String teste = "4.declaracao_leitura_impressao_inteiro_literal.alg";
+
+
+        String teste = "19.funcao_dobro_impressao.alg";
         String caminho = "C:\\Users\\etoal\\Documents\\Ufscar\\CC2\\CC2-T1\\casosDeTesteT1\\3.arquivos_sem_erros\\1.entrada\\";
         //C:\Users\etoal\Documents\Ufscar\CC2\CC2-T1\casosDeTesteT1\1.arquivos_com_erros_sintaticos\entrada\1-algoritmo_2-2_apostila_LA_1_erro_linha_3_acusado_linha_10
 
         try {
-           //ANTLRInputStream input = new ANTLRInputStream(new FileInputStream(args[0]));
-           ANTLRInputStream input = new ANTLRInputStream(new FileInputStream(caminho + teste));
+           ANTLRInputStream input = new ANTLRInputStream(new FileInputStream(args[0]));
+           //ANTLRInputStream input = new ANTLRInputStream(new FileInputStream(caminho + teste));
 
             LALexer lexer = new LALexer(input);
             CommonTokenStream tokens = new CommonTokenStream(lexer);
@@ -34,20 +36,19 @@ public class Principal {
             LAParser.ProgramaContext context = parser.programa();
 
 
+            //System.out.println(sp.modificado);
             if(!sp.isModificado()){
                 sp.reboot();
                 AnalisadorSemantico semantico = new AnalisadorSemantico(sp);
                 semantico.visitPrograma(context); //Analisador Semântico
-                if(sp.toString().equals("Fim da compilacao"));
-                    sp.reboot();
             }
 
             if(!sp.isModificado()){
                 sp.reboot();
                 GeradorCodigo gerador = new GeradorCodigo(sp);
                 gerador.visitPrograma(context);
-
             }
+
         } catch (ParseCancellationException pce) {
             if (pce.getMessage() != null) {
                 sp.println(pce.getMessage());
@@ -58,8 +59,9 @@ public class Principal {
         System.out.println("Saida: ");
         System.out.println(out);
 
-        //File arq1 = new File(args[1]);
-        File arq1 = new File("teste.txt");
+
+        //File arq1 = new File("teste.txt");
+        File arq1 = new File(args[1]);
         arq1.createNewFile();
         FileWriter arq1W = new FileWriter(arq1, true);
         BufferedWriter arq1B = new BufferedWriter( arq1W );

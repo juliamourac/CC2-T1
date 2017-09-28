@@ -1,1388 +1,8558 @@
-Linha 17: erro sintatico proximo a EOF
-Fim da compilacao
-Fim da compilaçao
-Linha 17: erro sintatico proximo a EOF
-Fim da compilacao
-Fim da compilaçao
-Linha 17: erro sintatico proximo a EOF
-Fim da compilacao
-Fim da compilaçao
-Linha 17: erro sintatico proximo a EOF
-Fim da compilacao
-Fim da compilaçao
-Fim da compilaçao
-Fim da compilaçao
-Fim da compilaçao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Linha 3: tipo inteir nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 10: identificador nome ja declarado anteriormente
-Linha 11: identificador idades ja declarado anteriormente
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 10: tipo nome nao declarado
-Linha 11: tipo idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 10: tipo nome nao declarado
-Linha 11: tipo idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 10: tipo nome nao declarado
-Linha 11: tipo idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 10: tipo nome nao declarado
-Linha 11: tipo idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 11: tipo idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 11: tipo idades nao declarado
-Fim da compilacao
-Linha 4: tipo idades nao declarado
-Fim da compilacao
-Linha 4: tipo idades nao declarado
-Fim da compilacao
-Linha 4: identificador idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 4: tipo idades nao declarado
-Fim da compilacao
-Linha 6: identificador troco ja declarado anteriormente
-Fim da compilacao
-Linha 6: identificador troco ja declarado anteriormente
-Linha 17: tipo totalAlimento nao declarado
-Fim da compilacao
-Linha 12: atribuicao nao compativel para formato2
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Linha 14: atribuicao nao compativel para ^ponteiro
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Linha 9: atribuicao nao compativel para ponto1
-Fim da compilacao
-Linha 10: identificador abastecimento nao declarado
-Linha 13: atribuicao nao compativel para consumo
-Fim da compilacao
-Linha 10: identificador abastecimento nao declarado
-Linha 13: atribuicao nao compativel para consumo
-Fim da compilacao
-Linha 10: identificador abastecimento nao declarado
-Fim da compilacao
-Linha 10: identificador abastecimento nao declarado
-Linha 13: atribuicao nao compativel para consumo
-Fim da compilacao
-Linha 10: identificador abastecimento nao declarado
-Linha 13: atribuicao nao compativel para consumo
-Fim da compilacao
-Linha 10: identificador abastecimento nao declarado
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Linha 10: identificador abastecimento nao declarado
-Linha 13: atribuicao nao compativel para consumo
-Fim da compilacao
-Linha 10: identificador abastecimento nao declarado
-Linha 13: atribuicao nao compativel para consumo
-Fim da compilacao
-Linha 10: identificador abastecimento nao declarado
-Linha 13: atribuicao nao compativel para consumo
-Fim da compilacao
-Linha 10: identificador abastecimento nao declarado
-Linha 13: atribuicao nao compativel para consumo
-Fim da compilacao
-Linha 10: identificador abastecimento nao declarado
-Fim da compilacao
-Linha 6: identificador troco ja declarado anteriormente
-Linha 17: identificador totalAlimento nao declarado
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Linha 12: atribuicao nao compativel para formato2
-Fim da compilacao
-Linha 12: atribuicao nao compativel para formato2
-Fim da compilacao
-Linha 12: atribuicao nao compativel para formato2
-Fim da compilacao
-Linha 10: identificador abastecimento nao declarado
-Linha 13: atribuicao nao compativel para consumo
-Fim da compilacao
-Linha 10: identificador abastecimento nao declarado
-Linha 13: atribuicao nao compativel para consumo
-Fim da compilacao
-Linha 10: identificador abastecimento nao declarado
-Linha 13: atribuicao nao compativel para consumo
-Fim da compilacao
-Linha 10: identificador abastecimento nao declarado
-Linha 13: atribuicao nao compativel para consumo
-Fim da compilacao
-Linha 10: identificador abastecimento nao declarado
-Fim da compilacao
-Linha 14: atribuicao nao compativel para ^ponteiro
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador  nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 11: identificador Preco nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 16: identificador vinho.Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador vinho.Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 16: identificador vinho.Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador vinho.Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 16: identificador vinho.Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador vinho.Preco nao declarado
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador vinho.Preco nao declarado
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador vinho.Preco nao declarado
-Linha 16: identificador Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador vinho.Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 7: tipo inteir nao declarado
-Linha 11: identificador idades nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 16: identificador vinho.Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador Preco nao declarado
-Linha 16: identificador vinho.Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador vinho.Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Linha 9: atribuicao nao compativel para ponto1.x
-Fim da compilacao
-Linha 11: atribuicao nao compativel para valor
-Linha 11: atribuicao nao compativel para valor[0]
-Linha 17: atribuicao nao compativel para soma
-Linha 17: atribuicao nao compativel para soma
-Linha 17: atribuicao nao compativel para soma
-Linha 19: identificador media_final nao declarado
-Fim da compilacao
-Linha 11: atribuicao nao compativel para valor
-Linha 11: atribuicao nao compativel para valor[0]
-Linha 17: atribuicao nao compativel para soma
-Linha 17: atribuicao nao compativel para soma
-Linha 17: atribuicao nao compativel para soma
-Fim da compilacao
-Linha 11: atribuicao nao compativel para valor
-Linha 11: atribuicao nao compativel para valor[0]
-Linha 17: atribuicao nao compativel para soma
-Linha 17: atribuicao nao compativel para soma
-Linha 17: atribuicao nao compativel para soma
-Linha 19: identificador soma nao declarado
-Fim da compilacao
-Linha 11: atribuicao nao compativel para valor
-Linha 11: atribuicao nao compativel para valor[0]
-Linha 17: atribuicao nao compativel para soma
-Linha 17: atribuicao nao compativel para soma
-Linha 17: atribuicao nao compativel para soma
-Linha 19: identificador media_final nao declarado
-Fim da compilacao
-Linha 11: atribuicao nao compativel para valor
-Linha 19: identificador media_final nao declarado
-Fim da compilacao
-Linha 11: atribuicao nao compativel para valor
-Linha 19: identificador media_final nao declarado
-Fim da compilacao
-Linha 11: atribuicao nao compativel para valor
-Linha 19: identificador media_final nao declarado
-Fim da compilacao
-Linha 11: atribuicao nao compativel para valor
-Linha 19: identificador media_final nao declarado
-Fim da compilacao
-Linha 11: atribuicao nao compativel para valor
-Linha 19: identificador media_final nao declarado
-Fim da compilacao
-Linha 11: atribuicao nao compativel para valor
-Linha 19: identificador media_final nao declarado
-Fim da compilacao
-Linha 11: atribuicao nao compativel para valor
-Linha 19: identificador media_final nao declarado
-Fim da compilacao
-Linha 11: atribuicao nao compativel para valor
-Linha 19: identificador media_final nao declarado
-Fim da compilacao
-Linha 11: atribuicao nao compativel para valor
-Linha 19: identificador media_final nao declarado
-Fim da compilacao
-Linha 11: atribuicao nao compativel para valor
-Linha 19: identificador media_final nao declarado
-Fim da compilacao
-Linha 11: atribuicao nao compativel para valor
-Linha 19: identificador media_final nao declarado
-Fim da compilacao
-Linha 11: atribuicao nao compativel para valor
-Linha 19: identificador media_final nao declarado
-Fim da compilacao
-Linha 11: atribuicao nao compativel para valor
-Linha 19: identificador media_final nao declarado
-Fim da compilacao
-Linha 11: atribuicao nao compativel para valor
-Linha 19: identificador media_final nao declarado
-Fim da compilacao
-Linha 11: atribuicao nao compativel para valor
-Linha 19: identificador media_final nao declarado
-Fim da compilacao
-Linha 11: atribuicao nao compativel para valor[0]
-Linha 19: identificador media_final nao declarado
-Fim da compilacao
-Linha 11: atribuicao nao compativel para valor[0]
-Linha 19: identificador media_final nao declarado
-Fim da compilacao
-Linha 20: identificador vinho.nome nao declarado
-Linha 22: identificador vinho.nomeFabricante nao declarado
-Linha 24: identificador vinho.nomeDistribuidor nao declarado
-Linha 26: identificador vinho.tipoVinho nao declarado
-Linha 28: identificador vinho.anoSafra nao declarado
-Linha 30: identificador vinho.anoEnvasamento nao declarado
-Linha 32: identificador vinho.preco nao declarado
-Linha 34: identificador vinho.unidades nao declarado
-Linha 49: comando retorne nao permitido nesse escopo
-Fim da compilacao
-Linha 20: identificador vinho.nome nao declarado
-Linha 22: identificador vinho.nomeFabricante nao declarado
-Linha 24: identificador vinho.nomeDistribuidor nao declarado
-Linha 26: identificador vinho.tipoVinho nao declarado
-Linha 28: identificador vinho.anoSafra nao declarado
-Linha 30: identificador vinho.anoEnvasamento nao declarado
-Linha 32: identificador vinho.preco nao declarado
-Linha 34: identificador vinho.unidades nao declarado
-Linha 49: comando retorne nao permitido nesse escopo
-Fim da compilacao
-Linha 20: identificador vinho.nome nao declarado
-Linha 22: identificador vinho.nomeFabricante nao declarado
-Linha 24: identificador vinho.nomeDistribuidor nao declarado
-Linha 26: identificador vinho.tipoVinho nao declarado
-Linha 28: identificador vinho.anoSafra nao declarado
-Linha 30: identificador vinho.anoEnvasamento nao declarado
-Linha 32: identificador vinho.preco nao declarado
-Linha 34: identificador vinho.unidades nao declarado
-Linha 49: comando retorne nao permitido nesse escopo
-Fim da compilacao
-Linha 49: comando retorne nao permitido nesse escopo
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador vinho.Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador vinho.Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador vinho.Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador vinho.Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Linha 10: identificador tVinho ja declarado anteriormente
-Linha 16: identificador vinho.Preco nao declarado
-Linha 28: identificador vinhocaro.tipoVinho nao declarado
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Linha 46: incompatibilidade de parametros na chamada de menorReal
-Linha 50: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de menorReal
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Linha 46: incompatibilidade de parametros na chamada de menorReal
-Linha 46: incompatibilidade de parametros na chamada de menorReal
-Linha 50: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de menorReal
-Linha 58: incompatibilidade de parametros na chamada de menorReal
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Linha 46: incompatibilidade de parametros na chamada de menorReal
-Linha 46: incompatibilidade de parametros na chamada de menorReal
-Linha 50: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de menorReal
-Linha 58: incompatibilidade de parametros na chamada de menorReal
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Linha 46: incompatibilidade de parametros na chamada de menorReal
-Linha 46: incompatibilidade de parametros na chamada de menorReal
-Linha 50: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de menorReal
-Linha 58: incompatibilidade de parametros na chamada de menorReal
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Linha 46: incompatibilidade de parametros na chamada de menorReal
-Linha 50: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Linha 46: incompatibilidade de parametros na chamada de menorReal
-Linha 50: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Linha 46: incompatibilidade de parametros na chamada de menorReal
-Linha 50: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Linha 46: incompatibilidade de parametros na chamada de menorReal
-Linha 50: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Linha 46: incompatibilidade de parametros na chamada de menorReal
-Linha 50: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Linha 46: incompatibilidade de parametros na chamada de menorReal
-Linha 50: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Linha 46: incompatibilidade de parametros na chamada de menorReal
-Linha 50: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Linha 46: incompatibilidade de parametros na chamada de menorReal
-Linha 50: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Linha 46: incompatibilidade de parametros na chamada de menorReal
-Linha 50: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Linha 58: incompatibilidade de parametros na chamada de modulo
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Linha 46: incompatibilidade de parametros na chamada de menorReal
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Linha 46: incompatibilidade de parametros na chamada de menorReal
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Fim da compilacao
-Linha 44: incompatibilidade de parametros na chamada de menorInteiro
-Linha 46: incompatibilidade de parametros na chamada de menorReal
-Fim da compilacao
-#include <stdio.h> 
- #include <stdlib.h>
-
- int main(){
-
- 	 return 0; 
- }
-#include <stdio.h> 
- #include <stdlib.h>
-
- int main(){
-
- 	 return 0; 
- }
-#include <stdio.h> 
-#include <stdlib.h>
-
- int main(){
-
- 	 return 0; 
- }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-
- 	return 0; 
- }
-#include <stdio.h> 
-#include <stdlib.h>
-
-int main(){
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	scanf("%f",&y);
+	printf("x+y");
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-null
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	scanf("%f",&y);
+	printf("x+y");
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-null
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	scanf("%f",&y);
+	printf("x+y");
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-null
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	scanf("%f",&y);
+	printf("x+y");
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	scanf("%f",&y);
+	printf("x+y");
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	null nullxnullinteiro;
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	scanf("%f",&y);
+	printf("x+y");
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	null nullxinteiro;
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	scanf("%f",&y);
+	printf("x+y");
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	null xinteiro;
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	scanf("%f",&y);
+	printf("x+y");
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	null xinteiro;
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	scanf("%f",&y);
+	printf(x+y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	null x
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	scanf("%f",&y);
+	printf(%f%fx+y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	null x;
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	scanf("%f",&y);
+	printf(%fx+y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	scanf("%f",&y);
+	printf("%f",x+y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-	scanf (x)
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	printf("%f",y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-	scanf(x)
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	printf("%f",y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-	scanf(&x)
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	printf("%f",y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-	scanf("%"&x)
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	printf("%f",y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-	scanf("%"&x)
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	printf("%f",y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-	scanf("%"&x)
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	printf("%f",y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-	scanf("%%d"&x)
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	printf("%f",y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-	scanf("%%d",&x)
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	printf("%f",y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-	scanf("%%d"&x)
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	printf("%f",y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-	scanf("%d",&x)
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	printf("%f",y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-	scanf("%d",&x)
-	printf(,&nullnull)
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	printf("%f",y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-	scanf("%d",&x)
-	printf(,&nullnull)
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	printf("%f",y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-	scanf("%d",&x)
-	printf(,&nullnull)
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	printf("%f",y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-	scanf("%d",&x)
-	printf(,&nullnull)
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	printf("%f",y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-	scanf("%d",&x)
-	printf(,&nullnull)
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	printf("%f",y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-	scanf("%d",&x)
-	printf("%d",&nullnull)
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	printf("%f",y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-	scanf("%d",&x)
-	printf("%d",&nullnullnull)
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	printf("%f",y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-	scanf("%d",&x)
-	printf("%d",&nullnull)
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	printf("%f",y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-	scanf("%d",&x)
-	printf("%d",&null)
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	printf("%f",y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-	scanf("%d",&x)
-	printf("%d",&null)
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	printf("%f",y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-	scanf("%d",&x)
-	printf("%d",&)
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+	printf("%f",y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-	scanf("%d",&xx)
-	printf("%d",&)
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+ = x+5.0;
+	printf("%f",y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-	scanf("%d",&x)
-	printf("%d",x)
-
- 	return 0; 
+	float x, y;
+	scanf("%f",&x);
+y = x+5.0;
+	printf("%f",y);
+	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
 int main(){
-	int x;
-	scanf("%d",&x);
+	float x, y;
+	scanf("%f",&x);
+	y = x+5.0;
+	printf("%f",y);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	float x, y;
+	scanf("%f",&x);
+	y = x+5.0 ;
+	printf("%f",y );
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	float x, y;
+	scanf("%f",&x);
+	y = x+5.0 ;
+	printf("%f",y );
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	float x, y;
+	scanf("%f",&x);
+	y =  x+5.0;
+	printf("%f", y);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	float x, y;
+	scanf("%f",&x);
+	y = x+5.0;
+	printf("%f",y);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	float x, y;
+	scanf("%f",&x);
+	y = x+5.0;
+	printf("%f",y);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	float x, y;
+	scanf("%f",&x);
+	y = x+5.0;
+	printf("%f",y);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	float x, y;
+	scanf("%f",&x);
+	y = x+5.0;
+	printf("%f",y);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	float x, y;
+	scanf("%f",&x);
+	y = x+5.0;
+	printf("%f",y);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	float x, y;
+	scanf("%f",&x);
+	y = x+5.0;
+	printf("%f",y);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	float x, y;
+	scanf("%f",&x);
+	y = x+5.0;
+	printf("%f",y);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	float x, y;
+	scanf("%f",&x);
+	y = x+5.0;
+	printf("%f",y);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	float x, y;
+	scanf("%f",&x);
+	y = x+5.0;
+	printf("%f",y);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	float x, y;
+	scanf("%f",&x);
+	y = x+5.0;
+	printf("%f",y);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	float x, y;
+	scanf("%f",&x);
+	y = x +5.0;
+	printf("%f",y );
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	float x, y;
+	scanf("%f",&x);
+	y = x +5.0;
+	printf("%f",y );
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	float x, y;
+	scanf("%f",&x);
+	y = x + 5.0;
+	printf("%f",y );
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	float x, y;
+	scanf("%f",&x);
+	scanf("%f",&y);
+	printf("%f",x + y);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	float x, y;
+	scanf("%f",&x);
+	scanf("%f",&y);
+	printf("%f",x + y);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	float x, y;
+	scanf("%f",&x);
+	scanf("%f",&y);
+	printf("%f",x + y);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	float x, y;
+	scanf("%f",&x);
+	scanf("%f",&y);
+	printf("%f",xy);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	float x, y;
+	scanf("%f",&x);
+	scanf("%f",&y);
+	printf("%f",x+y);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	printf("4 eh maior do que 3");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	printf("4 eh maior do que 3");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	printf("4 eh maior do que 3");
+4>3
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	printf("4 eh maior do que 3");
+	 if4>3{
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	printf("4 eh maior do que 3");
+	if (4>3) {
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	if (
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	if (4>3) {
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	printf("4 eh maior do que 3");
+	if (4>3) {
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+	printf("4 eh maior do que 3");
+	if (4>3) {
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	if (4>3) {	printf("4 eh maior do que 3");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	if (4>3) {
+	printf("4 eh maior do que 3");
+}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	if (4>3) {
+	printf("4 eh maior do que 3");	
+}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	if (4>3) {
+	printf("4 eh maior do que 3");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	if (4 > 3) {
+	printf("4 eh maior do que 3");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+switch20..1:	printf("ERRO");2:	printf("OK");3..100:	printf("ERRO");else 	printf("ERRO");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+switch2case0..1:	printf("ERRO");2:	printf("OK");3..100:	printf("ERRO");else 	printf("ERRO");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2)case0..1:	printf("ERRO");2:	printf("OK");3..100:	printf("ERRO");else 	printf("ERRO");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {case0..1:	printf("ERRO");2:	printf("OK");3..100:	printf("ERRO");else 	printf("ERRO");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {
+	case0..1:	printf("ERRO");2:	printf("OK");3..100:	printf("ERRO");else 	printf("ERRO");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {
+	case 0..1:	printf("ERRO");2:	printf("OK");3..100:	printf("ERRO");else 	printf("ERRO");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {
+	case 01		case 0:		case 1::	printf("ERRO");2:	printf("OK");3100		case 3:		case 4:		case 5:		case 6:		case 7:		case 8:		case 9:		case 10:		case 11:		case 12:		case 13:		case 14:		case 15:		case 16:		case 17:		case 18:		case 19:		case 20:		case 21:		case 22:		case 23:		case 24:		case 25:		case 26:		case 27:		case 28:		case 29:		case 30:		case 31:		case 32:		case 33:		case 34:		case 35:		case 36:		case 37:		case 38:		case 39:		case 40:		case 41:		case 42:		case 43:		case 44:		case 45:		case 46:		case 47:		case 48:		case 49:		case 50:		case 51:		case 52:		case 53:		case 54:		case 55:		case 56:		case 57:		case 58:		case 59:		case 60:		case 61:		case 62:		case 63:		case 64:		case 65:		case 66:		case 67:		case 68:		case 69:		case 70:		case 71:		case 72:		case 73:		case 74:		case 75:		case 76:		case 77:		case 78:		case 79:		case 80:		case 81:		case 82:		case 83:		case 84:		case 85:		case 86:		case 87:		case 88:		case 89:		case 90:		case 91:		case 92:		case 93:		case 94:		case 95:		case 96:		case 97:		case 98:		case 99:		case 100::	printf("ERRO");else 	printf("ERRO");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {
+	case 01
+	case 0:
+	case 1::	printf("ERRO");2:	printf("OK");3100
+	case 3:
+	case 4:
+	case 5:
+	case 6:
+	case 7:
+	case 8:
+	case 9:
+	case 10:
+	case 11:
+	case 12:
+	case 13:
+	case 14:
+	case 15:
+	case 16:
+	case 17:
+	case 18:
+	case 19:
+	case 20:
+	case 21:
+	case 22:
+	case 23:
+	case 24:
+	case 25:
+	case 26:
+	case 27:
+	case 28:
+	case 29:
+	case 30:
+	case 31:
+	case 32:
+	case 33:
+	case 34:
+	case 35:
+	case 36:
+	case 37:
+	case 38:
+	case 39:
+	case 40:
+	case 41:
+	case 42:
+	case 43:
+	case 44:
+	case 45:
+	case 46:
+	case 47:
+	case 48:
+	case 49:
+	case 50:
+	case 51:
+	case 52:
+	case 53:
+	case 54:
+	case 55:
+	case 56:
+	case 57:
+	case 58:
+	case 59:
+	case 60:
+	case 61:
+	case 62:
+	case 63:
+	case 64:
+	case 65:
+	case 66:
+	case 67:
+	case 68:
+	case 69:
+	case 70:
+	case 71:
+	case 72:
+	case 73:
+	case 74:
+	case 75:
+	case 76:
+	case 77:
+	case 78:
+	case 79:
+	case 80:
+	case 81:
+	case 82:
+	case 83:
+	case 84:
+	case 85:
+	case 86:
+	case 87:
+	case 88:
+	case 89:
+	case 90:
+	case 91:
+	case 92:
+	case 93:
+	case 94:
+	case 95:
+	case 96:
+	case 97:
+	case 98:
+	case 99:
+	case 100::	printf("ERRO");else 	printf("ERRO");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {
+	case 01
+	case 0:
+	case 1:	printf("ERRO");2	printf("OK");3100
+	case 3:
+	case 4:
+	case 5:
+	case 6:
+	case 7:
+	case 8:
+	case 9:
+	case 10:
+	case 11:
+	case 12:
+	case 13:
+	case 14:
+	case 15:
+	case 16:
+	case 17:
+	case 18:
+	case 19:
+	case 20:
+	case 21:
+	case 22:
+	case 23:
+	case 24:
+	case 25:
+	case 26:
+	case 27:
+	case 28:
+	case 29:
+	case 30:
+	case 31:
+	case 32:
+	case 33:
+	case 34:
+	case 35:
+	case 36:
+	case 37:
+	case 38:
+	case 39:
+	case 40:
+	case 41:
+	case 42:
+	case 43:
+	case 44:
+	case 45:
+	case 46:
+	case 47:
+	case 48:
+	case 49:
+	case 50:
+	case 51:
+	case 52:
+	case 53:
+	case 54:
+	case 55:
+	case 56:
+	case 57:
+	case 58:
+	case 59:
+	case 60:
+	case 61:
+	case 62:
+	case 63:
+	case 64:
+	case 65:
+	case 66:
+	case 67:
+	case 68:
+	case 69:
+	case 70:
+	case 71:
+	case 72:
+	case 73:
+	case 74:
+	case 75:
+	case 76:
+	case 77:
+	case 78:
+	case 79:
+	case 80:
+	case 81:
+	case 82:
+	case 83:
+	case 84:
+	case 85:
+	case 86:
+	case 87:
+	case 88:
+	case 89:
+	case 90:
+	case 91:
+	case 92:
+	case 93:
+	case 94:
+	case 95:
+	case 96:
+	case 97:
+	case 98:
+	case 99:
+	case 100:	printf("ERRO");else 	printf("ERRO");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {01
+	case 0:
+	case 1:	printf("ERRO");2	printf("OK");3100
+	case 3:
+	case 4:
+	case 5:
+	case 6:
+	case 7:
+	case 8:
+	case 9:
+	case 10:
+	case 11:
+	case 12:
+	case 13:
+	case 14:
+	case 15:
+	case 16:
+	case 17:
+	case 18:
+	case 19:
+	case 20:
+	case 21:
+	case 22:
+	case 23:
+	case 24:
+	case 25:
+	case 26:
+	case 27:
+	case 28:
+	case 29:
+	case 30:
+	case 31:
+	case 32:
+	case 33:
+	case 34:
+	case 35:
+	case 36:
+	case 37:
+	case 38:
+	case 39:
+	case 40:
+	case 41:
+	case 42:
+	case 43:
+	case 44:
+	case 45:
+	case 46:
+	case 47:
+	case 48:
+	case 49:
+	case 50:
+	case 51:
+	case 52:
+	case 53:
+	case 54:
+	case 55:
+	case 56:
+	case 57:
+	case 58:
+	case 59:
+	case 60:
+	case 61:
+	case 62:
+	case 63:
+	case 64:
+	case 65:
+	case 66:
+	case 67:
+	case 68:
+	case 69:
+	case 70:
+	case 71:
+	case 72:
+	case 73:
+	case 74:
+	case 75:
+	case 76:
+	case 77:
+	case 78:
+	case 79:
+	case 80:
+	case 81:
+	case 82:
+	case 83:
+	case 84:
+	case 85:
+	case 86:
+	case 87:
+	case 88:
+	case 89:
+	case 90:
+	case 91:
+	case 92:
+	case 93:
+	case 94:
+	case 95:
+	case 96:
+	case 97:
+	case 98:
+	case 99:
+	case 100:	printf("ERRO");else 	printf("ERRO");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {01
+	case 0:
+	case 1:	printf("ERRO");2	printf("OK");3100
+	case 3:
+	case 4:
+	case 5:
+	case 6:
+	case 7:
+	case 8:
+	case 9:
+	case 10:
+	case 11:
+	case 12:
+	case 13:
+	case 14:
+	case 15:
+	case 16:
+	case 17:
+	case 18:
+	case 19:
+	case 20:
+	case 21:
+	case 22:
+	case 23:
+	case 24:
+	case 25:
+	case 26:
+	case 27:
+	case 28:
+	case 29:
+	case 30:
+	case 31:
+	case 32:
+	case 33:
+	case 34:
+	case 35:
+	case 36:
+	case 37:
+	case 38:
+	case 39:
+	case 40:
+	case 41:
+	case 42:
+	case 43:
+	case 44:
+	case 45:
+	case 46:
+	case 47:
+	case 48:
+	case 49:
+	case 50:
+	case 51:
+	case 52:
+	case 53:
+	case 54:
+	case 55:
+	case 56:
+	case 57:
+	case 58:
+	case 59:
+	case 60:
+	case 61:
+	case 62:
+	case 63:
+	case 64:
+	case 65:
+	case 66:
+	case 67:
+	case 68:
+	case 69:
+	case 70:
+	case 71:
+	case 72:
+	case 73:
+	case 74:
+	case 75:
+	case 76:
+	case 77:
+	case 78:
+	case 79:
+	case 80:
+	case 81:
+	case 82:
+	case 83:
+	case 84:
+	case 85:
+	case 86:
+	case 87:
+	case 88:
+	case 89:
+	case 90:
+	case 91:
+	case 92:
+	case 93:
+	case 94:
+	case 95:
+	case 96:
+	case 97:
+	case 98:
+	case 99:
+	case 100:	printf("ERRO");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {01
+	case 0:
+	case 1:
+		printf("ERRO");2
+		printf("OK");3100
+	case 3:
+	case 4:
+	case 5:
+	case 6:
+	case 7:
+	case 8:
+	case 9:
+	case 10:
+	case 11:
+	case 12:
+	case 13:
+	case 14:
+	case 15:
+	case 16:
+	case 17:
+	case 18:
+	case 19:
+	case 20:
+	case 21:
+	case 22:
+	case 23:
+	case 24:
+	case 25:
+	case 26:
+	case 27:
+	case 28:
+	case 29:
+	case 30:
+	case 31:
+	case 32:
+	case 33:
+	case 34:
+	case 35:
+	case 36:
+	case 37:
+	case 38:
+	case 39:
+	case 40:
+	case 41:
+	case 42:
+	case 43:
+	case 44:
+	case 45:
+	case 46:
+	case 47:
+	case 48:
+	case 49:
+	case 50:
+	case 51:
+	case 52:
+	case 53:
+	case 54:
+	case 55:
+	case 56:
+	case 57:
+	case 58:
+	case 59:
+	case 60:
+	case 61:
+	case 62:
+	case 63:
+	case 64:
+	case 65:
+	case 66:
+	case 67:
+	case 68:
+	case 69:
+	case 70:
+	case 71:
+	case 72:
+	case 73:
+	case 74:
+	case 75:
+	case 76:
+	case 77:
+	case 78:
+	case 79:
+	case 80:
+	case 81:
+	case 82:
+	case 83:
+	case 84:
+	case 85:
+	case 86:
+	case 87:
+	case 88:
+	case 89:
+	case 90:
+	case 91:
+	case 92:
+	case 93:
+	case 94:
+	case 95:
+	case 96:
+	case 97:
+	case 98:
+	case 99:
+	case 100:
+		printf("ERRO");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {01
+	case 0:
+	case 1:
+		printf("ERRO");2
+		printf("OK");3100
+	case 3:
+	case 4:
+	case 5:
+	case 6:
+	case 7:
+	case 8:
+	case 9:
+	case 10:
+	case 11:
+	case 12:
+	case 13:
+	case 14:
+	case 15:
+	case 16:
+	case 17:
+	case 18:
+	case 19:
+	case 20:
+	case 21:
+	case 22:
+	case 23:
+	case 24:
+	case 25:
+	case 26:
+	case 27:
+	case 28:
+	case 29:
+	case 30:
+	case 31:
+	case 32:
+	case 33:
+	case 34:
+	case 35:
+	case 36:
+	case 37:
+	case 38:
+	case 39:
+	case 40:
+	case 41:
+	case 42:
+	case 43:
+	case 44:
+	case 45:
+	case 46:
+	case 47:
+	case 48:
+	case 49:
+	case 50:
+	case 51:
+	case 52:
+	case 53:
+	case 54:
+	case 55:
+	case 56:
+	case 57:
+	case 58:
+	case 59:
+	case 60:
+	case 61:
+	case 62:
+	case 63:
+	case 64:
+	case 65:
+	case 66:
+	case 67:
+	case 68:
+	case 69:
+	case 70:
+	case 71:
+	case 72:
+	case 73:
+	case 74:
+	case 75:
+	case 76:
+	case 77:
+	case 78:
+	case 79:
+	case 80:
+	case 81:
+	case 82:
+	case 83:
+	case 84:
+	case 85:
+	case 86:
+	case 87:
+	case 88:
+	case 89:
+	case 90:
+	case 91:
+	case 92:
+	case 93:
+	case 94:
+	case 95:
+	case 96:
+	case 97:
+	case 98:
+	case 99:
+	case 100:
+		printf("ERRO");			break			break			break
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {01
+	case 0:
+	case 1:
+		printf("ERRO");2
+		printf("OK");3100
+	case 3:
+	case 4:
+	case 5:
+	case 6:
+	case 7:
+	case 8:
+	case 9:
+	case 10:
+	case 11:
+	case 12:
+	case 13:
+	case 14:
+	case 15:
+	case 16:
+	case 17:
+	case 18:
+	case 19:
+	case 20:
+	case 21:
+	case 22:
+	case 23:
+	case 24:
+	case 25:
+	case 26:
+	case 27:
+	case 28:
+	case 29:
+	case 30:
+	case 31:
+	case 32:
+	case 33:
+	case 34:
+	case 35:
+	case 36:
+	case 37:
+	case 38:
+	case 39:
+	case 40:
+	case 41:
+	case 42:
+	case 43:
+	case 44:
+	case 45:
+	case 46:
+	case 47:
+	case 48:
+	case 49:
+	case 50:
+	case 51:
+	case 52:
+	case 53:
+	case 54:
+	case 55:
+	case 56:
+	case 57:
+	case 58:
+	case 59:
+	case 60:
+	case 61:
+	case 62:
+	case 63:
+	case 64:
+	case 65:
+	case 66:
+	case 67:
+	case 68:
+	case 69:
+	case 70:
+	case 71:
+	case 72:
+	case 73:
+	case 74:
+	case 75:
+	case 76:
+	case 77:
+	case 78:
+	case 79:
+	case 80:
+	case 81:
+	case 82:
+	case 83:
+	case 84:
+	case 85:
+	case 86:
+	case 87:
+	case 88:
+	case 89:
+	case 90:
+	case 91:
+	case 92:
+	case 93:
+	case 94:
+	case 95:
+	case 96:
+	case 97:
+	case 98:
+	case 99:
+	case 100:
+		printf("ERRO");			break			break			break
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {01
+	case 0:
+	case 1:
+		printf("ERRO");2
+		printf("OK");3100
+	case 3:
+	case 4:
+	case 5:
+	case 6:
+	case 7:
+	case 8:
+	case 9:
+	case 10:
+	case 11:
+	case 12:
+	case 13:
+	case 14:
+	case 15:
+	case 16:
+	case 17:
+	case 18:
+	case 19:
+	case 20:
+	case 21:
+	case 22:
+	case 23:
+	case 24:
+	case 25:
+	case 26:
+	case 27:
+	case 28:
+	case 29:
+	case 30:
+	case 31:
+	case 32:
+	case 33:
+	case 34:
+	case 35:
+	case 36:
+	case 37:
+	case 38:
+	case 39:
+	case 40:
+	case 41:
+	case 42:
+	case 43:
+	case 44:
+	case 45:
+	case 46:
+	case 47:
+	case 48:
+	case 49:
+	case 50:
+	case 51:
+	case 52:
+	case 53:
+	case 54:
+	case 55:
+	case 56:
+	case 57:
+	case 58:
+	case 59:
+	case 60:
+	case 61:
+	case 62:
+	case 63:
+	case 64:
+	case 65:
+	case 66:
+	case 67:
+	case 68:
+	case 69:
+	case 70:
+	case 71:
+	case 72:
+	case 73:
+	case 74:
+	case 75:
+	case 76:
+	case 77:
+	case 78:
+	case 79:
+	case 80:
+	case 81:
+	case 82:
+	case 83:
+	case 84:
+	case 85:
+	case 86:
+	case 87:
+	case 88:
+	case 89:
+	case 90:
+	case 91:
+	case 92:
+	case 93:
+	case 94:
+	case 95:
+	case 96:
+	case 97:
+	case 98:
+	case 99:
+	case 100:
+		printf("ERRO");			break			break			break
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {01
+	case 0:
+	case 1:
+		printf("ERRO");2
+		printf("OK");3100
+	case 3:
+	case 4:
+	case 5:
+	case 6:
+	case 7:
+	case 8:
+	case 9:
+	case 10:
+	case 11:
+	case 12:
+	case 13:
+	case 14:
+	case 15:
+	case 16:
+	case 17:
+	case 18:
+	case 19:
+	case 20:
+	case 21:
+	case 22:
+	case 23:
+	case 24:
+	case 25:
+	case 26:
+	case 27:
+	case 28:
+	case 29:
+	case 30:
+	case 31:
+	case 32:
+	case 33:
+	case 34:
+	case 35:
+	case 36:
+	case 37:
+	case 38:
+	case 39:
+	case 40:
+	case 41:
+	case 42:
+	case 43:
+	case 44:
+	case 45:
+	case 46:
+	case 47:
+	case 48:
+	case 49:
+	case 50:
+	case 51:
+	case 52:
+	case 53:
+	case 54:
+	case 55:
+	case 56:
+	case 57:
+	case 58:
+	case 59:
+	case 60:
+	case 61:
+	case 62:
+	case 63:
+	case 64:
+	case 65:
+	case 66:
+	case 67:
+	case 68:
+	case 69:
+	case 70:
+	case 71:
+	case 72:
+	case 73:
+	case 74:
+	case 75:
+	case 76:
+	case 77:
+	case 78:
+	case 79:
+	case 80:
+	case 81:
+	case 82:
+	case 83:
+	case 84:
+	case 85:
+	case 86:
+	case 87:
+	case 88:
+	case 89:
+	case 90:
+	case 91:
+	case 92:
+	case 93:
+	case 94:
+	case 95:
+	case 96:
+	case 97:
+	case 98:
+	case 99:
+	case 100:
+		printf("ERRO");			break			break			break
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {01
+	case 0:
+	case 1:
+		printf("ERRO");			break2
+		printf("OK");			break3100
+	case 3:
+	case 4:
+	case 5:
+	case 6:
+	case 7:
+	case 8:
+	case 9:
+	case 10:
+	case 11:
+	case 12:
+	case 13:
+	case 14:
+	case 15:
+	case 16:
+	case 17:
+	case 18:
+	case 19:
+	case 20:
+	case 21:
+	case 22:
+	case 23:
+	case 24:
+	case 25:
+	case 26:
+	case 27:
+	case 28:
+	case 29:
+	case 30:
+	case 31:
+	case 32:
+	case 33:
+	case 34:
+	case 35:
+	case 36:
+	case 37:
+	case 38:
+	case 39:
+	case 40:
+	case 41:
+	case 42:
+	case 43:
+	case 44:
+	case 45:
+	case 46:
+	case 47:
+	case 48:
+	case 49:
+	case 50:
+	case 51:
+	case 52:
+	case 53:
+	case 54:
+	case 55:
+	case 56:
+	case 57:
+	case 58:
+	case 59:
+	case 60:
+	case 61:
+	case 62:
+	case 63:
+	case 64:
+	case 65:
+	case 66:
+	case 67:
+	case 68:
+	case 69:
+	case 70:
+	case 71:
+	case 72:
+	case 73:
+	case 74:
+	case 75:
+	case 76:
+	case 77:
+	case 78:
+	case 79:
+	case 80:
+	case 81:
+	case 82:
+	case 83:
+	case 84:
+	case 85:
+	case 86:
+	case 87:
+	case 88:
+	case 89:
+	case 90:
+	case 91:
+	case 92:
+	case 93:
+	case 94:
+	case 95:
+	case 96:
+	case 97:
+	case 98:
+	case 99:
+	case 100:
+		printf("ERRO");			break
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {01
+	case 0:
+	case 1:
+		printf("ERRO");
+			break2
+		printf("OK");
+			break3100
+	case 3:
+	case 4:
+	case 5:
+	case 6:
+	case 7:
+	case 8:
+	case 9:
+	case 10:
+	case 11:
+	case 12:
+	case 13:
+	case 14:
+	case 15:
+	case 16:
+	case 17:
+	case 18:
+	case 19:
+	case 20:
+	case 21:
+	case 22:
+	case 23:
+	case 24:
+	case 25:
+	case 26:
+	case 27:
+	case 28:
+	case 29:
+	case 30:
+	case 31:
+	case 32:
+	case 33:
+	case 34:
+	case 35:
+	case 36:
+	case 37:
+	case 38:
+	case 39:
+	case 40:
+	case 41:
+	case 42:
+	case 43:
+	case 44:
+	case 45:
+	case 46:
+	case 47:
+	case 48:
+	case 49:
+	case 50:
+	case 51:
+	case 52:
+	case 53:
+	case 54:
+	case 55:
+	case 56:
+	case 57:
+	case 58:
+	case 59:
+	case 60:
+	case 61:
+	case 62:
+	case 63:
+	case 64:
+	case 65:
+	case 66:
+	case 67:
+	case 68:
+	case 69:
+	case 70:
+	case 71:
+	case 72:
+	case 73:
+	case 74:
+	case 75:
+	case 76:
+	case 77:
+	case 78:
+	case 79:
+	case 80:
+	case 81:
+	case 82:
+	case 83:
+	case 84:
+	case 85:
+	case 86:
+	case 87:
+	case 88:
+	case 89:
+	case 90:
+	case 91:
+	case 92:
+	case 93:
+	case 94:
+	case 95:
+	case 96:
+	case 97:
+	case 98:
+	case 99:
+	case 100:
+		printf("ERRO");
+			break
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {01
+	case 0:
+	case 1:
+		printf("ERRO");
+		break2
+		printf("OK");
+		break3100
+	case 3:
+	case 4:
+	case 5:
+	case 6:
+	case 7:
+	case 8:
+	case 9:
+	case 10:
+	case 11:
+	case 12:
+	case 13:
+	case 14:
+	case 15:
+	case 16:
+	case 17:
+	case 18:
+	case 19:
+	case 20:
+	case 21:
+	case 22:
+	case 23:
+	case 24:
+	case 25:
+	case 26:
+	case 27:
+	case 28:
+	case 29:
+	case 30:
+	case 31:
+	case 32:
+	case 33:
+	case 34:
+	case 35:
+	case 36:
+	case 37:
+	case 38:
+	case 39:
+	case 40:
+	case 41:
+	case 42:
+	case 43:
+	case 44:
+	case 45:
+	case 46:
+	case 47:
+	case 48:
+	case 49:
+	case 50:
+	case 51:
+	case 52:
+	case 53:
+	case 54:
+	case 55:
+	case 56:
+	case 57:
+	case 58:
+	case 59:
+	case 60:
+	case 61:
+	case 62:
+	case 63:
+	case 64:
+	case 65:
+	case 66:
+	case 67:
+	case 68:
+	case 69:
+	case 70:
+	case 71:
+	case 72:
+	case 73:
+	case 74:
+	case 75:
+	case 76:
+	case 77:
+	case 78:
+	case 79:
+	case 80:
+	case 81:
+	case 82:
+	case 83:
+	case 84:
+	case 85:
+	case 86:
+	case 87:
+	case 88:
+	case 89:
+	case 90:
+	case 91:
+	case 92:
+	case 93:
+	case 94:
+	case 95:
+	case 96:
+	case 97:
+	case 98:
+	case 99:
+	case 100:
+		printf("ERRO");
+		break
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {01
+	case 0:
+	case 1:
+		printf("ERRO");
+		break;2
+		printf("OK");
+		break;3100
+	case 3:
+	case 4:
+	case 5:
+	case 6:
+	case 7:
+	case 8:
+	case 9:
+	case 10:
+	case 11:
+	case 12:
+	case 13:
+	case 14:
+	case 15:
+	case 16:
+	case 17:
+	case 18:
+	case 19:
+	case 20:
+	case 21:
+	case 22:
+	case 23:
+	case 24:
+	case 25:
+	case 26:
+	case 27:
+	case 28:
+	case 29:
+	case 30:
+	case 31:
+	case 32:
+	case 33:
+	case 34:
+	case 35:
+	case 36:
+	case 37:
+	case 38:
+	case 39:
+	case 40:
+	case 41:
+	case 42:
+	case 43:
+	case 44:
+	case 45:
+	case 46:
+	case 47:
+	case 48:
+	case 49:
+	case 50:
+	case 51:
+	case 52:
+	case 53:
+	case 54:
+	case 55:
+	case 56:
+	case 57:
+	case 58:
+	case 59:
+	case 60:
+	case 61:
+	case 62:
+	case 63:
+	case 64:
+	case 65:
+	case 66:
+	case 67:
+	case 68:
+	case 69:
+	case 70:
+	case 71:
+	case 72:
+	case 73:
+	case 74:
+	case 75:
+	case 76:
+	case 77:
+	case 78:
+	case 79:
+	case 80:
+	case 81:
+	case 82:
+	case 83:
+	case 84:
+	case 85:
+	case 86:
+	case 87:
+	case 88:
+	case 89:
+	case 90:
+	case 91:
+	case 92:
+	case 93:
+	case 94:
+	case 95:
+	case 96:
+	case 97:
+	case 98:
+	case 99:
+	case 100:
+		printf("ERRO");
+		break;
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {01
+		case 0:
+		case 1:
+		printf("ERRO");
+		break;2		case 2:
+		printf("OK");
+		break;3100
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+		case 8:
+		case 9:
+		case 10:
+		case 11:
+		case 12:
+		case 13:
+		case 14:
+		case 15:
+		case 16:
+		case 17:
+		case 18:
+		case 19:
+		case 20:
+		case 21:
+		case 22:
+		case 23:
+		case 24:
+		case 25:
+		case 26:
+		case 27:
+		case 28:
+		case 29:
+		case 30:
+		case 31:
+		case 32:
+		case 33:
+		case 34:
+		case 35:
+		case 36:
+		case 37:
+		case 38:
+		case 39:
+		case 40:
+		case 41:
+		case 42:
+		case 43:
+		case 44:
+		case 45:
+		case 46:
+		case 47:
+		case 48:
+		case 49:
+		case 50:
+		case 51:
+		case 52:
+		case 53:
+		case 54:
+		case 55:
+		case 56:
+		case 57:
+		case 58:
+		case 59:
+		case 60:
+		case 61:
+		case 62:
+		case 63:
+		case 64:
+		case 65:
+		case 66:
+		case 67:
+		case 68:
+		case 69:
+		case 70:
+		case 71:
+		case 72:
+		case 73:
+		case 74:
+		case 75:
+		case 76:
+		case 77:
+		case 78:
+		case 79:
+		case 80:
+		case 81:
+		case 82:
+		case 83:
+		case 84:
+		case 85:
+		case 86:
+		case 87:
+		case 88:
+		case 89:
+		case 90:
+		case 91:
+		case 92:
+		case 93:
+		case 94:
+		case 95:
+		case 96:
+		case 97:
+		case 98:
+		case 99:
+		case 100:
+		printf("ERRO");
+		break;
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {01
+		case 0:
+		case 1:
+			printf("ERRO");
+		break;2		case 2:
+			printf("OK");
+		break;3100
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+		case 8:
+		case 9:
+		case 10:
+		case 11:
+		case 12:
+		case 13:
+		case 14:
+		case 15:
+		case 16:
+		case 17:
+		case 18:
+		case 19:
+		case 20:
+		case 21:
+		case 22:
+		case 23:
+		case 24:
+		case 25:
+		case 26:
+		case 27:
+		case 28:
+		case 29:
+		case 30:
+		case 31:
+		case 32:
+		case 33:
+		case 34:
+		case 35:
+		case 36:
+		case 37:
+		case 38:
+		case 39:
+		case 40:
+		case 41:
+		case 42:
+		case 43:
+		case 44:
+		case 45:
+		case 46:
+		case 47:
+		case 48:
+		case 49:
+		case 50:
+		case 51:
+		case 52:
+		case 53:
+		case 54:
+		case 55:
+		case 56:
+		case 57:
+		case 58:
+		case 59:
+		case 60:
+		case 61:
+		case 62:
+		case 63:
+		case 64:
+		case 65:
+		case 66:
+		case 67:
+		case 68:
+		case 69:
+		case 70:
+		case 71:
+		case 72:
+		case 73:
+		case 74:
+		case 75:
+		case 76:
+		case 77:
+		case 78:
+		case 79:
+		case 80:
+		case 81:
+		case 82:
+		case 83:
+		case 84:
+		case 85:
+		case 86:
+		case 87:
+		case 88:
+		case 89:
+		case 90:
+		case 91:
+		case 92:
+		case 93:
+		case 94:
+		case 95:
+		case 96:
+		case 97:
+		case 98:
+		case 99:
+		case 100:
+			printf("ERRO");
+		break;
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {01
+		case 0:
+		case 1:
+			printf("ERRO");
+			break;2		case 2:
+			printf("OK");
+			break;3100
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+		case 8:
+		case 9:
+		case 10:
+		case 11:
+		case 12:
+		case 13:
+		case 14:
+		case 15:
+		case 16:
+		case 17:
+		case 18:
+		case 19:
+		case 20:
+		case 21:
+		case 22:
+		case 23:
+		case 24:
+		case 25:
+		case 26:
+		case 27:
+		case 28:
+		case 29:
+		case 30:
+		case 31:
+		case 32:
+		case 33:
+		case 34:
+		case 35:
+		case 36:
+		case 37:
+		case 38:
+		case 39:
+		case 40:
+		case 41:
+		case 42:
+		case 43:
+		case 44:
+		case 45:
+		case 46:
+		case 47:
+		case 48:
+		case 49:
+		case 50:
+		case 51:
+		case 52:
+		case 53:
+		case 54:
+		case 55:
+		case 56:
+		case 57:
+		case 58:
+		case 59:
+		case 60:
+		case 61:
+		case 62:
+		case 63:
+		case 64:
+		case 65:
+		case 66:
+		case 67:
+		case 68:
+		case 69:
+		case 70:
+		case 71:
+		case 72:
+		case 73:
+		case 74:
+		case 75:
+		case 76:
+		case 77:
+		case 78:
+		case 79:
+		case 80:
+		case 81:
+		case 82:
+		case 83:
+		case 84:
+		case 85:
+		case 86:
+		case 87:
+		case 88:
+		case 89:
+		case 90:
+		case 91:
+		case 92:
+		case 93:
+		case 94:
+		case 95:
+		case 96:
+		case 97:
+		case 98:
+		case 99:
+		case 100:
+			printf("ERRO");
+			break;
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {01
+		case 0:
+		case 1:
+			printf("ERRO");
+			break;2
+		case 2:
+			printf("OK");
+			break;3100
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+		case 8:
+		case 9:
+		case 10:
+		case 11:
+		case 12:
+		case 13:
+		case 14:
+		case 15:
+		case 16:
+		case 17:
+		case 18:
+		case 19:
+		case 20:
+		case 21:
+		case 22:
+		case 23:
+		case 24:
+		case 25:
+		case 26:
+		case 27:
+		case 28:
+		case 29:
+		case 30:
+		case 31:
+		case 32:
+		case 33:
+		case 34:
+		case 35:
+		case 36:
+		case 37:
+		case 38:
+		case 39:
+		case 40:
+		case 41:
+		case 42:
+		case 43:
+		case 44:
+		case 45:
+		case 46:
+		case 47:
+		case 48:
+		case 49:
+		case 50:
+		case 51:
+		case 52:
+		case 53:
+		case 54:
+		case 55:
+		case 56:
+		case 57:
+		case 58:
+		case 59:
+		case 60:
+		case 61:
+		case 62:
+		case 63:
+		case 64:
+		case 65:
+		case 66:
+		case 67:
+		case 68:
+		case 69:
+		case 70:
+		case 71:
+		case 72:
+		case 73:
+		case 74:
+		case 75:
+		case 76:
+		case 77:
+		case 78:
+		case 79:
+		case 80:
+		case 81:
+		case 82:
+		case 83:
+		case 84:
+		case 85:
+		case 86:
+		case 87:
+		case 88:
+		case 89:
+		case 90:
+		case 91:
+		case 92:
+		case 93:
+		case 94:
+		case 95:
+		case 96:
+		case 97:
+		case 98:
+		case 99:
+		case 100:
+			printf("ERRO");
+			break;
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {01
+		case 0:
+		case 1:
+			printf("ERRO");
+			break;2
+		case 2:
+			printf("OK");
+			break;3100
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+		case 8:
+		case 9:
+		case 10:
+		case 11:
+		case 12:
+		case 13:
+		case 14:
+		case 15:
+		case 16:
+		case 17:
+		case 18:
+		case 19:
+		case 20:
+		case 21:
+		case 22:
+		case 23:
+		case 24:
+		case 25:
+		case 26:
+		case 27:
+		case 28:
+		case 29:
+		case 30:
+		case 31:
+		case 32:
+		case 33:
+		case 34:
+		case 35:
+		case 36:
+		case 37:
+		case 38:
+		case 39:
+		case 40:
+		case 41:
+		case 42:
+		case 43:
+		case 44:
+		case 45:
+		case 46:
+		case 47:
+		case 48:
+		case 49:
+		case 50:
+		case 51:
+		case 52:
+		case 53:
+		case 54:
+		case 55:
+		case 56:
+		case 57:
+		case 58:
+		case 59:
+		case 60:
+		case 61:
+		case 62:
+		case 63:
+		case 64:
+		case 65:
+		case 66:
+		case 67:
+		case 68:
+		case 69:
+		case 70:
+		case 71:
+		case 72:
+		case 73:
+		case 74:
+		case 75:
+		case 76:
+		case 77:
+		case 78:
+		case 79:
+		case 80:
+		case 81:
+		case 82:
+		case 83:
+		case 84:
+		case 85:
+		case 86:
+		case 87:
+		case 88:
+		case 89:
+		case 90:
+		case 91:
+		case 92:
+		case 93:
+		case 94:
+		case 95:
+		case 96:
+		case 97:
+		case 98:
+		case 99:
+		case 100:
+			printf("ERRO");
+			break;else 	printf("ERRO");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {
+			printf("ERRO");
+			break;
+			printf("OK");
+			break;
+			printf("ERRO");
+			break;else 	printf("ERRO");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {01
+		case 0:
+		case 1:
+			printf("ERRO");
+			break;2
+		case 2:
+			printf("OK");
+			break;3100
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+		case 8:
+		case 9:
+		case 10:
+		case 11:
+		case 12:
+		case 13:
+		case 14:
+		case 15:
+		case 16:
+		case 17:
+		case 18:
+		case 19:
+		case 20:
+		case 21:
+		case 22:
+		case 23:
+		case 24:
+		case 25:
+		case 26:
+		case 27:
+		case 28:
+		case 29:
+		case 30:
+		case 31:
+		case 32:
+		case 33:
+		case 34:
+		case 35:
+		case 36:
+		case 37:
+		case 38:
+		case 39:
+		case 40:
+		case 41:
+		case 42:
+		case 43:
+		case 44:
+		case 45:
+		case 46:
+		case 47:
+		case 48:
+		case 49:
+		case 50:
+		case 51:
+		case 52:
+		case 53:
+		case 54:
+		case 55:
+		case 56:
+		case 57:
+		case 58:
+		case 59:
+		case 60:
+		case 61:
+		case 62:
+		case 63:
+		case 64:
+		case 65:
+		case 66:
+		case 67:
+		case 68:
+		case 69:
+		case 70:
+		case 71:
+		case 72:
+		case 73:
+		case 74:
+		case 75:
+		case 76:
+		case 77:
+		case 78:
+		case 79:
+		case 80:
+		case 81:
+		case 82:
+		case 83:
+		case 84:
+		case 85:
+		case 86:
+		case 87:
+		case 88:
+		case 89:
+		case 90:
+		case 91:
+		case 92:
+		case 93:
+		case 94:
+		case 95:
+		case 96:
+		case 97:
+		case 98:
+		case 99:
+		case 100:
+			printf("ERRO");
+			break;else 	printf("ERRO");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {0
+		case 0:
+		case 1:
+			printf("ERRO");
+			break;2
+		case 2:
+			printf("OK");
+			break;3
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+		case 8:
+		case 9:
+		case 10:
+		case 11:
+		case 12:
+		case 13:
+		case 14:
+		case 15:
+		case 16:
+		case 17:
+		case 18:
+		case 19:
+		case 20:
+		case 21:
+		case 22:
+		case 23:
+		case 24:
+		case 25:
+		case 26:
+		case 27:
+		case 28:
+		case 29:
+		case 30:
+		case 31:
+		case 32:
+		case 33:
+		case 34:
+		case 35:
+		case 36:
+		case 37:
+		case 38:
+		case 39:
+		case 40:
+		case 41:
+		case 42:
+		case 43:
+		case 44:
+		case 45:
+		case 46:
+		case 47:
+		case 48:
+		case 49:
+		case 50:
+		case 51:
+		case 52:
+		case 53:
+		case 54:
+		case 55:
+		case 56:
+		case 57:
+		case 58:
+		case 59:
+		case 60:
+		case 61:
+		case 62:
+		case 63:
+		case 64:
+		case 65:
+		case 66:
+		case 67:
+		case 68:
+		case 69:
+		case 70:
+		case 71:
+		case 72:
+		case 73:
+		case 74:
+		case 75:
+		case 76:
+		case 77:
+		case 78:
+		case 79:
+		case 80:
+		case 81:
+		case 82:
+		case 83:
+		case 84:
+		case 85:
+		case 86:
+		case 87:
+		case 88:
+		case 89:
+		case 90:
+		case 91:
+		case 92:
+		case 93:
+		case 94:
+		case 95:
+		case 96:
+		case 97:
+		case 98:
+		case 99:
+		case 100:
+			printf("ERRO");
+			break;else 	printf("ERRO");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {
+		case 0:
+		case 1:
+			printf("ERRO");
+			break;
+		case 2:
+			printf("OK");
+			break;
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+		case 8:
+		case 9:
+		case 10:
+		case 11:
+		case 12:
+		case 13:
+		case 14:
+		case 15:
+		case 16:
+		case 17:
+		case 18:
+		case 19:
+		case 20:
+		case 21:
+		case 22:
+		case 23:
+		case 24:
+		case 25:
+		case 26:
+		case 27:
+		case 28:
+		case 29:
+		case 30:
+		case 31:
+		case 32:
+		case 33:
+		case 34:
+		case 35:
+		case 36:
+		case 37:
+		case 38:
+		case 39:
+		case 40:
+		case 41:
+		case 42:
+		case 43:
+		case 44:
+		case 45:
+		case 46:
+		case 47:
+		case 48:
+		case 49:
+		case 50:
+		case 51:
+		case 52:
+		case 53:
+		case 54:
+		case 55:
+		case 56:
+		case 57:
+		case 58:
+		case 59:
+		case 60:
+		case 61:
+		case 62:
+		case 63:
+		case 64:
+		case 65:
+		case 66:
+		case 67:
+		case 68:
+		case 69:
+		case 70:
+		case 71:
+		case 72:
+		case 73:
+		case 74:
+		case 75:
+		case 76:
+		case 77:
+		case 78:
+		case 79:
+		case 80:
+		case 81:
+		case 82:
+		case 83:
+		case 84:
+		case 85:
+		case 86:
+		case 87:
+		case 88:
+		case 89:
+		case 90:
+		case 91:
+		case 92:
+		case 93:
+		case 94:
+		case 95:
+		case 96:
+		case 97:
+		case 98:
+		case 99:
+		case 100:
+			printf("ERRO");
+			break;else 	printf("ERRO");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {
+		case 0:
+		case 1:
+			printf("ERRO");
+			break;
+		case 2:
+			printf("OK");
+			break;
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+		case 8:
+		case 9:
+		case 10:
+		case 11:
+		case 12:
+		case 13:
+		case 14:
+		case 15:
+		case 16:
+		case 17:
+		case 18:
+		case 19:
+		case 20:
+		case 21:
+		case 22:
+		case 23:
+		case 24:
+		case 25:
+		case 26:
+		case 27:
+		case 28:
+		case 29:
+		case 30:
+		case 31:
+		case 32:
+		case 33:
+		case 34:
+		case 35:
+		case 36:
+		case 37:
+		case 38:
+		case 39:
+		case 40:
+		case 41:
+		case 42:
+		case 43:
+		case 44:
+		case 45:
+		case 46:
+		case 47:
+		case 48:
+		case 49:
+		case 50:
+		case 51:
+		case 52:
+		case 53:
+		case 54:
+		case 55:
+		case 56:
+		case 57:
+		case 58:
+		case 59:
+		case 60:
+		case 61:
+		case 62:
+		case 63:
+		case 64:
+		case 65:
+		case 66:
+		case 67:
+		case 68:
+		case 69:
+		case 70:
+		case 71:
+		case 72:
+		case 73:
+		case 74:
+		case 75:
+		case 76:
+		case 77:
+		case 78:
+		case 79:
+		case 80:
+		case 81:
+		case 82:
+		case 83:
+		case 84:
+		case 85:
+		case 86:
+		case 87:
+		case 88:
+		case 89:
+		case 90:
+		case 91:
+		case 92:
+		case 93:
+		case 94:
+		case 95:
+		case 96:
+		case 97:
+		case 98:
+		case 99:
+		case 100:
+			printf("ERRO");
+			break;	default:	printf("ERRO");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {
+		case 0:
+		case 1:
+			printf("ERRO");
+			break;
+		case 2:
+			printf("OK");
+			break;
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+		case 8:
+		case 9:
+		case 10:
+		case 11:
+		case 12:
+		case 13:
+		case 14:
+		case 15:
+		case 16:
+		case 17:
+		case 18:
+		case 19:
+		case 20:
+		case 21:
+		case 22:
+		case 23:
+		case 24:
+		case 25:
+		case 26:
+		case 27:
+		case 28:
+		case 29:
+		case 30:
+		case 31:
+		case 32:
+		case 33:
+		case 34:
+		case 35:
+		case 36:
+		case 37:
+		case 38:
+		case 39:
+		case 40:
+		case 41:
+		case 42:
+		case 43:
+		case 44:
+		case 45:
+		case 46:
+		case 47:
+		case 48:
+		case 49:
+		case 50:
+		case 51:
+		case 52:
+		case 53:
+		case 54:
+		case 55:
+		case 56:
+		case 57:
+		case 58:
+		case 59:
+		case 60:
+		case 61:
+		case 62:
+		case 63:
+		case 64:
+		case 65:
+		case 66:
+		case 67:
+		case 68:
+		case 69:
+		case 70:
+		case 71:
+		case 72:
+		case 73:
+		case 74:
+		case 75:
+		case 76:
+		case 77:
+		case 78:
+		case 79:
+		case 80:
+		case 81:
+		case 82:
+		case 83:
+		case 84:
+		case 85:
+		case 86:
+		case 87:
+		case 88:
+		case 89:
+		case 90:
+		case 91:
+		case 92:
+		case 93:
+		case 94:
+		case 95:
+		case 96:
+		case 97:
+		case 98:
+		case 99:
+		case 100:
+			printf("ERRO");
+			break;
+	default:	printf("ERRO");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {
+		case 0:
+		case 1:
+			printf("ERRO");
+			break;
+		case 2:
+			printf("OK");
+			break;
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+		case 8:
+		case 9:
+		case 10:
+		case 11:
+		case 12:
+		case 13:
+		case 14:
+		case 15:
+		case 16:
+		case 17:
+		case 18:
+		case 19:
+		case 20:
+		case 21:
+		case 22:
+		case 23:
+		case 24:
+		case 25:
+		case 26:
+		case 27:
+		case 28:
+		case 29:
+		case 30:
+		case 31:
+		case 32:
+		case 33:
+		case 34:
+		case 35:
+		case 36:
+		case 37:
+		case 38:
+		case 39:
+		case 40:
+		case 41:
+		case 42:
+		case 43:
+		case 44:
+		case 45:
+		case 46:
+		case 47:
+		case 48:
+		case 49:
+		case 50:
+		case 51:
+		case 52:
+		case 53:
+		case 54:
+		case 55:
+		case 56:
+		case 57:
+		case 58:
+		case 59:
+		case 60:
+		case 61:
+		case 62:
+		case 63:
+		case 64:
+		case 65:
+		case 66:
+		case 67:
+		case 68:
+		case 69:
+		case 70:
+		case 71:
+		case 72:
+		case 73:
+		case 74:
+		case 75:
+		case 76:
+		case 77:
+		case 78:
+		case 79:
+		case 80:
+		case 81:
+		case 82:
+		case 83:
+		case 84:
+		case 85:
+		case 86:
+		case 87:
+		case 88:
+		case 89:
+		case 90:
+		case 91:
+		case 92:
+		case 93:
+		case 94:
+		case 95:
+		case 96:
+		case 97:
+		case 98:
+		case 99:
+		case 100:
+			printf("ERRO");
+			break;
+		default:	printf("ERRO");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {
+		case 0:
+		case 1:
+			printf("ERRO");
+			break;
+		case 2:
+			printf("OK");
+			break;
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+		case 8:
+		case 9:
+		case 10:
+		case 11:
+		case 12:
+		case 13:
+		case 14:
+		case 15:
+		case 16:
+		case 17:
+		case 18:
+		case 19:
+		case 20:
+		case 21:
+		case 22:
+		case 23:
+		case 24:
+		case 25:
+		case 26:
+		case 27:
+		case 28:
+		case 29:
+		case 30:
+		case 31:
+		case 32:
+		case 33:
+		case 34:
+		case 35:
+		case 36:
+		case 37:
+		case 38:
+		case 39:
+		case 40:
+		case 41:
+		case 42:
+		case 43:
+		case 44:
+		case 45:
+		case 46:
+		case 47:
+		case 48:
+		case 49:
+		case 50:
+		case 51:
+		case 52:
+		case 53:
+		case 54:
+		case 55:
+		case 56:
+		case 57:
+		case 58:
+		case 59:
+		case 60:
+		case 61:
+		case 62:
+		case 63:
+		case 64:
+		case 65:
+		case 66:
+		case 67:
+		case 68:
+		case 69:
+		case 70:
+		case 71:
+		case 72:
+		case 73:
+		case 74:
+		case 75:
+		case 76:
+		case 77:
+		case 78:
+		case 79:
+		case 80:
+		case 81:
+		case 82:
+		case 83:
+		case 84:
+		case 85:
+		case 86:
+		case 87:
+		case 88:
+		case 89:
+		case 90:
+		case 91:
+		case 92:
+		case 93:
+		case 94:
+		case 95:
+		case 96:
+		case 97:
+		case 98:
+		case 99:
+		case 100:
+			printf("ERRO");
+			break;
+		default:
+		printf("ERRO");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {
+		case 0:
+		case 1:
+			printf("ERRO");
+			break;
+		case 2:
+			printf("OK");
+			break;
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+		case 8:
+		case 9:
+		case 10:
+		case 11:
+		case 12:
+		case 13:
+		case 14:
+		case 15:
+		case 16:
+		case 17:
+		case 18:
+		case 19:
+		case 20:
+		case 21:
+		case 22:
+		case 23:
+		case 24:
+		case 25:
+		case 26:
+		case 27:
+		case 28:
+		case 29:
+		case 30:
+		case 31:
+		case 32:
+		case 33:
+		case 34:
+		case 35:
+		case 36:
+		case 37:
+		case 38:
+		case 39:
+		case 40:
+		case 41:
+		case 42:
+		case 43:
+		case 44:
+		case 45:
+		case 46:
+		case 47:
+		case 48:
+		case 49:
+		case 50:
+		case 51:
+		case 52:
+		case 53:
+		case 54:
+		case 55:
+		case 56:
+		case 57:
+		case 58:
+		case 59:
+		case 60:
+		case 61:
+		case 62:
+		case 63:
+		case 64:
+		case 65:
+		case 66:
+		case 67:
+		case 68:
+		case 69:
+		case 70:
+		case 71:
+		case 72:
+		case 73:
+		case 74:
+		case 75:
+		case 76:
+		case 77:
+		case 78:
+		case 79:
+		case 80:
+		case 81:
+		case 82:
+		case 83:
+		case 84:
+		case 85:
+		case 86:
+		case 87:
+		case 88:
+		case 89:
+		case 90:
+		case 91:
+		case 92:
+		case 93:
+		case 94:
+		case 95:
+		case 96:
+		case 97:
+		case 98:
+		case 99:
+		case 100:
+			printf("ERRO");
+			break;
+		default:
+			printf("ERRO");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (2) {
+		case 0:
+		case 1:
+			printf("ERRO");
+			break;
+		case 2:
+			printf("OK");
+			break;
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+		case 8:
+		case 9:
+		case 10:
+		case 11:
+		case 12:
+		case 13:
+		case 14:
+		case 15:
+		case 16:
+		case 17:
+		case 18:
+		case 19:
+		case 20:
+		case 21:
+		case 22:
+		case 23:
+		case 24:
+		case 25:
+		case 26:
+		case 27:
+		case 28:
+		case 29:
+		case 30:
+		case 31:
+		case 32:
+		case 33:
+		case 34:
+		case 35:
+		case 36:
+		case 37:
+		case 38:
+		case 39:
+		case 40:
+		case 41:
+		case 42:
+		case 43:
+		case 44:
+		case 45:
+		case 46:
+		case 47:
+		case 48:
+		case 49:
+		case 50:
+		case 51:
+		case 52:
+		case 53:
+		case 54:
+		case 55:
+		case 56:
+		case 57:
+		case 58:
+		case 59:
+		case 60:
+		case 61:
+		case 62:
+		case 63:
+		case 64:
+		case 65:
+		case 66:
+		case 67:
+		case 68:
+		case 69:
+		case 70:
+		case 71:
+		case 72:
+		case 73:
+		case 74:
+		case 75:
+		case 76:
+		case 77:
+		case 78:
+		case 79:
+		case 80:
+		case 81:
+		case 82:
+		case 83:
+		case 84:
+		case 85:
+		case 86:
+		case 87:
+		case 88:
+		case 89:
+		case 90:
+		case 91:
+		case 92:
+		case 93:
+		case 94:
+		case 95:
+		case 96:
+		case 97:
+		case 98:
+		case 99:
+		case 100:
+			printf("ERRO");
+			break;
+		default:
+			printf("ERRO");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (teste) {
+		case 0:
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+			printf("ERRO");
+			break;
+		case 8:
+			printf("OK");
+			break;
+		default:
+			printf("ERRO");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+#define teste 8
+
+
+int main(){
+	switch (teste) {
+		case 0:
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+			printf("ERRO");
+			break;
+		case 8:
+			printf("OK");
+			break;
+		default:
+			printf("ERRO");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+#define teste 8
+
+
+int main(){
+	switch (teste) {
+		case 0:
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+			printf("ERRO");
+			break;
+		case 8:
+			printf("OK");
+			break;
+		default:
+			printf("ERRO");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	switch (teste) {
+		case 0:
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+			printf("ERRO");
+			break;
+		case 8:
+			printf("OK");
+			break;
+		default:
+			printf("ERRO");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+#define teste 8
+
+
+int main(){
+	switch (teste) {
+		case 0:
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+			printf("ERRO");
+			break;
+		case 8:
+			printf("OK");
+			break;
+		default:
+			printf("ERRO");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+#define teste 8
+
+
+int main(){
+	switch (teste) {
+		case 0:
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+			printf("ERRO");
+			break;
+		case 8:
+			printf("OK");
+			break;
+		default:
+			printf("ERRO");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+#define teste 8
+
+
+int main(){
+	switch (teste) {
+		case 0:
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+			printf("ERRO");
+			break;
+		case 8:
+			printf("OK");
+			break;
+		default:
+			printf("ERRO");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	if (4 = 3) {
+	printf("4 eh igual a 3");
+	}	printf("4 eh diferente de 3");
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	if (4 = 3) {
+	printf("4 eh igual a 3");
+	}
+	else {
+			printf("4 eh diferente de 3");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	if (4 = 3) {
+	printf("4 eh igual a 3");
+	}
+	else {
+		printf("4 eh diferente de 3");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	if (	4 = 3) {
+	printf("4 eh igual a 3");
+	}
+	else {
+		printf("4 eh diferente de 3");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	if (4 = 3) {
+		printf("4 eh igual a 3");
+	}
+	else {
+		printf("4 eh diferente de 3");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	if (4 = 3) {
+		printf("4 eh igual a 3");
+	}
+	else {
+		printf("4 eh diferente de 3");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	if (4 = 3) {
+		printf("4 eh igual a 3");
+	}
+	else {
+		printf("4 eh diferente de 3");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	if (4 == 3) {
+		printf("4 eh igual a 3");
+	}
+	else {
+		printf("4 eh diferente de 3");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	for (i = 1; i <= 5; i++){ 
+	printf("%d",i,"\n");	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	for (i = 1; i <= 5; i++){ 
+		printf("%d",i,"\n");	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	for (i = 1; i <= 5; i++){ 
+		printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 
+		printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 
+		printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 
+		printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 
+		printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 
+		printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 
+		printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d"i"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d"i"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i)"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 
+		printf("%d",i)
+	 printf("\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 
+		printf("%d",i)
+	 printf("\n");;
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 
+		printf("%d",i);
+	 printf("\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 
+		printf("%d",i);
+	printf("\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 
+		printf("%d",i);
+		printf("\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;	while (i <= 5	printf("%d",i,"\n");	i = i + 1;
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;	while (i <= 5) {
+		printf("%d",i);
+		printf("\n");	i = i + 1;
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	while (i <= 5) {
+		printf("%d",i);
+		printf("\n");	i = i + 1;
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	while (i <= 5) {
+		printf("%d",i);
+		printf("\n");	i = i + 1;
+
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	while (i <= 5) {
+		printf("%d",i);
+		printf("\n");	i = i + 1;
+
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	while (i <= 5) {
+		printf("%d",i);
+		printf("\n");	i = i + 1;
+
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	while (i <= 5) {
+		printf("%d",i);
+		printf("\n");
+	i = i + 1
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	while (i <= 5) {
+		printf("%d",i);
+		printf("\n");
+		i = i + 1;
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i
+ = 1;
+	while (i <= 5) {
+		printf("%d",i);
+		printf("\n");
+		i
+ = i + 1;
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i
+ = 1;
+	while (i <= 5) {
+		printf("%d",i);
+		printf("\n");
+		i
+ = i + 1;
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i
+ = 1;
+	while (i <= 5) {
+		printf("%d",i);
+		printf("\n");
+		i
+ = i + 1;
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	while (i <= 5) {
+		printf("%d",i);
+		printf("\n");
+		i = i + 1;
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	i = 1;
+	while (i <= 5) {
+		printf("%d",i);
+		printf("\n");
+		i = i + 1;
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	do {
+		printf("%d",i);
+		printf("\n");
+		i = i + 1;
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	do {
+		printf("%d",i);
+		printf("\n");
+		i = i + 1;
+	}whilenao(i = 6)
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	do {
+		printf("%d",i);
+		printf("\n");
+		i = i + 1;
+	}while (nao(i = 6))
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	do {
+		printf("%d",i);
+		printf("\n");
+		i = i + 1;
+	}while (!(i = 6))
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 
+		printf("%d",i);
+		printf("\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,"\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,
+	printf("\n");
+);
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,
+	printf("\n");
+);
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,)
+	printf("\n");
+);
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,)
+	printf("\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,)
+	printf("\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,)
+	printf("\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,)
+	printf("\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i,)
+	printf("\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i)
+	printf("\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i)
+	printf("\n";);
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	printf("%d",i);
+	printf("\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 
+	printf("%d",i);
+	printf("\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 
+		printf("%d",i);
+	printf("\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 
+	
+	printf("%d",i);
+	printf("\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	
+	printf("%d",i);
+	printf("\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 	
+	printf("%d",i);
+	printf("\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 
+	printf("%d",i);
+	printf("\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 		
+	printf("%d",i);
+	printf("\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;
+	for (i = 1; i <= 5; i++){ 
+	printf("%d",i);
+	printf("\n");
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	while (i <= 5) {
+	
+	printf("%d",i);
+	printf("\n");	i = i + 1;
+
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	while (i <= 5) {
+	printf("%d",i);
+	printf("\n");	i = i + 1;
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	while (i <= 5) {
+	printf("%d",i);
+	printf("\n");	i = i + 1;
+
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	while (i <= 5) {
+	printf("%d",i);
+	printf("\n");	i = i + 1;
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	do {
+	printf("%d",i);
+	printf("\n");	i = i + 1;
+	}while (!(i = 6))
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	do {
+	printf("%d",i);
+	printf("\n");	i = i + 1;
+	}while (!(i = 6));
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	do {
+	printf("%d",i);
+	printf("\n");	i = i + 1;
+	}while (!(i = 6));
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	do {
+	printf("%d",i);
+	printf("\n");	i = i + 1;
+	}while (!(i = 6));
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	do {
+	printf("%d",i);
+	printf("\n");	i = i + 1;
+	}while (!(i = 6));
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	do {
+	printf("%d",i);
+	printf("\n");	i = i + 1;
+	}while (!(i = 6));
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	do {
+	printf("%d",i);
+	printf("\n");	i = i + 1;
+	}while (!(i = 6));
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	do {
+	printf("%d",i);
+	printf("\n");	i = i + 1;
+	}while (!(i = 6));
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	do {
+	printf("%d",i);
+	printf("\n");	i = i + 1;
+	}while (!(i = 6));
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	do {
+	printf("%d",i);
+	printf("\n");	i = i + 1;
+	}while (!(i = 6));
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	do {
+	printf("%d",i);
+	printf("\n");	i = i + 1;
+	}while (!(i = 6));
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	do {
+	printf("%d",i);
+	printf("\n");	i = i + 1;
+	}while (!(i = 6));
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i;	i = 1;
+	do {
+	printf("%d",i);
+	printf("\n");	i = i + 1;
+	}while (!(i == 6));
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int x;	^int endx;	x = 0;
+	printf("%d",x," e ");	endx = &x;
 	printf("%d",x);
 	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
-int main(){
-	char x;
-	gets("%s",&x);
-	printf("%s",x);
-	return 0; 
-}
-#include <stdio.h> 
-#include <stdlib.h>
 
 int main(){
-	char x;
-	gets("%s",&x);
-	printf("%s",x);
-	return 0; 
-}
-#include <stdio.h> 
-#include <stdlib.h>
-
-int main(){
-	char x[80];
-	gets("%s",&x);
-	printf("%s",x);
-	return 0; 
-}
-#include <stdio.h> 
-#include <stdlib.h>
-
-int main(){
-	char x[80];
-	gets(x);
-	printf("%s",x);
-	return 0; 
-}
-#include <stdio.h> 
-#include <stdlib.h>
-
-int main(){
-	int x;
-	scanf("%d",&x);
+	int x;	^int endx;	x = 0;
+	printf("%d",x," e ");	endx = &x;
+*=1
 	printf("%d",x);
 	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
-int main(){
-	int x;
-	scanf("%d",&x);
-
-	return 0; 
-}
-#include <stdio.h> 
-#include <stdlib.h>
 
 int main(){
-	int x;
-	scanf("%d",&x);
-	printf();
-	return 0; 
-}
-#include <stdio.h> 
-#include <stdlib.h>
-
-int main(){
-	int x;
-	scanf("%d",&x);
-	printf("O valor fornecido foi: "x);
-	return 0; 
-}
-#include <stdio.h> 
-#include <stdlib.h>
-
-int main(){
-	int x;
-	scanf("%d",&x);
-	printf("O valor fornecido foi: ",x);
-	return 0; 
-}
-#include <stdio.h> 
-#include <stdlib.h>
-
-int main(){
-	int x;
-	scanf("%d",&x);
-	printf("%d",xx);
-	return 0; 
-}
-#include <stdio.h> 
-#include <stdlib.h>
-
-int main(){
-	int x;
-	scanf("%d",&x);
-	printf("%d",xx);
-	return 0; 
-}
-#include <stdio.h> 
-#include <stdlib.h>
-
-int main(){
-	int x;
-	scanf("%d",&x);
-	printf("%d"x);
-	return 0; 
-}
-#include <stdio.h> 
-#include <stdlib.h>
-
-int main(){
-	int x;
-	scanf("%d",&x);
+	int x;	^int endx;	x = 0;
+	printf("%d",x," e ");	endx = &x;
+*endx=1
 	printf("%d",x);
 	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
+
 int main(){
-	int x;
-	scanf("%d",&x);
-	printf("O valor fornecido foi: ",x);
+	int x;	^int endx;	x = 0;
+	printf("%d",x," e ");	endx = &x;
+	*endx=1
+	printf("%d",x);
 	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
+
 int main(){
-	int x;
-	scanf("%d",&x);
-	printf("O valor fornecido foi: ",x);
+	int x;	^int endx;	x = 0;
+	printf("%d",x," e ");	endx = &x;
+	*endx = 1
+	printf("%d",x);
 	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
+
 int main(){
-	int x;
-	scanf("%d",&x);
-	printf(O valor fornecido foi: ,x);
+	int x;	^int endx;	x = 0;
+	printf("%d",x);
+	printf(" e ");	endx = &x;
+	*endx = 1
+	printf("%d",x);
 	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
+
 int main(){
-	int x;
-	scanf("%d",&x);
-	printf(O valor fornecido foi: ,x);
+	int x;	*int endx;	x = 0;
+	printf("%d",x);
+	printf(" e ");	endx = &x;
+	*endx = 1
+	printf("%d",x);
 	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
+
 int main(){
-	int x;
-	scanf("%d",&x);
-	printf("O valor fornecido foi: ",x);
+	int x; 
+	*int endx; 
+	x = 0; 
+	printf("%d",x);
+	printf(" e "); 
+	endx = &x; 
+
+	*endx = 1;
+	printf("%d",x); 
+
 	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
+
 int main(){
-	int x;
-	scanf("%d",&x);
-	printf(O valor fornecido foi: ,x);
+	int x; 
+	*int endx; 
+	x = 0; 
+	printf("%d",x);
+	printf(" e "); 
+	endx = &x; 
+
+	*endx = 1;
+	printf("%d",x); 
+
 	return 0; 
 }
 #include <stdio.h> 
 #include <stdlib.h>
 
+
 int main(){
-	int x;
-	scanf("%d",&x);
-	printf(O valor fornecido foi: ,x);
+	int x; 
+	*int endx; 
+	x = 0; 
+	printf("%d",x);
+	printf(" e "); 
+	endx = &x; 
+
+	*endx = 1;
+	printf("%d",x); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int x; 
+	*int endx; 
+	x = 0; 
+	printf("%d",x);
+	printf(" e "); 
+	endx = &x; 
+
+	*endx = 1;
+	printf("%d",x); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int x; 
+	int* endx; 
+	x = 0; 
+	printf("%d",x);
+	printf(" e "); 
+	endx = &x; 
+
+	*endx = 1;
+	printf("%d",x); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+		struct {	char nome[80]; 
+	int idade; 
+	} reg; 
+	reg.nome = "Maria"; 
+	reg.idade = 24; 
+	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	reg.nome = "Maria"; 
+	reg.idade = 24; 
+	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	reg.nome = "Maria"; 
+	reg.idade = 24; 
+	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg[340 271 269 122]	reg.nome = "Maria"; 
+	reg.idade = 24; 
+	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg[340 271 269 122]	reg.nome = "Maria"; 
+	reg.idade = 24; 
+	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg[340 271 269 122]	reg.nome = "Maria"; 
+	reg.idade = 24; 
+	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg[340 271 269 122]	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg[340 271 269 122]	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome = "Maria"; 
+	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria";	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	reg.nome = "Maria"; 
+	reg.idade = 24; 
+	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	reg.nome = "Maria"; 
+	reg.idade = 24; 
+	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	reg.nome,"Maria"	reg.idade,24	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	reg.nome,"Maria"	reg.idade,24	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	reg.nome,"Maria"	reg.idade = 24; 
+	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf(aqui
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("%s",
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("%s",reg.nome);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf(
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int i; 
+	i = 1; 
+	while (i <= 5) {
+	printf("%d",i);
+	printf("\n"); 
+	i = i + 1; 
+
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int x; 
+	scanf("%d",&x); 
+	printf("O valor fornecido foi: %d,x"); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int x; 
+	scanf("%d",&x); 
+	printf("O valor fornecido foi: %d,x"); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int x; 
+	scanf("%d",&x); 
+	printf("O valor fornecido foi: %d",x"); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+reg.nome," tem ",reg.idade," anos"
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf(" tem ");
+	printf(" anos");
+reg.nome," tem ",reg.idade," anos"
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("%s",reg.nome);/n	printf(" tem ");
+	printf("%d",reg.idade);/n	printf(" anos");
+reg.nome," tem ",reg.idade," anos"
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+reg.nome," tem ",reg.idade," anos"
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	if (4 > 3) {
+		printf("4 eh maior do que 3""); 
+
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	if (4 > 3) {
+		printf("4 eh maior do que 3""); 
+
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int x; 
+	scanf("%d",&x); 
+	printf("O valor fornecido foi: %d,x"); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int x; 
+	scanf("%d",&x); 
+	printf("O valor fornecido foi: %d",x"); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+struct {
+	char nome[80]; 
+	int idade; 
+	}	treg reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 30; 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+struct {
+	char nome[80]; 
+	int idade; 
+	}	treg reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 30; 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	typedefstruct {
+	char nome[80]; 
+	int idade; 
+	}	treg reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 30; 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	typedef struct {
+	char nome[80]; 
+	int idade; 
+	}	treg reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 30; 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	typedef struct {
+	char nome[80]; 
+	int idade; 
+	}	treg; 
+ 	treg reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 30; 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	typedef struct {
+	char nome[80]; 
+	int idade; 
+	} treg; 
+ 	treg reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 30; 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	typedef struct {
+	char nome[80]; 
+	int idade; 
+	}	treg reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 30; 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+voidproc_imprime (){}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (){}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (mensagemchar){}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (mensagemchar){}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (mensagemchar){}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (charmensagem){}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (charmensagem){}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (char mensagem){}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (char mensagem){}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){	printf("",mensagem);
+	printf("\n"); 
+}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){
+	printf("",mensagem);
+	printf("\n"); 
+}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){
+	printf("",mensagem);
+	printf("\n"); 
+}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){
+	printf("",mensagem);
+	printf("\n"); 
+}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){
+	printf("",mensagem);
+	printf("\n"); 
+}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){
+	printf("%s",mensagem);
+	printf("\n"); 
+}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){
+	printf("%s",mensagem);
+	printf("\n"); 
+}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){
+	printf("%s",mensagem);
+	printf("\n"); 
+}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){
+	printf("%s",mensagem);
+	printf("\n"); 
+}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){
+	printf("%s",mensagem);
+	printf("\n"); 
+}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){
+	printf("%s",mensagem);
+	printf("\n"); 
+}
+
+int main(){
+	proc_imprime("teste")
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){
+	printf("%s",mensagem);
+	printf("\n"); 
+}
+
+int main(){
+	proc_imprime("teste")
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	reg.nome,"Maria"	reg.idade = 24; 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){
+	printf("%s",mensagem);
+	printf("\n"); 
+}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (*char mensagem){
+	printf("%s",mensagem);
+	printf("\n"); 
+}
+
+int main(){
+	strcpy(proc_imprime("teste")); 
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	reg.nome,"Maria"	reg.idade = 24; 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	reg.nome,"Maria"	reg.idade = 24; 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	reg.nome,"Maria"	reg.idade = 24; 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	reg.nome,"Maria"	reg.idade = 24; 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	reg.nome,"Maria"	reg.idade = 24; 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	strcpy(reg.idade = 24; 
+); 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	reg.nome,"Maria"	reg.idade = 24; 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	reg.nome,"Maria"	reg.idade = 24; 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	reg.nome,"Maria"	reg.idade = 24; 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	strcpy(reg.idade = 24; 
+); 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"	strcpy(reg.idade = 24; 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	strcpy(reg.idade = 24; 
+); 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	strcpy(reg.idade = 24; 
+); 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	strcpy(reg.idade = 24; 
+); 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	strcpy(reg.idade = 24; 
+); 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	reg.nome,"Maria"	strcpy(reg.idade = 24; 
+); 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	strcpy(reg.idade = 24; 
+); 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	strcpy(reg.idade = 24; 
+); 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	reg.nome,"Maria"	reg.idade = 24; 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+int dobro(int* x){}
+
+int main(){
+	printf("dobro(4)
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+int dobro(int* x){}
+
+int main(){
+	printf(dobro(4)
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+int dobro(int* x){
+}
+
+int main(){
+	printf(dobro(4)
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+int dobro(int* x){
+}
+
+int main(){
+	printf(dobro(4)
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+int dobro(int* x){
+}
+
+int main(){
+	printf(dobro(4)
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+int dobro(int* x){
+}
+
+int main(){
+	printf(dobro(4)
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+int dobro(int x){
+}
+
+int main(){
+	printf(dobro(4)
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+void proc_imprime (char* mensagem){
+	printf("%s",mensagem);
+	printf("\n"); 
+}
+
+int main(){
+	proc_imprime("teste");
+
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+int dobro(int x){
+}
+
+int main(){
+	printf(dobro(4)
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+int dobro(int x){
+}
+
+int main(){
+	printf(dobro(4)
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+int dobro(int x){
+}
+
+int main(){
+	printf(dobro(4)
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+int dobro(int* x){
+}
+
+int main(){
+	printf(dobro(4)
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+int dobro(int x){
+}
+
+int main(){
+	printf(dobro(4)
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+int dobro(int x){
+return2*x}
+
+int main(){
+	printf(dobro(4)
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+int dobro(int x){
+return 2*x
+}
+
+int main(){
+	printf(dobro(4)
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+int dobro(int x){
+	return 2*x
+}
+
+int main(){
+	printf(dobro(4)
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int dobro(int x){
+	return 2*x
+}
+
+int main(){
+	printf(dobro(4)
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int dobro(int x){
+	return 2*x
+}
+
+int main(){
+	printf(dobro(4))
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int dobro(int x){
+	return 2*x
+}
+
+int main(){
+	printf(dobro(4));
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int dobro(int x){
+	return 2*x
+}
+
+int main(){
+	printf(dobro(4));
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int dobro(int x){
+	return 2*x;
+}
+
+int main(){
+	printf(dobro(4));
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int dobro(int x){
+	return 2*x;
+}
+
+int main(){
+	printf(dobro(4));
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int dobro(int x){
+	return 2*x;
+}
+
+int main(){
+	printf(dobro(4));
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int dobro(int x){
+	return 2*x;
+}
+
+int main(){
+	printf(%d",dobro);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+int dobro(int x){
+	return 2*x;
+}
+
+int main(){
+	printf(%d",dobro);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int  [5] vetor; 
+	int i; 
+	for (i = 0; i <= 4; i++){
+	vetor [i]  = i + 1; 
+;
+
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int [5] vetor; 
+	int i; 
+	for (i = 0; i <= 4; i++){
+	vetor[i]  = i + 1; 
+;
+
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int vetor[5] ; 
+	int i; 
+	for (i = 0; i <= 4; i++){
+	vetor[i]  = i + 1; 
+;
+
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int vetor[5]; 
+	int i; 
+	for (i = 0; i <= 4; i++){
+	vetor[i] = i + 1; 
+;
+
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int vetor[5]; 
+	int i; 
+	for (i = 0; i <= 4; i++){
+	vetor[i] = i + 1; 
+;
+
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int vetor[5]; 
+	int i; 
+	for (i = 0; i <= 4; i++){
+	vetor[i] = i + 1; 
+;
+
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int vetor[5]; 
+	int i; 
+	for (i = 0; i <= 4; i++){
+	vetor[i] = i + 1; 
+;
+
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int vetor[5]; 
+	int i; 
+	for (i = 0; i <= 4; i++){
+	vetor[i] = i + 1; 
+;
+
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int vetor[5]; 
+	int i; 
+	for (i = 0; i <= 4; i++){
+	vetor[i] = i + 1; 
+;
+
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int vetor[5]; 
+	int i; 
+	for (i = 0; i <= 4; i++){
+	vetor[i] = i + 1; 
+;
+
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int vetor[5]; 
+	int i; 
+	for (i = 0; i <= 4; i++){
+	vetor[i] = i + 1; 
+;
+
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int vetor[5]; 
+	int i; 
+	for (i = 0; i <= 4; i++){
+	vetor[i] = i + 1; 
+;
+
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int vetor[5]; 
+	int i; 
+	for (i = 0; i <= 4; i++){
+	vetor[i] = i + 1; 
+
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int vetor[5]; 
+	int i; 
+	for (i = 0; i <= 4; i++){
+	vetor[i] = i + 1; 
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int vetor[5]; 
+	int i; 
+	for (i = 0; i <= 4; i++){
+	vetor[i] = i + 1; 
+	}
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int vetor[5]; 
+	int i; 
+	for (i = 0; i <= 4; i++){
+	vetor[i] = i + 1; 
+	}	printf("%d",vetor[0]);
+	return 0; 
+}
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int vetor[5]; 
+	int i; 
+	for (i = 0; i <= 4; i++){
+	vetor[i] = i + 1; 
+	}
+	printf("%d",vetor[0]);
+	return 0; 
+}
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: tipo inteir nao declarado
+Linha 11: identificador idades nao declarado
+Fim da compilacao
+Linha 7: atribuicao nao compativel para ^endx
+Fim da compilacao
+Linha 7: atribuicao nao compativel para ^endx
+Fim da compilacao
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	int x; 
+	int* endx; 
+	x = 0; 
+	printf("%d",x);
+	printf(" e "); 
+	endx = &x; 
+
+	*endx = 1;
+	printf("%d",x); 
+
+	return 0; 
+}
+Linha 7: atribuicao nao compativel para reg.nome
+Linha 8: atribuicao nao compativel para reg.idade
+Fim da compilacao
+Linha 7: atribuicao nao compativel para reg.nome
+Linha 8: atribuicao nao compativel para reg.idade
+Fim da compilacao
+Linha 8: atribuicao nao compativel para reg.idade
+Fim da compilacao
+Linha 8: atribuicao nao compativel para reg.idade
+Fim da compilacao
+Linha 8: atribuicao nao compativel para reg.idade
+Fim da compilacao
+Linha 8: atribuicao nao compativel para reg.idade
+Fim da compilacao
+Linha 8: atribuicao nao compativel para reg.idade
+Fim da compilacao
+Linha 8: atribuicao nao compativel para reg.idade
+Fim da compilacao
+#include <stdio.h> 
+#include <stdlib.h>
+
+
+int main(){
+	struct {
+	char nome[80]; 
+	int idade; 
+	} reg; 
+	strcpy(reg.nome,"Maria"); 
+	reg.idade = 24; 
+	printf("%s",reg.nome);
+	printf(" tem ");
+	printf("%d",reg.idade);
+	printf(" anos");
+
+	return 0; 
+}
+Linha 6: incompatibilidade de parametros na chamada de dobro
+Fim da compilacao
+Linha 6: incompatibilidade de parametros na chamada de dobro
+Fim da compilacao
+Linha 6: incompatibilidade de parametros na chamada de dobro
+Fim da compilacao
+Linha 6: incompatibilidade de parametros na chamada de dobro
+Fim da compilacao
+Linha 6: incompatibilidade de parametros na chamada de dobro
+Fim da compilacao
+Linha 6: incompatibilidade de parametros na chamada de dobro
+Fim da compilacao
+#include <stdio.h> 
+#include <stdlib.h>
+
+int dobro(int x){
+	return 2*x;
+}
+
+int main(){
+	printf("%d",dobro(4));
 	return 0; 
 }

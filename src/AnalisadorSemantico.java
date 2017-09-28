@@ -25,7 +25,7 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
     }
 
     public String getTipo(String tipo){
-        if(tipo.matches("[+|-]?[0-9]"))
+        if(tipo.matches("[+|-]?[0-9]*"))
             return "inteiro";
         else if(tipo.matches("[+|-]?[0-9]+[.]?[0-9]*"))
             return "real";
@@ -64,7 +64,9 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
             visitCorpo(ctx.corpo());
             pilhaTabela.desempilhar();
         }
-		sp.println("Fim da compilacao");
+        if(sp.isModificado()){
+		    sp.println("Fim da compilacao");
+        }
         return null;
     }
 
@@ -430,7 +432,7 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
                 for (String termo : termos) {
                     String valorTipoSimbolo = pilhaTabela.topo().getValorTipoSimbolo(termo);
                     if (valorTipoSimbolo == null) {
-                        valorTipoSimbolo = getTipo(termo);
+                        valorTipoSimbolo = "^" + getTipo(termo);
                     }
 
                     if (!tipoAtr.equals(valorTipoSimbolo)) {
@@ -465,7 +467,8 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
                     if (tipoAtr.contains("registro")) {
                         String[] regPartes = ctx.chamada_atribuicao().getText().split("<-");
                         regPartes[0] = regPartes[0].substring(1);
-                        if (!regPartes[0].equals(valorTipoSimbolo)) {
+                        //if (!regPartes[0].equals(valorTipoSimbolo)) {
+                        if(!pilhaTabela.topo().getValorTipoSimbolo(regPartes[0]).equals(valorTipoSimbolo)){
                             mensagem.erro_Atribuicao_Nao_Compativel(ctx.getStart().getLine(), nomeAtr + "." + regPartes[0]);
                         }
                     }
@@ -709,8 +712,10 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
                 }else{
                     funcaoTipo = getRetFuncao(ctx.IDENT().toString());
                     for(int i = 0; i < partes.length; i++){
-                       if(!funcaoTipo.equals(pilhaTabela.topo().getValorTipoSimbolo(partes[i])) && !partes[i].contains("(") && !partes[i].contains("[") )
-                            mensagem.erro_Incopatibilidade_de_Parametros(ctx.getStart().getLine(),ctx.IDENT().toString());
+                       if(pilhaTabela.topo().existeSimbolo(partes[i])){
+                           if(!funcaoTipo.equals(pilhaTabela.topo().getValorTipoSimbolo(partes[i])) && !partes[i].contains("(") && !partes[i].contains("[") )
+                               mensagem.erro_Incopatibilidade_de_Parametros(ctx.getStart().getLine(),ctx.IDENT().toString());
+                       }
                     }
                 }
             }

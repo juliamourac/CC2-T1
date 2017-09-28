@@ -20,8 +20,6 @@ public class ErrorListener implements ANTLRErrorListener {
        String valorTk = tk.getText();
        char ultTk = valorTk.charAt(valorTk.length()-1);
        char c = 34;
-       //System.out.println(tk.getText());
-
 
         if (!sp.isModificado()) {
             if (valorTk.equals("<EOF>"))

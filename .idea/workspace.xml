@@ -7,29 +7,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="628c16ee-dd88-4736-9140-695de509525e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_6.declaracao_leitura_atribuicao_impressao_real.alg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/6.declaracao_leitura_atribuicao_impressao_real.alg.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/6.declaracao_leitura_atribuicao_impressao_real.alg.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_10.caso_impressao.alg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_11.constante_caso_impressao.alg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_12.para_declaracao_impressao.alg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_13.enquanto_declaracao_impressao.alg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_14.faca-ate_declaracao_impressao.alg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_16.registro_impressao.alg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_19.funcao_dobro_impressao.alg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_4.declaracao_leitura_impressao_inteiro_literal.alg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_8.se_entao_senao_impressao.alg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CC2_T1_jar/CC2-T1.jar" afterPath="$PROJECT_DIR$/out/artifacts/CC2_T1_jar/CC2-T1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/AnalisadorSemantico.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/AnalisadorSemantico.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/ErrorListener.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/ErrorListener.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/GeradorCodigo.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/GeradorCodigo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/Principal.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/Principal.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/1.declaracao_leitura_impressao_inteiro.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/1.declaracao_leitura_impressao_inteiro.alg.out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/10.caso_impressao.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/10.caso_impressao.alg.out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/11.constante_caso_impressao.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/11.constante_caso_impressao.alg.out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/12.para_declaracao_impressao.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/12.para_declaracao_impressao.alg.out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/13.enquanto_declaracao_impressao.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/13.enquanto_declaracao_impressao.alg.out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/14.faca-ate_declaracao_impressao.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/14.faca-ate_declaracao_impressao.alg.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/16.registro_impressao.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/16.registro_impressao.alg.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/19.funcao_dobro_impressao.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/19.funcao_dobro_impressao.alg.out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/2.declaracao_leitura_impressao_real.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/2.declaracao_leitura_impressao_real.alg.out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/3.declaracao_leitura_impressao_literal.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/3.declaracao_leitura_impressao_literal.alg.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/4.declaracao_leitura_impressao_inteiro_literal.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/4.declaracao_leitura_impressao_inteiro_literal.alg.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/8.se_entao_senao_impressao.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/8.se_entao_senao_impressao.alg.out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Correcao.bat" afterPath="$PROJECT_DIR$/Correcao.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AnalisadorSemantico.java" afterPath="$PROJECT_DIR$/src/AnalisadorSemantico.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ErrorListener.java" afterPath="$PROJECT_DIR$/src/ErrorListener.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GeradorCodigo.java" afterPath="$PROJECT_DIR$/src/GeradorCodigo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_10.caso_impressao.alg" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_10.caso_impressao.alg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_11.constante_caso_impressao.alg" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_11.constante_caso_impressao.alg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Principal.java" afterPath="$PROJECT_DIR$/src/Principal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/1.declaracao_leitura_impressao_inteiro.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/1.declaracao_leitura_impressao_inteiro.alg.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/10.caso_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/10.caso_impressao.alg.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/11.constante_caso_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/11.constante_caso_impressao.alg.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/12.para_declaracao_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/12.para_declaracao_impressao.alg.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/13.enquanto_declaracao_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/13.enquanto_declaracao_impressao.alg.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/14.faca-ate_declaracao_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/14.faca-ate_declaracao_impressao.alg.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/15.ponteiro_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/15.ponteiro_impressao.alg.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/16.registro_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/16.registro_impressao.alg.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/17.registro_tipo_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/17.registro_tipo_impressao.alg.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/18.procedimento_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/18.procedimento_impressao.alg.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/19.funcao_dobro_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/19.funcao_dobro_impressao.alg.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/2.declaracao_leitura_impressao_real.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/2.declaracao_leitura_impressao_real.alg.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/20.vetor_repeticao_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/20.vetor_repeticao_impressao.alg.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/3.declaracao_leitura_impressao_literal.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/3.declaracao_leitura_impressao_literal.alg.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/4.declaracao_leitura_impressao_inteiro_literal.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/4.declaracao_leitura_impressao_inteiro_literal.alg.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/5.declaracao_leitura_impressao_expressao_real.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/5.declaracao_leitura_impressao_expressao_real.alg.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/7.se_entao_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/7.se_entao_impressao.alg.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/8.se_entao_senao_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/8.se_entao_senao_impressao.alg.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/9.se_entao_expressao_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/9.se_entao_expressao_impressao.alg.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teste.txt" afterPath="$PROJECT_DIR$/teste.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,12 +77,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GeradorCodigo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GeradorCodigo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GeradorCodigo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="356" column="24" lean-forward="false" selection-start-line="356" selection-start-column="19" selection-end-line="356" selection-end-column="24" />
+            <state relative-caret-position="1296">
+              <caret line="479" column="29" lean-forward="false" selection-start-line="479" selection-start-column="29" selection-end-line="479" selection-end-column="29" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnalisadorSemantico.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AnalisadorSemantico.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="717" column="24" lean-forward="false" selection-start-line="717" selection-start-column="24" selection-end-line="717" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1506634176921" expanded="true" signature="32632:32703" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mensagens.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Mensagens.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LAParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LAParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="1867" column="0" lean-forward="false" selection-start-line="1867" selection-start-column="0" selection-end-line="1867" selection-end-column="0" />
+              <folding>
+                <element signature="e#25584#25585#0" expanded="true" />
+                <element signature="e#25645#25646#0" expanded="true" />
+                <element signature="e#39340#39341#0" expanded="true" />
+                <element signature="e#39406#39407#0" expanded="true" />
+                <element signature="e#39464#39465#0" expanded="true" />
+                <element signature="e#39529#39530#0" expanded="true" />
+                <element signature="e#39567#39568#0" expanded="true" />
+                <element signature="e#39622#39623#0" expanded="true" />
+                <element signature="e#42011#42012#0" expanded="true" />
+                <element signature="e#42067#42068#0" expanded="true" />
+                <element signature="e#44043#44044#0" expanded="true" />
+                <element signature="e#44104#44105#0" expanded="true" />
+                <element signature="e#52448#52449#0" expanded="true" />
+                <element signature="e#52498#52499#0" expanded="true" />
+                <element signature="e#52536#52537#0" expanded="true" />
+                <element signature="e#52591#52592#0" expanded="true" />
+                <element signature="e#54646#54647#0" expanded="true" />
+                <element signature="e#54702#54703#0" expanded="true" />
+                <element signature="e#54851#54852#0" expanded="true" />
+                <element signature="e#54906#54907#0" expanded="true" />
+                <element signature="e#55073#55074#0" expanded="true" />
+                <element signature="e#55133#55134#0" expanded="true" />
+                <element signature="e#55730#55731#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,8 +147,8 @@
       <file leaf-file-name="LA.g4" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LA.g4">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="62" column="58" lean-forward="false" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
+            <state relative-caret-position="84">
+              <caret line="141" column="75" lean-forward="false" selection-start-line="141" selection-start-column="8" selection-end-line="141" selection-end-column="75" />
               <folding>
                 <element signature="e#12#66#1" expanded="true" />
               </folding>
@@ -71,24 +156,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TabelaDeSimbolos.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TabelaDeSimbolos.java">
+      <file leaf-file-name="Principal.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Principal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="104">
+              <caret line="51" column="50" lean-forward="true" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SaidaParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SaidaParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Principal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Principal.java">
+      <file leaf-file-name="ErrorListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ErrorListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="60" column="10" lean-forward="false" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="322">
+              <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,36 +199,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>termos</find>
+      <find>proce</find>
+      <find>visitParame</find>
+      <find>visitParametros</find>
+      <find>visitIdenti</find>
+      <find>visitIde</find>
+      <find>char</find>
+      <find>visitParametro</find>
+      <find>literal</find>
+      <find>visitPara</find>
+      <find>mathe</find>
+      <find>ma</find>
+      <find>mac</find>
+      <find>.ma</find>
+      <find>chamada_atri</find>
+      <find>*</find>
+      <find>func</find>
+      <find>reto</find>
+      <find>escrev</find>
       <find>funca</find>
-      <find>fun</find>
-      <find>retTipo</find>
-      <find>Sys</find>
-      <find>chamada_partes</find>
-      <find>chamada_parte</find>
-      <find>chamada_par</find>
-      <find>(</find>
-      <find>adicionar</find>
-      <find>funcao</find>
-      <find>decla</find>
-      <find>get</find>
-      <find>getVa</find>
-      <find>visitTermo_logico</find>
-      <find>null</find>
-      <find>return null</find>
-      <find>visitVaria</find>
-      <find>leia</find>
-      <find>gets</find>
-      <find>cmd += visitMais_expressao(ctx.mais_expressao()) + &quot;);&quot;;</find>
-      <find>visitExpressao</find>
+      <find>[</find>
+      <find>dimensao</find>
+      <find>visitdimen</find>
       <find>cmd</find>
+      <find>funcao</find>
+      <find>visitChamada_atribuicao</find>
+      <find>erro_A</find>
+      <find>funcoes</find>
       <find>escreva</find>
-      <find>,</find>
-      <find>escre</find>
-      <find>&quot;</find>
-      <find>\&quot;</find>
-      <find>Mais_expressao</find>
-      <find>expressao</find>
+      <find>visitExpressao</find>
+      <find>erro_inco</find>
     </findStrings>
     <replaceStrings>
       <replace>LAParser</replace>
@@ -161,14 +256,14 @@
         <option value="$PROJECT_DIR$/src/Tipo.java" />
         <option value="$PROJECT_DIR$/src/EntradaTabelaDeSimbolos.java" />
         <option value="$PROJECT_DIR$/src/SaidaParser.java" />
-        <option value="$PROJECT_DIR$/src/ErrorListener.java" />
         <option value="$PROJECT_DIR$/src/TabelaDeSimbolos.java" />
         <option value="$PROJECT_DIR$/src/PilhaDeTabelas.java" />
         <option value="$PROJECT_DIR$/src/LA.g4" />
         <option value="$PROJECT_DIR$/src/Mensagens.java" />
+        <option value="$PROJECT_DIR$/src/GeradorCodigo.java" />
+        <option value="$PROJECT_DIR$/src/ErrorListener.java" />
         <option value="$PROJECT_DIR$/src/AnalisadorSemantico.java" />
         <option value="$PROJECT_DIR$/src/Principal.java" />
-        <option value="$PROJECT_DIR$/src/GeradorCodigo.java" />
       </list>
     </option>
   </component>
@@ -196,9 +291,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -513,33 +608,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14075287" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2618658" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3927987" sideWeight="0.5030257" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.47427294" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38134205" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3371522" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14599092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3453355" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25588697" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23903178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.502455" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25567323" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.49217004" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39116204" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -561,22 +656,22 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3453355" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25588697" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.502455" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25567323" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.49217004" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39116204" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14075287" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2618658" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40425533" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24916944" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5257271" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40188384" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14750378" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.032733224" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -591,7 +686,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="204" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GeradorCodigo.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="320" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -833,21 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="1966" column="0" lean-forward="false" selection-start-line="1966" selection-start-column="0" selection-end-line="1966" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/FileInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/CommonToken.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -886,68 +977,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/tree/TerminalNodeImpl.class">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ErrorListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="42" />
+        <state relative-caret-position="470">
+          <caret line="1966" column="0" lean-forward="false" selection-start-line="1966" selection-start-column="0" selection-end-line="1966" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/RuleContext.class">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/FileInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LA.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="62" column="58" lean-forward="false" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
-          <folding>
-            <element signature="e#12#66#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LAParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="1839" column="0" lean-forward="false" selection-start-line="1839" selection-start-column="0" selection-end-line="1839" selection-end-column="0" />
-          <folding>
-            <element signature="e#52448#52449#0" expanded="true" />
-            <element signature="e#52498#52499#0" expanded="true" />
-            <element signature="e#52536#52537#0" expanded="true" />
-            <element signature="e#52591#52592#0" expanded="true" />
-            <element signature="e#54702#54703#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnalisadorSemantico.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="422" column="50" lean-forward="false" selection-start-line="422" selection-start-column="45" selection-end-line="422" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1506466142395" expanded="true" signature="32366:32437" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SaidaParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="113">
+          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -962,37 +1003,124 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/RuleContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.7-complete.jar!/org/antlr/v4/runtime/tree/TerminalNodeImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="e#1552#1553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LAParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="1867" column="0" lean-forward="false" selection-start-line="1867" selection-start-column="0" selection-end-line="1867" selection-end-column="0" />
+          <folding>
+            <element signature="e#25584#25585#0" expanded="true" />
+            <element signature="e#25645#25646#0" expanded="true" />
+            <element signature="e#39340#39341#0" expanded="true" />
+            <element signature="e#39406#39407#0" expanded="true" />
+            <element signature="e#39464#39465#0" expanded="true" />
+            <element signature="e#39529#39530#0" expanded="true" />
+            <element signature="e#39567#39568#0" expanded="true" />
+            <element signature="e#39622#39623#0" expanded="true" />
+            <element signature="e#42011#42012#0" expanded="true" />
+            <element signature="e#42067#42068#0" expanded="true" />
+            <element signature="e#44043#44044#0" expanded="true" />
+            <element signature="e#44104#44105#0" expanded="true" />
+            <element signature="e#52448#52449#0" expanded="true" />
+            <element signature="e#52498#52499#0" expanded="true" />
+            <element signature="e#52536#52537#0" expanded="true" />
+            <element signature="e#52591#52592#0" expanded="true" />
+            <element signature="e#54646#54647#0" expanded="true" />
+            <element signature="e#54702#54703#0" expanded="true" />
+            <element signature="e#54851#54852#0" expanded="true" />
+            <element signature="e#54906#54907#0" expanded="true" />
+            <element signature="e#55073#55074#0" expanded="true" />
+            <element signature="e#55133#55134#0" expanded="true" />
+            <element signature="e#55730#55731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TabelaDeSimbolos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="447">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LA.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="141" column="75" lean-forward="false" selection-start-line="141" selection-start-column="8" selection-end-line="141" selection-end-column="75" />
+          <folding>
+            <element signature="e#12#66#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ErrorListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Mensagens.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
+        <state relative-caret-position="306">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Principal.java">
+    <entry file="file://$PROJECT_DIR$/src/SaidaParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="60" column="10" lean-forward="false" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GeradorCodigo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="356" column="24" lean-forward="false" selection-start-line="356" selection-start-column="19" selection-end-line="356" selection-end-column="24" />
+        <state relative-caret-position="1296">
+          <caret line="479" column="29" lean-forward="false" selection-start-line="479" selection-start-column="29" selection-end-line="479" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnalisadorSemantico.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="717" column="24" lean-forward="false" selection-start-line="717" selection-start-column="24" selection-end-line="717" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1506634176921" expanded="true" signature="32632:32703" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="51" column="50" lean-forward="true" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

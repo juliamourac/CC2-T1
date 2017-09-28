@@ -1,9 +1,13 @@
 #include <stdio.h> 
 #include <stdlib.h>
 
+
 int main(){
-	int  [5] vetor;
-	int i;
-	printf(vetor [0] );
+	int vetor[5]; 
+	int i; 
+	for (i = 0; i <= 4; i++){
+	vetor[i] = i + 1; 
+	}
+	printf("%d",vetor[0]);
 	return 0; 
 }

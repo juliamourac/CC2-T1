@@ -1,1 +1,0 @@
-O valor fornecido foi: 

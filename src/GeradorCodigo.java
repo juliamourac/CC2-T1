@@ -14,7 +14,7 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
             return "%d";
         else if (tipoVar.equals("real"))
             return "%f";
-        else if (tipoVar.equals("literal"))
+        else if (tipoVar.equals("literal") || tipoVar.equals("char"))
             return "%s";
         return "";
     }
@@ -26,9 +26,9 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
             pilhaTabela = new PilhaDeTabelas();
             pilhaTabela.empilhar(new TabelaDeSimbolos("global"));
             sp.println("#include <stdio.h> \n#include <stdlib.h>");
-            visitDeclaracoes(ctx.declaracoes());
+            sp.println(visitDeclaracoes(ctx.declaracoes()));
             sp.println("\n" + "int main(){");
-            visitCorpo(ctx.corpo());
+            sp.println(visitCorpo(ctx.corpo()));
             sp.println("\t" + "return 0; \n}" );
             pilhaTabela.desempilhar();
         }
@@ -39,8 +39,10 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
     public String visitDeclaracoes(LAParser.DeclaracoesContext ctx) {
         //declaracoes : decl_local_global declaracoes | ;
         if(ctx.children != null){
-            visitDecl_local_global(ctx.decl_local_global());
-            visitDeclaracoes(ctx.declaracoes());
+            String declaracoes = "";
+            declaracoes += visitDecl_local_global(ctx.decl_local_global());
+            declaracoes += visitDeclaracoes(ctx.declaracoes());
+            return declaracoes;
         }
         return "";
     }
@@ -49,9 +51,9 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
     public String visitDecl_local_global(LAParser.Decl_local_globalContext ctx) {
         //decl_local_global : declaracao_local | declaracao_global;
         if(ctx.declaracao_local() != null)
-            visitDeclaracao_local(ctx.declaracao_local());
+            return visitDeclaracao_local(ctx.declaracao_local());
         else if (ctx.declaracao_global() != null)
-            visitDeclaracao_global(ctx.declaracao_global());
+            return visitDeclaracao_global(ctx.declaracao_global());
         return "";
     }
 
@@ -64,18 +66,21 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
         String declaracao_local = "";
         if(ctx.getText().startsWith("declare")) {
             declaracao_local += visitVariavel(ctx.variavel());
-            sp.println(declaracao_local);
+            //sp.println(declaracao_local);
             return declaracao_local;
         }
         else if (ctx.getText().startsWith("constante")){
-            declaracao_local += "#define ";
+            declaracao_local += "\n#define ";
             declaracao_local += ctx.IDENT().toString() + " ";
             declaracao_local += visitValor_constante(ctx.valor_constante());
-            sp.println(declaracao_local);
+            //sp.println(declaracao_local);
             pilhaTabela.topo().adicionarSimbolo(ctx.IDENT().toString(), ctx.tipo_basico().getText());
             return declaracao_local;
         }else if (ctx.getText().startsWith("tipo")) {
             pilhaTabela.topo().adicionarSimbolo(ctx.IDENT().getText(), "tipo");
+            declaracao_local += "\ttypedef ";
+            declaracao_local += visitTipo(ctx.tipo());
+            declaracao_local += " treg; \n ";
             return declaracao_local;
         }
         return "";
@@ -89,12 +94,12 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
             variavel += "\t" + visitTipo(ctx.tipo()) + " ";
             tipoMaisVar = ctx.tipo().getText();
             pilhaTabela.topo().adicionarSimbolo(ctx.IDENT().toString(), ctx.tipo().getText());
-            variavel += visitDimensao(ctx.dimensao());
             variavel += ctx.IDENT().toString();
+            variavel += visitDimensao(ctx.dimensao());
             if(tipoMaisVar.equals("literal")){
                 variavel += "[80]";
             }
-            variavel += visitMais_var(ctx.mais_var()) + ";";
+            variavel += visitMais_var(ctx.mais_var()) + "; \n";
             //variavel += tipoMaisVar + ";";
 
             return variavel;
@@ -135,8 +140,8 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
         //ponteiros_opcionais : '^' ponteiros_opcionais | ;
         if(ctx.children != null) {
             String pont_opcionais = "";
-            pont_opcionais += "^";
             pont_opcionais += visitPonteiros_opcionais(ctx.ponteiros_opcionais());
+            pont_opcionais += "*";
             return pont_opcionais;
         }
         return "";
@@ -156,7 +161,7 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
         //dimensao: '[' exp_aritmetica ']' dimensao | ;
         if(ctx.children != null) {
             String dimensao = "";
-            dimensao += " [" + visitExp_aritmetica(ctx.exp_aritmetica()) + "] " ;
+            dimensao += "[" + visitExp_aritmetica(ctx.exp_aritmetica()) + "]" ;
             dimensao += visitDimensao(ctx.dimensao());
             return dimensao;
         }
@@ -224,8 +229,8 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
         //tipo_estendido: ponteiros_opcionais tipo_basico_ident;
         if(ctx.children != null){
             String tipo_estentido = "";
-            tipo_estentido += visitPonteiros_opcionais(ctx.ponteiros_opcionais());
             tipo_estentido += visitTipo_basico_ident(ctx.tipo_basico_ident());
+            tipo_estentido += visitPonteiros_opcionais(ctx.ponteiros_opcionais());
             return tipo_estentido;
         }
         return "";
@@ -242,7 +247,7 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
         //registro: 'registro' variavel mais_variaveis 'fim_registro';
         if(ctx.children != null){
             String registro = "";
-            registro += "\tstruct {";
+            registro += "struct {\n";
             registro += visitVariavel(ctx.variavel());
             registro += visitMais_variaveis(ctx.mais_variaveis());
             registro += "\t}";
@@ -258,25 +263,27 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
         String declaracao_global = "";
         if(ctx.getText().startsWith("procedimento")){
             pilhaTabela.empilhar(new TabelaDeSimbolos("procedimento "+ctx.IDENT().getText()));
-            declaracao_global += "void" + ctx.IDENT().getText() + " (";
-            declaracao_global += visitParametros_opcional(ctx.parametros_opcional()) + "){";
-            declaracao_global += visitDeclaracoes_locais(ctx.declaracoes_locais());
-            visitComandos(ctx.comandos());
-            declaracao_global += "}";
-            sp.println(declaracao_global);
-            pilhaTabela.desempilhar();
-        }else{
-            pilhaTabela.empilhar(new TabelaDeSimbolos("funcao "+ctx.IDENT().getText()));
-            declaracao_global += visitTipo_estendido(ctx.tipo_estendido());
-            declaracao_global += " " + ctx.IDENT().getText() + "(";
-            declaracao_global += visitParametros_opcional(ctx.parametros_opcional()) + "){";
+            declaracao_global += "void " + ctx.IDENT().getText() + " (";
+            declaracao_global += visitParametros_opcional(ctx.parametros_opcional()) + "){\n";
             declaracao_global += visitDeclaracoes_locais(ctx.declaracoes_locais());
             declaracao_global += visitComandos(ctx.comandos());
             declaracao_global += "}";
-            sp.println(declaracao_global);
+            //sp.println(declaracao_global);
             pilhaTabela.desempilhar();
+            return declaracao_global;
+        }else{
+            pilhaTabela.topo().adicionarSimbolo(ctx.IDENT().getText(), ctx.tipo_estendido().getText() );
+            pilhaTabela.empilhar(new TabelaDeSimbolos("funcao "+ctx.IDENT().getText()));
+            declaracao_global += "\n" + visitTipo_estendido(ctx.tipo_estendido());
+            declaracao_global += " " + ctx.IDENT().getText() + "(";
+            declaracao_global += visitParametros_opcional(ctx.parametros_opcional()) + "){\n";
+            declaracao_global += visitDeclaracoes_locais(ctx.declaracoes_locais());
+            declaracao_global += visitComandos(ctx.comandos());
+            declaracao_global += "}";
+            //sp.println(declaracao_global);
+            pilhaTabela.desempilhar();
+            return declaracao_global;
         }
-        return "";
     }
 
     @Override
@@ -292,11 +299,16 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
         //parametro: var_opcional identificador mais_ident ':' tipo_estendido mais_parametros;
         if(ctx.children != null) {
             String parametros = "";
-            visitVar_opcional(ctx.var_opcional());
-            visitIdentificador(ctx.identificador());
-            visitMais_ident(ctx.mais_ident());
-            visitTipo_estendido(ctx.tipo_estendido());
-            visitMais_parametros(ctx.mais_parametros());
+            parametros += visitVar_opcional(ctx.var_opcional());
+            pilhaTabela.topo().adicionarSimbolo(ctx.identificador().IDENT().getText(), visitTipo_estendido(ctx.tipo_estendido()));
+            parametros += visitTipo_estendido(ctx.tipo_estendido());
+            if(pilhaTabela.topo().getValorTipoSimbolo(ctx.identificador().IDENT().getText()).equals("char")){
+                parametros += "*";
+            }
+            parametros += " " + visitIdentificador(ctx.identificador());
+            parametros += visitMais_ident(ctx.mais_ident());
+            parametros += visitMais_parametros(ctx.mais_parametros());
+            return parametros;
         }
         return "";
     }
@@ -375,43 +387,132 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
                     cmd += ",&";
                 }
                 cmd += visitIdentificador(ctx.identificador());
-                cmd += visitMais_ident(ctx.mais_ident()) + ");";
-                sp.println(cmd);
+                cmd += visitMais_ident(ctx.mais_ident()) + "); \n";
+                return cmd;
+                //sp.println(cmd);
             } else if (ctx.nomeCmd.equals("escreva")) {
                 //'escreva' '(' expressao mais_expressao ')'
-                cmd += "\tprintf(";
-                if(pilhaTabela.topo().existeSimbolo(ctx.expressao().getText()))
-                    cmd += "\"" + getConversao(pilhaTabela.topo().getValorTipoSimbolo(ctx.expressao().getText())) + "\",";
-                cmd += visitExpressao(ctx.expressao()).replaceAll("\"","");
-                cmd += visitMais_expressao(ctx.mais_expressao()) + ");";
-                sp.println(cmd);
+                //System.out.println(ctx.expressao().getText());
+                //System.out.println(ctx.mais_expressao().getText());
+                if(pilhaTabela.topo().existeSimbolo(ctx.expressao().getText())) {
+                    cmd += "\tprintf(\"";
+                    cmd += getConversao(pilhaTabela.topo().getValorTipoSimbolo(ctx.expressao().getText())) + "\",";
+                    cmd += visitExpressao(ctx.expressao());
+                    cmd += visitMais_expressao(ctx.mais_expressao()) + "); \n";
+                }else if(visitExpressao(ctx.expressao()).contains("\"")){
+                    cmd += "\tprintf(\"";
+                    cmd += visitExpressao(ctx.expressao()).replaceAll("\"","");
+                    String[] partes = visitMais_expressao(ctx.mais_expressao()).split(",");
+                    for(int i = 0; i < partes.length; i++){
+                        if(pilhaTabela.topo().existeSimbolo(partes[i]))
+                            cmd += getConversao(pilhaTabela.topo().getValorTipoSimbolo(partes[i]));
+                    }
+                    cmd += "\"";
+                    cmd += visitMais_expressao(ctx.mais_expressao()) + "); \n";
+                }else if(visitMais_expressao(ctx.mais_expressao()).equals("")){
+                    String[] partes = visitExpressao(ctx.expressao()).split("\\+");
+                    for(int i = 0; i < partes.length; i++){
+                        partes[i] = partes[i].trim();
+                    }
+                    if(partes[0].contains("(")){
+                        String[] aux;
+                        cmd += "\tprintf(\"";
+                        aux = partes[0].split("\\(");
+                        cmd += getConversao(pilhaTabela.topo().getValorTipoSimbolo(aux[0])) + "\",";
+                        cmd += partes[0] +");";
+                    }else if(partes[0].contains("[")){
+                        String[] aux;
+                        cmd += "\tprintf(\"";
+                        aux = partes[0].split("\\[");
+                        cmd += getConversao(pilhaTabela.topo().getValorTipoSimbolo(aux[0])) + "\",";
+                        cmd += partes[0] +");";
+                    }
+                    else{
+                        cmd += "\tprintf(\"";
+                        cmd += getConversao(pilhaTabela.topo().getValorTipoSimbolo(partes[0])) + "\",";
+                        cmd += visitExpressao(ctx.expressao()).replaceAll("\\s", "") + "); \n";
+                    }
+                }else if((visitExpressao(ctx.expressao()).contains("."))){
+                    String aux = visitExpressao(ctx.expressao()) + visitMais_expressao(ctx.mais_expressao());
+                    String partes[] = aux.split(",");
+                    for (int i = 0; i < partes.length; i++){
+                        if(partes[i].startsWith("\"")){
+                            cmd += "\tprintf(" + partes[i] + ");\n" ;
+                        }else{
+                            String[] aux2 = partes[i].split("\\.");
+                            cmd += "\tprintf(\"";
+                            cmd += getConversao(pilhaTabela.topo().getValorTipoSimbolo(aux2[1])) + "\",";
+                            cmd += partes[i] + ");\n";
+                        }
+                    }
+                }
+                return cmd;
             } else if (ctx.nomeCmd.equals("se")){
-                visitExpressao(ctx.expressao());
-                visitComandos(ctx.comandos());
-                visitSenao_opcional(ctx.senao_opcional());
+                //'se' expressao 'entao' comandos senao_opcional 'fim_se'
+                cmd += "\tif (";
+                cmd += (visitExpressao(ctx.expressao())).replaceAll("=","==") + ") {\n";
+                cmd += "\t" + visitComandos(ctx.comandos()) + "\n\t}";
+                if (ctx.senao_opcional().children != null) {
+                    cmd += "\telse {";
+                    cmd += "\n\t";
+                    cmd += visitSenao_opcional(ctx.senao_opcional());
+                    cmd += "\n\t}";
+                }
+                return cmd;
             } else if (ctx.nomeCmd.equals("caso")){
                 //'caso' exp_aritmetica 'seja' selecao senao_opcional 'fim_caso'
-                visitExp_aritmetica(ctx.exp_aritmetica().get(0));
-                visitSelecao(ctx.selecao());
-                visitSenao_opcional(ctx.senao_opcional());
+                cmd += "\tswitch (";
+                cmd += visitExp_aritmetica(ctx.exp_aritmetica().get(0))+ ") {";
+                cmd += visitSelecao(ctx.selecao());
+                if (ctx.senao_opcional().children != null) {
+                    cmd += "\n\t\tdefault:";
+                    cmd += "\n\t\t";
+                    cmd += visitSenao_opcional(ctx.senao_opcional());
+                }
+                cmd += "\n\t}";
+                return cmd;
             } else if (ctx.nomeCmd.equals("para")){
-                visitExp_aritmetica(ctx.exp_aritmetica().get(0));
-                visitExp_aritmetica(ctx.exp_aritmetica().get(1));
-                visitComandos(ctx.comandos());
+                cmd += "\tfor (i = ";
+                cmd +=  visitExp_aritmetica(ctx.exp_aritmetica().get(0)) + "; ";
+                cmd += "i <= ";
+                cmd += visitExp_aritmetica(ctx.exp_aritmetica().get(1)) + "; i++){\n";
+                cmd += visitComandos(ctx.comandos());
+                cmd += "\t}\n";
+                return cmd;
             } else if (ctx.nomeCmd.equals("enquanto")){
-                visitExpressao(ctx.expressao());
-                visitComandos(ctx.comandos());
+                //'enquanto' expressao 'faca' comandos 'fim_enquanto'
+                cmd += "\twhile (";
+                cmd += visitExpressao(ctx.expressao()) + ") {\n";
+                cmd += visitComandos(ctx.comandos());
+                cmd += "\n\t}";
+                return cmd;
             } else if (ctx.nomeCmd.equals("faca")){
-                visitComandos(ctx.comandos());
-                visitExpressao(ctx.expressao());
+                //'faca' comandos 'ate' expressao
+                cmd += "\t" + "do {\n";
+                cmd += visitComandos(ctx.comandos());
+                cmd += "\n\t}";
+                cmd += "while (" + (visitExpressao(ctx.expressao())).replaceAll("=","==")+"); \n";
+                return cmd;
             } else if (ctx.nomeCmd.equals("^")){
-                visitOutros_ident(ctx.outros_ident());
-                visitDimensao(ctx.dimensao());
-                visitExpressao(ctx.expressao());
+                //'^' IDENT outros_ident dimensao '<-' expressao
+                cmd += "\n\t*" + ctx.IDENT().toString();
+                cmd += visitOutros_ident(ctx.outros_ident());
+                cmd += visitDimensao(ctx.dimensao());
+                cmd += " = " + visitExpressao(ctx.expressao()) + ";\n";
+                return cmd;
             } else if (ctx.nomeCmd.equals("IDENT")){
-                visitChamada_atribuicao(ctx.chamada_atribuicao());
+                if(visitChamada_atribuicao(ctx.chamada_atribuicao()).contains(",\"")){
+                    cmd += "\tstrcpy(" + ctx.IDENT().toString() + visitChamada_atribuicao(ctx.chamada_atribuicao());
+                    cmd += "); \n";
+                }else {
+                    cmd += "\t" + ctx.IDENT().toString();
+                    cmd += visitChamada_atribuicao(ctx.chamada_atribuicao());
+                }
+                 return cmd;
             } else if (ctx.nomeCmd.equals("retorne")){
-                visitExpressao(ctx.expressao());
+                cmd += "\treturn ";
+                cmd += visitExpressao(ctx.expressao());
+                return cmd + ";\n";
             }
         }
         return "";
@@ -422,7 +523,8 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
         //mais_expressao : ',' expressao mais_expressao | ;
         if(ctx.children != null){
             String mais_expressao = "";
-            mais_expressao += ",";
+            if(!visitExpressao(ctx.expressao()).startsWith(")"))
+                mais_expressao += ",";
             mais_expressao += visitExpressao(ctx.expressao());
             mais_expressao += visitMais_expressao(ctx.mais_expressao());
             return mais_expressao;
@@ -433,8 +535,9 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
     @Override
     public String visitSenao_opcional(LAParser.Senao_opcionalContext ctx) {
         //senao_opcional : 'senao' comandos | ;
-        if(ctx.children != null)
-            return "else " + visitComandos(ctx.comandos());
+        if(ctx.children != null) {
+            return visitComandos(ctx.comandos());
+        }
         return "";
     }
 
@@ -443,13 +546,22 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
         //chamada_atribuicao: '(' argumentos_opcional ')' | outros_ident dimensao '<-' expressao;
         String chamada_atribuicao = "";
         if(ctx.getText().startsWith("(")) {
-            chamada_atribuicao += "(" + visitArgumentos_opcional(ctx.argumentos_opcional()) + ")";
+            chamada_atribuicao += "(" + visitArgumentos_opcional(ctx.argumentos_opcional()) + "); \n";
             return chamada_atribuicao;
         }
         else{
             chamada_atribuicao += visitOutros_ident(ctx.outros_ident());
+            if(chamada_atribuicao.startsWith(".")){
+                String tipoVar = pilhaTabela.topo().getValorTipoSimbolo(chamada_atribuicao.substring(1,chamada_atribuicao.length()));
+                System.out.println(chamada_atribuicao);
+                if(tipoVar.equals("literal")){
+                    chamada_atribuicao += visitDimensao(ctx.dimensao()) + ",";
+                    chamada_atribuicao += visitExpressao(ctx.expressao());
+                    return chamada_atribuicao;
+                }
+            }
             chamada_atribuicao += visitDimensao(ctx.dimensao()) + " = ";
-            chamada_atribuicao += visitExpressao(ctx.expressao()) + ";";
+            chamada_atribuicao += visitExpressao(ctx.expressao()) + "; \n";
             return chamada_atribuicao;
         }
     }
@@ -472,8 +584,9 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
         if(ctx.children != null){
             String selecao = "";
             selecao += visitConstantes(ctx.constantes());
-            selecao += ":";
+            selecao += "\n\t\t";
             selecao += visitComandos(ctx.comandos());
+            selecao += "\n\t\t\tbreak;";
             selecao += visitMais_selecao(ctx.mais_selecao());
             return selecao;
         }
@@ -514,19 +627,28 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
         if (ctx.children != null) {
             String numero_intervalo = "";
             numero_intervalo += visitOp_unario(ctx.op_unario());
-            numero_intervalo += ctx.NUM_INT().toString();
-            numero_intervalo += visitIntervalo_opcional(ctx.intervalo_opcional());
+            //numero_intervalo += ctx.NUM_INT().toString();
+            numero_intervalo += visitIntervalo_opcional(ctx.intervalo_opcional(), Integer.parseInt(ctx.NUM_INT().toString()));
             return numero_intervalo;
         }
         return "";
     }
 
-    @Override
-    public String visitIntervalo_opcional(LAParser.Intervalo_opcionalContext ctx) {
+    //@Override
+    public String visitIntervalo_opcional(LAParser.Intervalo_opcionalContext ctx, int comeco) {
         // intervalo_opcional: '..' op_unario NUM_INT | ;
-        if (ctx.children != null)
-            return ".." + visitOp_unario(ctx.op_unario()) + ctx.NUM_INT().toString();
-        return "";
+        String intervalo_opcional= "";
+        if (ctx.children != null) {
+            intervalo_opcional += visitOp_unario(ctx.op_unario());
+            //intervalo_opcional += ctx.NUM_INT().toString();
+            for(int i = comeco; i <= Integer.parseInt(ctx.NUM_INT().toString()); i++){
+                intervalo_opcional += "\n\t\tcase " + i + ":";
+            }
+            return intervalo_opcional;
+        }else {
+            intervalo_opcional += "\n\t\tcase " + comeco +":";
+            return intervalo_opcional;
+        }
     }
 
     @Override
@@ -556,17 +678,17 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
     @Override
     public String visitOp_adicao(LAParser.Op_adicaoContext ctx) {
         //op_adicao : '+' | '-';
-        return ctx.getText();
+        return " " + ctx.getText() + " ";
     }
 
     @Override
     public String visitTermo(LAParser.TermoContext ctx) {
         //termo : fator outros_fatores;
         if(ctx.children != null){
-            String Fator = "";
-            Fator += visitFator(ctx.fator());
-            Fator += visitOutros_fatores(ctx.outros_fatores());
-            return Fator;
+            String termo = "";
+            termo += visitFator(ctx.fator());
+            termo += visitOutros_fatores(ctx.outros_fatores());
+            return termo;
         }
         return "";
     }
@@ -630,7 +752,7 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
                 | '(' expressao ')';*/
         String parcela_unario = "";
         if (ctx.getText().startsWith("^")) {
-            parcela_unario += "^";
+            parcela_unario += "*";
             parcela_unario += ctx.IDENT().toString();
             parcela_unario += visitOutros_ident(ctx.outros_ident());
             parcela_unario += visitDimensao(ctx.dimensao());
@@ -645,7 +767,7 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
         } else if (ctx.NUM_INT() != null)
             return ctx.NUM_INT().toString();
         else if (ctx.NUM_REAL() != null)
-            return ctx.NUM_INT().toString();
+            return ctx.NUM_REAL().toString();
         return "";
     }
 
@@ -658,8 +780,11 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
             parcela_nao_unario += visitOutros_ident(ctx.outros_ident());
             parcela_nao_unario += visitDimensao(ctx.dimensao());
             return parcela_nao_unario;
-        }else
+        }else {
+            if(ctx.CADEIA().toString().equals("\"\\n\"") || ctx.CADEIA().toString().equals("\" e \""))
+                return ");\n\tprintf(" + ctx.CADEIA().toString();
             return ctx.CADEIA().toString();
+        }
     }
 
     @Override
@@ -720,7 +845,7 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
     @Override
     public String visitOp_relacional(LAParser.Op_relacionalContext ctx) {
         //op_relacional : '=' | '<>'| '>=' | '<=' | '>' | '<';
-        return ctx.getText();
+        return " " + ctx.getText() + " ";
     }
 
     @Override
@@ -738,7 +863,9 @@ public class GeradorCodigo extends LABaseVisitor<String>  {
     @Override
     public String visitOp_nao(LAParser.Op_naoContext ctx) {
         //op_nao : 'nao' | ;
-        return ctx.getText();
+        if(ctx.getText().equals("nao"))
+            return "!";
+        return "";
     }
 
     @Override
