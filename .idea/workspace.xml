@@ -6,60 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="628c16ee-dd88-4736-9140-695de509525e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_10.caso_impressao.alg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_11.constante_caso_impressao.alg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_12.para_declaracao_impressao.alg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_13.enquanto_declaracao_impressao.alg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_14.faca-ate_declaracao_impressao.alg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_16.registro_impressao.alg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_19.funcao_dobro_impressao.alg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_4.declaracao_leitura_impressao_inteiro_literal.alg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaExecucao/_erro_8.se_entao_senao_impressao.alg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CC2_T1_jar/CC2-T1.jar" afterPath="$PROJECT_DIR$/out/artifacts/CC2_T1_jar/CC2-T1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/AnalisadorSemantico.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/AnalisadorSemantico.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/ErrorListener.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/ErrorListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/GeradorCodigo.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/GeradorCodigo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CC2-T1/Principal.class" afterPath="$PROJECT_DIR$/out/production/CC2-T1/Principal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/1.declaracao_leitura_impressao_inteiro.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/1.declaracao_leitura_impressao_inteiro.alg.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/10.caso_impressao.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/10.caso_impressao.alg.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/11.constante_caso_impressao.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/11.constante_caso_impressao.alg.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/12.para_declaracao_impressao.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/12.para_declaracao_impressao.alg.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/13.enquanto_declaracao_impressao.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/13.enquanto_declaracao_impressao.alg.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/14.faca-ate_declaracao_impressao.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/14.faca-ate_declaracao_impressao.alg.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/16.registro_impressao.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/16.registro_impressao.alg.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/19.funcao_dobro_impressao.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/19.funcao_dobro_impressao.alg.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/2.declaracao_leitura_impressao_real.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/2.declaracao_leitura_impressao_real.alg.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/3.declaracao_leitura_impressao_literal.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/3.declaracao_leitura_impressao_literal.alg.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/4.declaracao_leitura_impressao_inteiro_literal.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/4.declaracao_leitura_impressao_inteiro_literal.alg.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/8.se_entao_senao_impressao.alg.out" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/8.se_entao_senao_impressao.alg.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Correcao.bat" afterPath="$PROJECT_DIR$/Correcao.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AnalisadorSemantico.java" afterPath="$PROJECT_DIR$/src/AnalisadorSemantico.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ErrorListener.java" afterPath="$PROJECT_DIR$/src/ErrorListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GeradorCodigo.java" afterPath="$PROJECT_DIR$/src/GeradorCodigo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Principal.java" afterPath="$PROJECT_DIR$/src/Principal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/1.declaracao_leitura_impressao_inteiro.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/1.declaracao_leitura_impressao_inteiro.alg.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/10.caso_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/10.caso_impressao.alg.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/11.constante_caso_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/11.constante_caso_impressao.alg.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/12.para_declaracao_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/12.para_declaracao_impressao.alg.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/13.enquanto_declaracao_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/13.enquanto_declaracao_impressao.alg.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/14.faca-ate_declaracao_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/14.faca-ate_declaracao_impressao.alg.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/15.ponteiro_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/15.ponteiro_impressao.alg.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/16.registro_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/16.registro_impressao.alg.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/17.registro_tipo_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/17.registro_tipo_impressao.alg.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/18.procedimento_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/18.procedimento_impressao.alg.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/19.funcao_dobro_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/19.funcao_dobro_impressao.alg.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/2.declaracao_leitura_impressao_real.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/2.declaracao_leitura_impressao_real.alg.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/20.vetor_repeticao_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/20.vetor_repeticao_impressao.alg.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/3.declaracao_leitura_impressao_literal.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/3.declaracao_leitura_impressao_literal.alg.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/4.declaracao_leitura_impressao_inteiro_literal.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/4.declaracao_leitura_impressao_inteiro_literal.alg.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/5.declaracao_leitura_impressao_expressao_real.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/5.declaracao_leitura_impressao_expressao_real.alg.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/7.se_entao_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/7.se_entao_impressao.alg.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/8.se_entao_senao_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/8.se_entao_senao_impressao.alg.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/9.se_entao_expressao_impressao.alg.c" afterPath="$PROJECT_DIR$/temp/saidaProduzida/saidaGeradorDeCodigo/9.se_entao_expressao_impressao.alg.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teste.txt" afterPath="$PROJECT_DIR$/teste.txt" />
-    </list>
+    <list default="true" id="628c16ee-dd88-4736-9140-695de509525e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -608,7 +555,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
