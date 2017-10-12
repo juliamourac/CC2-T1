@@ -16,12 +16,6 @@ public class Principal {
 
         SaidaParser sp = new SaidaParser();
 
-
-
-        String teste = "19.funcao_dobro_impressao.alg";
-        String caminho = "C:\\Users\\etoal\\Documents\\Ufscar\\CC2\\CC2-T1\\casosDeTesteT1\\3.arquivos_sem_erros\\1.entrada\\";
-        //C:\Users\etoal\Documents\Ufscar\CC2\CC2-T1\casosDeTesteT1\1.arquivos_com_erros_sintaticos\entrada\1-algoritmo_2-2_apostila_LA_1_erro_linha_3_acusado_linha_10
-
         try {
            ANTLRInputStream input = new ANTLRInputStream(new FileInputStream(args[0]));
            //ANTLRInputStream input = new ANTLRInputStream(new FileInputStream(caminho + teste));

@@ -1,7 +1,9 @@
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 
-public class GeradorCodigo extends LABaseVisitor<String>  {
+public class
+
+GeradorCodigo extends LABaseVisitor<String>  {
 
     private SaidaParser sp;
     private PilhaDeTabelas pilhaTabela;

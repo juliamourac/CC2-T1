@@ -1,0 +1,17 @@
+Grupo:
+Julia de Moura Caetano – RA: 619655
+Letícia Yumi  – RA: 619973
+Sylviane Vitor - RA:619914
+Welliton Altimari – RA:619868
+
+Este projeto foi desenvolvido utilizando a IDE Intellij com o plugin ANTLR4.
+
+Como compilar seu código:
+Deve-se executar o arquivo CC2-T1 passando o arquivo que contém o código como parâmetro.
+Exemplo: java -jar CC2-T1 meucodigo
+
+Como executar:
+A execução do programa se dá executando o código C gerado.
+
+
+
