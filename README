@@ -1,17 +1,30 @@
 Grupo:
-Julia de Moura Caetano – RA: 619655
-Letícia Yumi  – RA: 619973
-Sylviane Vitor - RA:619914
-Welliton Altimari – RA:619868
+Julia Moura Caetano, 619655
+Leticia Yumi Katsurada, 619973
+Sylviane Vitor, 619914
+Welliton Altimari, 619868
 
-Este projeto foi desenvolvido utilizando a IDE Intellij com o plugin ANTLR4.
+Baixar e Instalar:
+Para instalar o compilador é só fazer o download e descompactar a pasta CC2-T1.
 
-Como compilar seu código:
-Deve-se executar o arquivo CC2-T1 passando o arquivo que contém o código como parâmetro.
-Exemplo: java -jar CC2-T1 meucodigo
+Compilar e Executar:
+Compilando.
+Usando o Intellij.
+Open Project -> Navegue até a pasta do projeto -> Open
+Build ->Build Project
 
-Como executar:
-A execução do programa se dá executando o código C gerado.
+É necessario gerar o .jar do compilador, para isso siga
+Caso erro no arquivo MANIFEST.MF, deletar ele resolve o problema.
 
+File -> Project Structure -> Artifacts -> + -> Jar -> From Modules with dependeces ->
+Selecione a classe princial -> Apply -> OK
 
+Build -> Artifacts -> CC2-T1.jar -> Build
+
+Executando.
+Para executar basta seguir os passos do Compiladores2.2017.2.CorretorT1.pdf, 
+dentro da pasta existe um .bat que pode ser usado como exemplo no Windows
+
+PS: Já existe um .jar na pasta ./out/artifacts, logo para executar o compilador é só executar o correção.bat(Windows) ou seguir os passos do arquivo 
+Compiladores2.2017.2.CorretorT1.pdf.
 
