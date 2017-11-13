@@ -1,16 +1,25 @@
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 
-public class
+/*Gerador de Codigo
+* Todos os métodos LABaseVisitor são sobreescritos
+* para que o analisador caminhe na arvore de derivação e a
+* cada nó é concatenado uma parte do texto final da geração de codigo.
+* */
 
-GeradorCodigo extends LABaseVisitor<String>  {
+public class GeradorCodigo extends LABaseVisitor<String>  {
 
     private SaidaParser sp;
+    //A pilha de tabela é usada para ter controle sobre os simbolos declarados e fazer
+    //verificação de tipo.
+    //Nesse momento não há erros semanticos e sintatico então adicionar simbolos a tabela é
+    //feito sem testes.
     private PilhaDeTabelas pilhaTabela;
     private String tipoMaisVar;
 
     public GeradorCodigo(SaidaParser sp){this.sp = sp;}
 
+    //Retorna o tipo da conversão dependento do tipo da variavel
     public String getConversao(String tipoVar) {
         if (tipoVar.equals("inteiro"))
             return "%d";
@@ -27,10 +36,13 @@ GeradorCodigo extends LABaseVisitor<String>  {
         if(ctx.children != null){
             pilhaTabela = new PilhaDeTabelas();
             pilhaTabela.empilhar(new TabelaDeSimbolos("global"));
+            //Adiciona as biblioteca do C
             sp.println("#include <stdio.h> \n#include <stdlib.h>");
             sp.println(visitDeclaracoes(ctx.declaracoes()));
+            //Comeca a main
             sp.println("\n" + "int main(){");
             sp.println(visitCorpo(ctx.corpo()));
+            //Termina a main
             sp.println("\t" + "return 0; \n}" );
             pilhaTabela.desempilhar();
         }
@@ -68,20 +80,21 @@ GeradorCodigo extends LABaseVisitor<String>  {
         String declaracao_local = "";
         if(ctx.getText().startsWith("declare")) {
             declaracao_local += visitVariavel(ctx.variavel());
-            //sp.println(declaracao_local);
             return declaracao_local;
         }
         else if (ctx.getText().startsWith("constante")){
+            pilhaTabela.topo().adicionarSimbolo(ctx.IDENT().toString(), ctx.tipo_basico().getText());
+            //Declara uma constante
             declaracao_local += "\n#define ";
             declaracao_local += ctx.IDENT().toString() + " ";
             declaracao_local += visitValor_constante(ctx.valor_constante());
-            //sp.println(declaracao_local);
-            pilhaTabela.topo().adicionarSimbolo(ctx.IDENT().toString(), ctx.tipo_basico().getText());
             return declaracao_local;
         }else if (ctx.getText().startsWith("tipo")) {
             pilhaTabela.topo().adicionarSimbolo(ctx.IDENT().getText(), "tipo");
+            //Comeca a declaração de uma Struct
             declaracao_local += "\ttypedef ";
             declaracao_local += visitTipo(ctx.tipo());
+            //Termina a declaração da Struct
             declaracao_local += " treg; \n ";
             return declaracao_local;
         }
@@ -93,16 +106,19 @@ GeradorCodigo extends LABaseVisitor<String>  {
         //variavel : IDENT dimensao mais_var ':' tipo;
         if(ctx.children != null){
             String variavel = "";
+            //Para deixar na forma do C o tipo é visitado primeiro, "int cont;"
             variavel += "\t" + visitTipo(ctx.tipo()) + " ";
+            //Variavel para ser usada no mais variavel
             tipoMaisVar = ctx.tipo().getText();
+            //Adiciona na tabela de simbolos
             pilhaTabela.topo().adicionarSimbolo(ctx.IDENT().toString(), ctx.tipo().getText());
             variavel += ctx.IDENT().toString();
             variavel += visitDimensao(ctx.dimensao());
+            //Caso o tipo da variavel for Literal é adiciona o tamanho do Char [80]
             if(tipoMaisVar.equals("literal")){
                 variavel += "[80]";
             }
             variavel += visitMais_var(ctx.mais_var()) + "; \n";
-            //variavel += tipoMaisVar + ";";
 
             return variavel;
         }
@@ -114,7 +130,9 @@ GeradorCodigo extends LABaseVisitor<String>  {
         //mais_var : ',' IDENT dimensao mais_var | ;
         if(ctx.getText().startsWith(",")){
             String mais_var = "";
+            //Concatena as variaveis com a vircula como separador.
             mais_var += ", " + ctx.IDENT().toString();
+            //Adiciona na tabela de simbolos
             pilhaTabela.topo().adicionarSimbolo(ctx.IDENT().toString(), tipoMaisVar);
             mais_var += visitDimensao(ctx.dimensao());
             mais_var += visitMais_var(ctx.mais_var());
@@ -143,6 +161,7 @@ GeradorCodigo extends LABaseVisitor<String>  {
         if(ctx.children != null) {
             String pont_opcionais = "";
             pont_opcionais += visitPonteiros_opcionais(ctx.ponteiros_opcionais());
+            //Ponteiros são identificados com asterisco
             pont_opcionais += "*";
             return pont_opcionais;
         }
@@ -206,6 +225,7 @@ GeradorCodigo extends LABaseVisitor<String>  {
     @Override
     public String visitTipo_basico(LAParser.Tipo_basicoContext ctx) {
         //tipo_basico: 'literal'|'inteiro'|'real'|'logico';
+        //Dependendo do tipo basico retorna o tipo compativel em C
         if(ctx.getText().equals("literal"))
             return "char";
         else if(ctx.getText().equals("inteiro"))
@@ -249,9 +269,11 @@ GeradorCodigo extends LABaseVisitor<String>  {
         //registro: 'registro' variavel mais_variaveis 'fim_registro';
         if(ctx.children != null){
             String registro = "";
+            //Começa a declaração da Struct
             registro += "struct {\n";
             registro += visitVariavel(ctx.variavel());
             registro += visitMais_variaveis(ctx.mais_variaveis());
+            //Termina a declaração da Struct
             registro += "\t}";
             return registro;
         }
@@ -264,25 +286,30 @@ GeradorCodigo extends LABaseVisitor<String>  {
          //                |'funcao' IDENT '(' parametros_opcional ')' ':' tipo_estendido declaracoes_locais comandos 'fim_funcao';
         String declaracao_global = "";
         if(ctx.getText().startsWith("procedimento")){
+            //Adiciona na tabela de simbolos
             pilhaTabela.empilhar(new TabelaDeSimbolos("procedimento "+ctx.IDENT().getText()));
+            //Inicia a declaração de um procedimento
             declaracao_global += "void " + ctx.IDENT().getText() + " (";
             declaracao_global += visitParametros_opcional(ctx.parametros_opcional()) + "){\n";
             declaracao_global += visitDeclaracoes_locais(ctx.declaracoes_locais());
             declaracao_global += visitComandos(ctx.comandos());
+            //Finaliza a declaração de um procedimento
             declaracao_global += "}";
-            //sp.println(declaracao_global);
             pilhaTabela.desempilhar();
             return declaracao_global;
         }else{
+            //Adiciona na tabela de simbolos
             pilhaTabela.topo().adicionarSimbolo(ctx.IDENT().getText(), ctx.tipo_estendido().getText() );
             pilhaTabela.empilhar(new TabelaDeSimbolos("funcao "+ctx.IDENT().getText()));
+            //Inicia a declaração de uma funcão no formato, ex: int Conta(int Numero){
             declaracao_global += "\n" + visitTipo_estendido(ctx.tipo_estendido());
             declaracao_global += " " + ctx.IDENT().getText() + "(";
             declaracao_global += visitParametros_opcional(ctx.parametros_opcional()) + "){\n";
+            //Corpo da função
             declaracao_global += visitDeclaracoes_locais(ctx.declaracoes_locais());
             declaracao_global += visitComandos(ctx.comandos());
+            //Finaliza a função
             declaracao_global += "}";
-            //sp.println(declaracao_global);
             pilhaTabela.desempilhar();
             return declaracao_global;
         }
@@ -302,8 +329,10 @@ GeradorCodigo extends LABaseVisitor<String>  {
         if(ctx.children != null) {
             String parametros = "";
             parametros += visitVar_opcional(ctx.var_opcional());
+            //Adiciona na tabela de simbolos
             pilhaTabela.topo().adicionarSimbolo(ctx.identificador().IDENT().getText(), visitTipo_estendido(ctx.tipo_estendido()));
             parametros += visitTipo_estendido(ctx.tipo_estendido());
+            //Se o tipo do parametro for char adiciona *
             if(pilhaTabela.topo().getValorTipoSimbolo(ctx.identificador().IDENT().getText()).equals("char")){
                 parametros += "*";
             }
@@ -381,9 +410,11 @@ GeradorCodigo extends LABaseVisitor<String>  {
             String cmd = "";
             if (ctx.nomeCmd.equals("leia")) {
                 //'leia' '(' identificador mais_ident ')'
+                //Se for um literal a entrada é feita pelo comando gets
                 if ((pilhaTabela.topo().getValorTipoSimbolo(ctx.identificador().getText()).equals("literal")))
                     cmd += "\tgets(";
-                else {
+                else { //senao scanf
+                    //Monta a estrutura do scanf pegando o tipo de conversão, ex : scanf("%d",&conta);
                     cmd += "\tscanf(";
                     cmd += "\"" + getConversao(pilhaTabela.topo().getValorTipoSimbolo(ctx.identificador().getText())) + "\"";
                     cmd += ",&";
@@ -391,20 +422,22 @@ GeradorCodigo extends LABaseVisitor<String>  {
                 cmd += visitIdentificador(ctx.identificador());
                 cmd += visitMais_ident(ctx.mais_ident()) + "); \n";
                 return cmd;
-                //sp.println(cmd);
             } else if (ctx.nomeCmd.equals("escreva")) {
                 //'escreva' '(' expressao mais_expressao ')'
-                //System.out.println(ctx.expressao().getText());
-                //System.out.println(ctx.mais_expressao().getText());
+                //Se for um simbolo no expressão
                 if(pilhaTabela.topo().existeSimbolo(ctx.expressao().getText())) {
+                    //Monta a estrutura do printf pegando o tipo de conversão, ex : printf("%d", conta);
                     cmd += "\tprintf(\"";
                     cmd += getConversao(pilhaTabela.topo().getValorTipoSimbolo(ctx.expressao().getText())) + "\",";
                     cmd += visitExpressao(ctx.expressao());
                     cmd += visitMais_expressao(ctx.mais_expressao()) + "); \n";
-                }else if(visitExpressao(ctx.expressao()).contains("\"")){
+                }else if(visitExpressao(ctx.expressao()).contains("\"")){ //Se expresão contem texto
+                    //Monta a estrutura do printf pegando o tipo de conversão, ex : printf("Conta %d", conta);
                     cmd += "\tprintf(\"";
+                    //Retira as aspas do expressão
                     cmd += visitExpressao(ctx.expressao()).replaceAll("\"","");
                     String[] partes = visitMais_expressao(ctx.mais_expressao()).split(",");
+                    //Para cada variavel no mais expressão adiciona o tipo de conversão
                     for(int i = 0; i < partes.length; i++){
                         if(pilhaTabela.topo().existeSimbolo(partes[i]))
                             cmd += getConversao(pilhaTabela.topo().getValorTipoSimbolo(partes[i]));
@@ -412,18 +445,23 @@ GeradorCodigo extends LABaseVisitor<String>  {
                     cmd += "\"";
                     cmd += visitMais_expressao(ctx.mais_expressao()) + "); \n";
                 }else if(visitMais_expressao(ctx.mais_expressao()).equals("")){
+                    //Se for escreva de retorno de função ou vetor
+                    //Divide a expressão e retira os espaços
                     String[] partes = visitExpressao(ctx.expressao()).split("\\+");
                     for(int i = 0; i < partes.length; i++){
                         partes[i] = partes[i].trim();
                     }
+                    //Se for função
                     if(partes[0].contains("(")){
                         String[] aux;
+                        //Monta a estrutura do printf pegando o tipo de conversão, ex : printf("%d", Conta(numero));
                         cmd += "\tprintf(\"";
                         aux = partes[0].split("\\(");
                         cmd += getConversao(pilhaTabela.topo().getValorTipoSimbolo(aux[0])) + "\",";
                         cmd += partes[0] +");";
-                    }else if(partes[0].contains("[")){
+                    }else if(partes[0].contains("[")){ //Se for vetor
                         String[] aux;
+                        //Monta a estrutura do printf pegando o tipo de conversão, ex : printf("%d", numero[0]);
                         cmd += "\tprintf(\"";
                         aux = partes[0].split("\\[");
                         cmd += getConversao(pilhaTabela.topo().getValorTipoSimbolo(aux[0])) + "\",";
@@ -435,8 +473,10 @@ GeradorCodigo extends LABaseVisitor<String>  {
                         cmd += visitExpressao(ctx.expressao()).replaceAll("\\s", "") + "); \n";
                     }
                 }else if((visitExpressao(ctx.expressao()).contains("."))){
+                    //Se for registro
                     String aux = visitExpressao(ctx.expressao()) + visitMais_expressao(ctx.mais_expressao());
                     String partes[] = aux.split(",");
+                    //Monta a estrutura do printf pegando o tipo de conversão, ex : printf("%d", conta.numero);
                     for (int i = 0; i < partes.length; i++){
                         if(partes[i].startsWith("\"")){
                             cmd += "\tprintf(" + partes[i] + ");\n" ;
@@ -451,9 +491,11 @@ GeradorCodigo extends LABaseVisitor<String>  {
                 return cmd;
             } else if (ctx.nomeCmd.equals("se")){
                 //'se' expressao 'entao' comandos senao_opcional 'fim_se'
+                //Monta a estrutura do if
                 cmd += "\tif (";
                 cmd += (visitExpressao(ctx.expressao())).replaceAll("=","==") + ") {\n";
                 cmd += "\t" + visitComandos(ctx.comandos()) + "\n\t}";
+                //Se senão existir
                 if (ctx.senao_opcional().children != null) {
                     cmd += "\telse {";
                     cmd += "\n\t";
@@ -463,6 +505,7 @@ GeradorCodigo extends LABaseVisitor<String>  {
                 return cmd;
             } else if (ctx.nomeCmd.equals("caso")){
                 //'caso' exp_aritmetica 'seja' selecao senao_opcional 'fim_caso'
+                //Monta a estrutura do switch
                 cmd += "\tswitch (";
                 cmd += visitExp_aritmetica(ctx.exp_aritmetica().get(0))+ ") {";
                 cmd += visitSelecao(ctx.selecao());
@@ -474,6 +517,7 @@ GeradorCodigo extends LABaseVisitor<String>  {
                 cmd += "\n\t}";
                 return cmd;
             } else if (ctx.nomeCmd.equals("para")){
+                //Monta a estrutura do for
                 cmd += "\tfor (i = ";
                 cmd +=  visitExp_aritmetica(ctx.exp_aritmetica().get(0)) + "; ";
                 cmd += "i <= ";
@@ -483,6 +527,7 @@ GeradorCodigo extends LABaseVisitor<String>  {
                 return cmd;
             } else if (ctx.nomeCmd.equals("enquanto")){
                 //'enquanto' expressao 'faca' comandos 'fim_enquanto'
+                //Monta a estrutura do while
                 cmd += "\twhile (";
                 cmd += visitExpressao(ctx.expressao()) + ") {\n";
                 cmd += visitComandos(ctx.comandos());
@@ -490,6 +535,7 @@ GeradorCodigo extends LABaseVisitor<String>  {
                 return cmd;
             } else if (ctx.nomeCmd.equals("faca")){
                 //'faca' comandos 'ate' expressao
+                //Monta a estrutura do do while
                 cmd += "\t" + "do {\n";
                 cmd += visitComandos(ctx.comandos());
                 cmd += "\n\t}";
@@ -497,16 +543,18 @@ GeradorCodigo extends LABaseVisitor<String>  {
                 return cmd;
             } else if (ctx.nomeCmd.equals("^")){
                 //'^' IDENT outros_ident dimensao '<-' expressao
+                //Monta atribuição de ponteiro
                 cmd += "\n\t*" + ctx.IDENT().toString();
                 cmd += visitOutros_ident(ctx.outros_ident());
                 cmd += visitDimensao(ctx.dimensao());
                 cmd += " = " + visitExpressao(ctx.expressao()) + ";\n";
                 return cmd;
             } else if (ctx.nomeCmd.equals("IDENT")){
+                //Se for atribuição de string usa o strcpy
                 if(visitChamada_atribuicao(ctx.chamada_atribuicao()).contains(",\"")){
                     cmd += "\tstrcpy(" + ctx.IDENT().toString() + visitChamada_atribuicao(ctx.chamada_atribuicao());
                     cmd += "); \n";
-                }else {
+                }else { //Senao normal
                     cmd += "\t" + ctx.IDENT().toString();
                     cmd += visitChamada_atribuicao(ctx.chamada_atribuicao());
                 }
@@ -553,9 +601,9 @@ GeradorCodigo extends LABaseVisitor<String>  {
         }
         else{
             chamada_atribuicao += visitOutros_ident(ctx.outros_ident());
+            //Se for registro
             if(chamada_atribuicao.startsWith(".")){
                 String tipoVar = pilhaTabela.topo().getValorTipoSimbolo(chamada_atribuicao.substring(1,chamada_atribuicao.length()));
-                System.out.println(chamada_atribuicao);
                 if(tipoVar.equals("literal")){
                     chamada_atribuicao += visitDimensao(ctx.dimensao()) + ",";
                     chamada_atribuicao += visitExpressao(ctx.expressao());
@@ -584,6 +632,7 @@ GeradorCodigo extends LABaseVisitor<String>  {
     public String visitSelecao(LAParser.SelecaoContext ctx) {
         //selecao: constantes ':' comandos mais_selecao;
         if(ctx.children != null){
+            //Monta a estrutura do case;
             String selecao = "";
             selecao += visitConstantes(ctx.constantes());
             selecao += "\n\t\t";
@@ -637,9 +686,11 @@ GeradorCodigo extends LABaseVisitor<String>  {
     }
 
     //@Override
+    //Como há a necessidade do intervalo do case a função não foi sobreescrita
     public String visitIntervalo_opcional(LAParser.Intervalo_opcionalContext ctx, int comeco) {
         // intervalo_opcional: '..' op_unario NUM_INT | ;
         String intervalo_opcional= "";
+        //No intervalo do case é gerado as entradas
         if (ctx.children != null) {
             intervalo_opcional += visitOp_unario(ctx.op_unario());
             //intervalo_opcional += ctx.NUM_INT().toString();
@@ -783,6 +834,7 @@ GeradorCodigo extends LABaseVisitor<String>  {
             parcela_nao_unario += visitDimensao(ctx.dimensao());
             return parcela_nao_unario;
         }else {
+            //Caso exista um \n ou e no final coloca o /n em outra linha com o printf
             if(ctx.CADEIA().toString().equals("\"\\n\"") || ctx.CADEIA().toString().equals("\" e \""))
                 return ");\n\tprintf(" + ctx.CADEIA().toString();
             return ctx.CADEIA().toString();
@@ -808,7 +860,7 @@ GeradorCodigo extends LABaseVisitor<String>  {
         if (ctx.expressao() != null) {
             chamada_partes += "(";
             chamada_partes += visitExpressao(ctx.expressao());
-            chamada_partes +=visitMais_expressao(ctx.mais_expressao());
+            chamada_partes += visitMais_expressao(ctx.mais_expressao());
             chamada_partes += ")";
             return chamada_partes;
         } else

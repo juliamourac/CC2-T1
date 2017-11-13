@@ -22,15 +22,16 @@ public class ErrorListener implements ANTLRErrorListener {
        char c = 34;
 
         if (!sp.isModificado()) {
+            //Erro de EOF
             if (valorTk.equals("<EOF>"))
                 sp.println("Linha " + i + ": erro sintatico proximo a EOF");
-            else if ((valorTk.startsWith(String.valueOf(c)) && (ultTk != c)))
+            else if ((valorTk.startsWith(String.valueOf(c)) && (ultTk != c))) //Erro de aspas
                 sp.println("Linha " + i + ": " +valorTk.substring(0,1) + " - simbolo nao identificado");
-            else if (valorTk.indexOf('@') >= 0 || valorTk.indexOf('!') >= 0 || valorTk.indexOf('|') >= 0 )
+            else if (valorTk.indexOf('@') >= 0 || valorTk.indexOf('!') >= 0 || valorTk.indexOf('|') >= 0 ) //Erro de simbolos não definidos
                sp.println("Linha " + i + ": " +valorTk + " - simbolo nao identificado");
-            else if (valorTk.startsWith("{"))
+            else if (valorTk.startsWith("{")) //Erro de comentario não fechado
                 sp.println("Linha " + (i+1) + ": comentario nao fechado");
-            else
+            else //Outros erros
                 sp.println("Linha " + i + ": erro sintatico proximo a " + valorTk);
             sp.println("Fim da compilacao");
         }

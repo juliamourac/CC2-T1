@@ -1,3 +1,4 @@
+/*Classe com as mensagens de erro do analisador semantico*/
 public class Mensagens {
 
    private SaidaParser sp;

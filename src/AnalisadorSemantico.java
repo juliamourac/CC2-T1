@@ -1,6 +1,12 @@
+/*Analisador Semantico
+* Todos os métodos LABaseVisitor são sobreescritos
+* para que o analisador caminhe na arvore de derivação e
+* quando pertinente foram adicionados os erro semanticos.
+* */
 import java.lang.reflect.Array;
 import java.sql.Struct;
 import java.util.ArrayList;
+
 
 public class AnalisadorSemantico extends LABaseVisitor<String>  {
 	
@@ -18,12 +24,14 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
     ArrayList<String> termos = new ArrayList<String>();
     ArrayList<String> funcoes = new ArrayList<String>();
 
+    //Construtor padrão
     public AnalisadorSemantico(SaidaParser sp){
         this.sp = sp;
         mensagem = new Mensagens(sp);
         atr = false;
     }
 
+    //Retorna o tipo da variavel
     public String getTipo(String tipo){
         if(tipo.matches("[+|-]?[0-9]*"))
             return "inteiro";
@@ -33,6 +41,7 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
             return "literal";
     }
 
+    //Retorna o numero de parametros de uma função
     public int getNumeroParam(String param){
         String[] partes;
         for(String funcao : funcoes){
@@ -43,6 +52,7 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
         return -1;
     }
 
+    //Retorna o tipo de retorno da função
     public String getRetFuncao(String param) {
         String[] partes;
         for (String funcao : funcoes) {
@@ -53,15 +63,16 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
         return null;
     }
 
-        @Override
+
+    @Override
     public String visitPrograma(LAParser.ProgramaContext ctx){
         //programa : declaracoes 'algoritmo' corpo 'fim_algoritmo';
         if(ctx.children != null){
 			//Cria escopo global
 			pilhaTabela = new PilhaDeTabelas();
 			pilhaTabela.empilhar(new TabelaDeSimbolos("global"));
-            visitDeclaracoes(ctx.declaracoes());
-            visitCorpo(ctx.corpo());
+                visitDeclaracoes(ctx.declaracoes());
+                visitCorpo(ctx.corpo());
             pilhaTabela.desempilhar();
         }
         if(sp.isModificado()){
@@ -100,19 +111,20 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
         if(ctx.getText().startsWith("declare"))
             visitVariavel(ctx.variavel());
         else if (ctx.getText().startsWith("constante")){
-			if(!escopoAtual.existeSimbolo(ctx.IDENT().toString())){
+            if(!escopoAtual.existeSimbolo(ctx.IDENT().toString())){ //Se o identificador não existe
                 visitTipo_basico(ctx.tipo_basico());
+                //Insere o simbolo no escopo atual
                 escopoAtual.adicionarSimbolo(ctx.IDENT().toString(), ctx.tipo_basico().getText());
                 visitValor_constante(ctx.valor_constante());
-            }else
+            }else //Senao erro de ja declarado
                 mensagem.erro_Ident_Ja_Declarado(ctx.getStart().getLine(), ctx.IDENT().toString());
         }else if (ctx.getText().startsWith("tipo"))
-            if(!escopoAtual.existeSimbolo(ctx.IDENT().toString())){
+            if(!escopoAtual.existeSimbolo(ctx.IDENT().toString())){ //Se o identificador não existe
+                //Insere o simbolo no escopo atual
                 escopoAtual.adicionarSimbolo(ctx.IDENT().getText(), "tipo");
                 visitTipo(ctx.tipo());
-            }else
+            }else //Senao erro de ja declarado
                 mensagem.erro_Ident_Ja_Declarado(ctx.getStart().getLine(),  ctx.IDENT().toString());
-
         return null;
     }
 
@@ -123,9 +135,11 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
             TabelaDeSimbolos escopoAtual = pilhaTabela.topo();
             visitTipo(ctx.tipo());
             tipoMaisVar = ctx.tipo().getText(); //Variavel para usar no mais variavel
+            //Se o identificador não existe
             if(!pilhaTabela.existeSimbolo(ctx.IDENT().toString())){
+                //Insere o simbolo no escopo atual
                 escopoAtual.adicionarSimbolo(ctx.IDENT().toString(), ctx.tipo().getText());
-            }else
+            }else //Senao erro de ja declarado
                 mensagem.erro_Ident_Ja_Declarado(ctx.getStart().getLine(), ctx.IDENT().toString());
             visitDimensao(ctx.dimensao());
             visitMais_var(ctx.mais_var());
@@ -138,9 +152,9 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
         //mais_var : ',' IDENT dimensao mais_var | ;
         if(ctx.getText().startsWith(",")){
             TabelaDeSimbolos escopoAtual = pilhaTabela.topo();
-            if(!pilhaTabela.existeSimbolo(ctx.IDENT().toString())){
-                escopoAtual.adicionarSimbolo(ctx.IDENT().toString(), tipoMaisVar);
-            }else
+             if(!pilhaTabela.existeSimbolo(ctx.IDENT().toString())){ //Se o identificador não existe
+                escopoAtual.adicionarSimbolo(ctx.IDENT().toString(), tipoMaisVar); //Insere o simbolo no escopo atual
+            }else //Senao erro de ja declarado
                 mensagem.erro_Ident_Ja_Declarado(ctx.getStart().getLine(), ctx.IDENT().toString());
             visitDimensao(ctx.dimensao());
             visitMais_var(ctx.mais_var());
@@ -157,12 +171,13 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
             visitDimensao(ctx.dimensao());
             visitOutros_ident(ctx.outros_ident());
 
-
-            if(ctx.outros_ident().getText().startsWith(".")) {
-                 String[] aux = ctx.getText().split("\\.");
-                 if (!pilhaTabela.existeSimbolo(aux[1]))
-                     mensagem.erro_Ident_Nao_Declarado(ctx.getStart().getLine(), ctx.getText());
-            }else if(!escopoAtual.existeSimbolo(ctx.IDENT().toString())){
+            if(ctx.outros_ident().getText().startsWith(".")) { //Se for registro
+                //Divide para String para pegar o identificador
+                String[] aux = ctx.getText().split("\\.");
+                if (!pilhaTabela.existeSimbolo(aux[1])) { //Se o identificador existe, erro de ja declarado
+                    mensagem.erro_Ident_Nao_Declarado(ctx.getStart().getLine(), ctx.getText());
+                }
+            }else if(!escopoAtual.existeSimbolo(ctx.IDENT().toString())){ //Se o identificador existe, erro de ja declarado
                mensagem.erro_Ident_Nao_Declarado(ctx.getStart().getLine(), ctx.IDENT().toString());
            }
 
@@ -178,6 +193,7 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
         return null;
     }
 
+    //Ignora os outros identificadores
     @Override
     public String visitOutros_ident(LAParser.Outros_identContext ctx) {
         //outros_ident: '.' identificador | ;
@@ -229,9 +245,10 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
     public String visitTipo_basico(LAParser.Tipo_basicoContext ctx) {
         //tipo_basico: 'literal'|'inteiro'|'real'|'logico';
         String aux = ctx.getText();
+        //Se for um tipo bssico valido
         if(aux.equals("literal") || aux.equals("inteiro") || aux.equals("real") || aux.equals("logico")) {
-            return ctx.getText();
-        }else {
+            return ctx.getText(); //retorna o tipo basico
+        }else { //Senão erro de tipo não declarado
             mensagem.erro_Tipo_Nao_Declarado(ctx.getStart().getLine(), ctx.getText());
             return "erro";
         }
@@ -243,9 +260,10 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
         if(ctx.tipo_basico() != null){
            return visitTipo_basico(ctx.tipo_basico());
         }else{
+            //Se existe o identificado
             if(pilhaTabela.existeSimbolo(ctx.IDENT().toString()))
-                return ctx.IDENT().toString();
-            else{
+                return ctx.IDENT().toString(); //retorno o identificador
+            else{ //Senão erro de tipo não declarado
                 mensagem.erro_Tipo_Nao_Declarado(ctx.getStart().getLine(), ctx.IDENT().toString());
                 return "erro";
             }
@@ -282,25 +300,30 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
        // declaracao_global: 'procedimento' IDENT '(' parametros_opcional ')' declaracoes_locais comandos 'fim_procedimento'
          //                |'funcao' IDENT '(' parametros_opcional ')' ':' tipo_estendido declaracoes_locais comandos 'fim_funcao';
         if(ctx.getText().startsWith("procedimento")){
+            //Se procedimento não existe, adiciona o identificado na tabela
             if (!pilhaTabela.existeSimbolo(ctx.IDENT().toString())) {
                 pilhaTabela.topo().adicionarSimbolo(ctx.IDENT().getText(), "procedimento");
             }
+            //Cria escopo do procedimento
             pilhaTabela.empilhar(new TabelaDeSimbolos("procedimento "+ctx.IDENT().getText()));
-            visitParametros_opcional(ctx.parametros_opcional());
-            visitDeclaracoes_locais(ctx.declaracoes_locais());
-            visitComandos(ctx.comandos());
+                visitParametros_opcional(ctx.parametros_opcional());
+                visitDeclaracoes_locais(ctx.declaracoes_locais());
+                visitComandos(ctx.comandos());
             pilhaTabela.desempilhar();
         }else{
+            //Se funcaoo não existe, adiciona o identificado na tabela
             if (!pilhaTabela.existeSimbolo(ctx.IDENT().toString())) {
                 pilhaTabela.topo().adicionarSimbolo(ctx.IDENT().getText(), "funcao");
             }
+            //Cria escopo da função
             pilhaTabela.empilhar(new TabelaDeSimbolos("funcao "+ctx.IDENT().getText()));
-            countPar = 0;
-            visitParametros_opcional(ctx.parametros_opcional());
-            funcoes.add(ctx.IDENT().getText() +","+ countPar +","+ctx.tipo_estendido().getText());
-            visitTipo_estendido(ctx.tipo_estendido());
-            visitDeclaracoes_locais(ctx.declaracoes_locais());
-            visitComandos(ctx.comandos());
+                countPar = 0; //Contador de numero de parametros
+                visitParametros_opcional(ctx.parametros_opcional());
+                //Adiciona a função na lista de funções
+                funcoes.add(ctx.IDENT().getText() +","+ countPar +","+ctx.tipo_estendido().getText());
+                visitTipo_estendido(ctx.tipo_estendido());
+                visitDeclaracoes_locais(ctx.declaracoes_locais());
+                visitComandos(ctx.comandos());
             pilhaTabela.desempilhar();
         }
         return null;
@@ -318,12 +341,13 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
     public String visitParametro(LAParser.ParametroContext ctx) {
         //parametro: var_opcional identificador mais_ident ':' tipo_estendido mais_parametros;
         if(ctx.children != null) {
-            countPar++;
+            countPar++; //Para cada parametro soma um no contado
             TabelaDeSimbolos escopoAtual = pilhaTabela.topo();
             visitVar_opcional(ctx.var_opcional());
+            //Se o identificador não existe , adiciona o identificador na tabela de simbolos atual
             if(!escopoAtual.existeSimbolo(ctx.identificador().IDENT().getText())){
                 escopoAtual.adicionarSimbolo(ctx.identificador().IDENT().getText(), visitTipo_estendido(ctx.tipo_estendido()));
-            }else
+            }else //Senão erro de já declarado
                 mensagem.erro_Ident_Ja_Declarado(ctx.getStart().getLine(), ctx.identificador().IDENT().getText());
             visitIdentificador(ctx.identificador());
             visitMais_ident(ctx.mais_ident());
@@ -405,6 +429,7 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
                 visitSelecao(ctx.selecao());
                 visitSenao_opcional(ctx.senao_opcional());
             } else if (ctx.nomeCmd.equals("para")) {
+                //Se o identificador não existe, erro de tipo não declarado
                 if (!pilhaTabela.topo().existeSimbolo(ctx.IDENT().toString())) {
                     mensagem.erro_Tipo_Nao_Declarado(ctx.getStart().getLine(), ctx.IDENT().toString());
                 }
@@ -418,9 +443,12 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
                 visitComandos(ctx.comandos());
                 visitExpressao(ctx.expressao());
             } else if (ctx.nomeCmd.equals("^")) {
+                //Se o identificador não existe, erro de tipo não declarado
                 if (!pilhaTabela.topo().existeSimbolo(ctx.IDENT().toString())) {
                     mensagem.erro_Ident_Nao_Declarado(ctx.getStart().getLine(), ctx.IDENT().toString());
                 }
+
+                //Inicia a atribuição
                 nomeAtr = "^" + ctx.IDENT().toString();
                 tipoAtr = pilhaTabela.topo().getValorTipoSimbolo(ctx.IDENT().toString());
                 atr = true;
@@ -429,25 +457,29 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
                 visitDimensao(ctx.dimensao());
                 visitExpressao(ctx.expressao());
 
+                //Para cada termo da atribuição checa a compatibilidade
                 for (String termo : termos) {
                     String valorTipoSimbolo = pilhaTabela.topo().getValorTipoSimbolo(termo);
                     if (valorTipoSimbolo == null) {
                         valorTipoSimbolo = "^" + getTipo(termo);
                     }
-
                     if (!tipoAtr.equals(valorTipoSimbolo)) {
                         mensagem.erro_Atribuicao_Nao_Compativel(ctx.getStart().getLine(), nomeAtr);
                     }
                 }
                 atr = false;
                 termos.clear();
+                //Fim atribuição
             } else if (ctx.nomeCmd.equals("IDENT")){
                 //IDENT chamada_atribuicao
+                //Inicia a atribuição
                 nomeAtr = ctx.IDENT().toString();
                 tipoAtr = pilhaTabela.topo().getValorTipoSimbolo(ctx.IDENT().toString());
                 atr = true;
 
+                //Divide a string no <-
                 String[] partes = ctx.chamada_atribuicao().getText().split("<-");
+                //Se for um vetor pega a parte [] para adicionar posteriormente se houver erro
                 if (partes[0].startsWith("["))
                     VetorAtr = partes[0];
                 else
@@ -458,16 +490,16 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
                 else if (!pilhaTabela.topo().existeSimbolo(nomeAtr))
                     mensagem.erro_Ident_Nao_Declarado(ctx.getStart().getLine(), nomeAtr);
 
+                //Para cada termo da atribuição checa a compatibilidade
                 for (String termo : termos) {
                     String valorTipoSimbolo = pilhaTabela.topo().getValorTipoSimbolo(termo);
                     if (valorTipoSimbolo == null) {
                         valorTipoSimbolo = getTipo(termo);
                     }
-
+                    //Se for resgistro
                     if (tipoAtr.contains("registro")) {
                         String[] regPartes = ctx.chamada_atribuicao().getText().split("<-");
                         regPartes[0] = regPartes[0].substring(1);
-                        //if (!regPartes[0].equals(valorTipoSimbolo)) {
                         if(!pilhaTabela.topo().getValorTipoSimbolo(regPartes[0]).equals(valorTipoSimbolo)){
                             mensagem.erro_Atribuicao_Nao_Compativel(ctx.getStart().getLine(), nomeAtr + "." + regPartes[0]);
                         }
@@ -480,7 +512,9 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
 
                 atr = false;
                 termos.clear();
+                //Fim da atribuicao
             } else if (ctx.nomeCmd.equals("retorne")) {
+                //Se for escopo globol ou procedimento erro de retonro nao permitido
                 if (pilhaTabela.topo().toString().startsWith("Escopo: global") || pilhaTabela.topo().toString().startsWith("Escopo: procedimento"))
                     mensagem.erro_Retorno_Nao_Permitido(ctx.getStart().getLine());
                 visitExpressao(ctx.expressao());
@@ -619,11 +653,11 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
         //termo : fator outros_fatores;
         if(ctx.children != null){
             if(atr){
-                //!inteiro
+                //Se não for literal,
                 if((tipoAtr.equals("real") || tipoAtr.equals("inteiro") || tipoAtr.equals("logico"))&& ctx.getText().charAt(0) == '"'){
                     mensagem.erro_Atribuicao_Nao_Compativel(ctx.getStart().getLine(), nomeAtr + VetorAtr);
                 }else if(!(tipoAtr.equals("literal") && ctx.getText().charAt(0) == '"'))
-                    termos.add(ctx.getText());
+                    termos.add(ctx.getText()); //Adiciona na lista de termos
             }
             visitFator(ctx.fator());
             visitOutros_fatores(ctx.outros_fatores());
@@ -683,33 +717,38 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
                 | '(' expressao ')';*/
         TabelaDeSimbolos escopoAtual = pilhaTabela.topo();
         if (ctx.outros_ident() != null) {
+            //Se identificador não existe, erro identificador não declarado
             if (!escopoAtual.existeSimbolo(ctx.IDENT().toString())) {
                 mensagem.erro_Ident_Nao_Declarado(ctx.getStart().getLine(),ctx.IDENT().toString());
             }
             visitOutros_ident(ctx.outros_ident());
             visitDimensao(ctx.dimensao());
         } else if (ctx.chamada_partes() != null) {
+            //Se identificador não existe, erro identificador não declado
             if (!escopoAtual.existeSimbolo(ctx.IDENT().toString())) {
                 String aux = ctx.IDENT().toString();
+                //Se registro só pega o comeco de dele
                 if (ctx.chamada_partes().getText().startsWith("."))
                     aux += ctx.chamada_partes().getText();
                 mensagem.erro_Ident_Nao_Declarado(ctx.getStart().getLine(),aux);
             }
 
+            //Se atribuição de função ou procedimento
             if(ctx.chamada_partes().getText().startsWith("(")){
                 String[] partes;
                 String aux, chamada, funcaoTipo;
                 int nParam;
 
                 chamada = ctx.chamada_partes().getText();
+                //Divide a string para pegar as partes da funcção ou procedimento
                 aux = chamada.substring(1, chamada.length()-1);
                 partes = aux.split(",");
                 nParam = getNumeroParam(ctx.IDENT().toString());
 
-
+                //Se o numero de parametros passado for diferente do declarado, erro incompatibilidade de parametros
                 if(nParam != partes.length && nParam > 0){
                     mensagem.erro_Incopatibilidade_de_Parametros(ctx.getStart().getLine(),ctx.IDENT().toString());
-                }else{
+                }else{ //Senão verifica cada funcção e checa a compatibilidade do retorno da função
                     funcaoTipo = getRetFuncao(ctx.IDENT().toString());
                     for(int i = 0; i < partes.length; i++){
                        if(pilhaTabela.topo().existeSimbolo(partes[i])){
@@ -732,6 +771,7 @@ public class AnalisadorSemantico extends LABaseVisitor<String>  {
         //parcela_nao_unario : '&' IDENT outros_ident dimensao | CADEIA;
         if (ctx.outros_ident() != null) {
             TabelaDeSimbolos escopoAtual = pilhaTabela.topo();
+            //Se o identificador não existe, erro de identificador não declarado
             if (!escopoAtual.existeSimbolo(ctx.IDENT().toString())) {
                 mensagem.erro_Ident_Nao_Declarado(ctx.getStart().getLine(),ctx.IDENT().toString());
             }

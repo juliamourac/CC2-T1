@@ -16,6 +16,11 @@ public class Principal {
 
         SaidaParser sp = new SaidaParser();
 
+        //Testes individuais
+        String teste = "19.funcao_dobro_impressao.alg";
+        String caminho = "C:\\Users\\etoal\\Documents\\Ufscar\\CC2\\CC2-T1\\casosDeTesteT1\\3.arquivos_sem_erros\\1.entrada\\";
+        //C:\Users\etoal\Documents\Ufscar\CC2\CC2-T1\casosDeTesteT1\1.arquivos_com_erros_sintaticos\entrada\1-algoritmo_2-2_apostila_LA_1_erro_linha_3_acusado_linha_10
+
         try {
            ANTLRInputStream input = new ANTLRInputStream(new FileInputStream(args[0]));
            //ANTLRInputStream input = new ANTLRInputStream(new FileInputStream(caminho + teste));
@@ -29,18 +34,18 @@ public class Principal {
 
             LAParser.ProgramaContext context = parser.programa();
 
-
-            //System.out.println(sp.modificado);
+            //Senão há erros
             if(!sp.isModificado()){
                 sp.reboot();
                 AnalisadorSemantico semantico = new AnalisadorSemantico(sp);
                 semantico.visitPrograma(context); //Analisador Semântico
             }
 
+            //Senão há erros
             if(!sp.isModificado()){
                 sp.reboot();
                 GeradorCodigo gerador = new GeradorCodigo(sp);
-                gerador.visitPrograma(context);
+                gerador.visitPrograma(context); //Gerador de Codigo
             }
 
         } catch (ParseCancellationException pce) {
@@ -49,10 +54,11 @@ public class Principal {
             }
         }
 
-        String out = sp.toString();
-        System.out.println("Saida: ");
-        System.out.println(out);
 
+        String out = sp.toString();
+        /*
+        System.out.println("Saida: ");
+        System.out.println(out);*/
 
         //File arq1 = new File("teste.txt");
         File arq1 = new File(args[1]);

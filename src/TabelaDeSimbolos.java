@@ -38,7 +38,7 @@ public class TabelaDeSimbolos {
         return ret;
     }
 
-   //Retorna o tipo do simbolo
+   //Adicionado o metodo getValorTipoSimbolo que retorna o tipo do simbolo
     public String getValorTipoSimbolo(String simbolo) {
         for(EntradaTabelaDeSimbolos etds:simbolos) {
             if(etds.getNome().equals(simbolo)) {

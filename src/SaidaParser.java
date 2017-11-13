@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 public class SaidaParser {
 
     StringBuffer conteudo;
@@ -17,7 +13,7 @@ public class SaidaParser {
         conteudo.append(texto);
         conteudo.append("\n");
     }
-
+    //Adicionado o metodo rebbot que reinicia o saida parser
     public void reboot(){
         conteudo.setLength(0);
         modificado = false;

@@ -3,6 +3,7 @@
     <output-path>$PROJECT_DIR$/out/artifacts/CC2_T1_jar</output-path>
     <root id="archive" name="CC2-T1.jar">
       <element id="module-output" name="CC2-T1" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/out/artifacts/CC2_T1_jar/CC2-T1.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/lib/antlr-4.7-complete.jar" path-in-jar="/" />
     </root>
   </artifact>

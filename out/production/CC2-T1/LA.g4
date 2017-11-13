@@ -58,6 +58,7 @@ corpo : declaracoes_locais comandos;
 
 comandos : cmd comandos | ;
 
+//Ele retorna qual comando foi chamado, para facilitar na analise semantica e na geração de codigo
 cmd returns [String nomeCmd] : 'leia' '(' identificador mais_ident ')' {$nomeCmd = "leia";}
                              | 'escreva' '(' expressao mais_expressao ')' {$nomeCmd = "escreva";}
                              | 'se' expressao 'entao' comandos senao_opcional 'fim_se' {$nomeCmd = "se";}
@@ -147,13 +148,16 @@ NUM_REAL : ('0'..'9')+ '.' ('0'..'9')+;
 
 CADEIA	:	'"' ~('\n' | '\r' | '"')* '"';
 
+//Cadeia sem fim para erro de aspas não fechada
 CADEIA_SEM_FIM : '"' ~('\r' | '\n' | '"')*;
 
 COMENTARIO : '{' .*? '}' -> skip;
 
+//Comentario nao fechado para erro de comentario nao fechado
 COMENTARIO_N_FECHADO : '{' ~('\r' | '\n' | '}')*;
 
 WS	:	(' ' | '\t' | '\r' | '\n') {skip();};
 
+//Caracteres não aceitos na linguagem
 ERROR_CHAR : '@' | '!' | '|';
 
